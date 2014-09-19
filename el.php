@@ -4,120 +4,124 @@ return array(
  * Sites
  */
 
-	'item:site' => 'Sites',
+	'item:site' => 'Σελίδες',
 
 /**
  * Sessions
  */
 
-	'login' => "Log in",
-	'loginok' => "You have been logged in.",
-	'loginerror' => "We couldn't log you in. Please check your credentials and try again.",
-	'login:empty' => "Username/email and password are required.",
-	'login:baduser' => "Unable to load your user account.",
-	'auth:nopams' => "Internal error. No user authentication method installed.",
+	'login' => "Συνδεθείτε",
+	'loginok' => "Έχετε συνδεθεί.",
+	'loginerror' => "Η σύνδεση απέτυχε. Παρακαλώ ελέγξτε τα στοιχεία σας και ξαναπροσπαθήστε.",
+	'login:empty' => "Το όνομα χρήστη/email και ο κωδικός απαιτούνται.",
+	'login:baduser' => "Αδυναμία φόρτωσης του λογαριασμού σας.", 
+	'auth:nopams' => "Εσωτερικό πρόβλημα. Καμία μέθοδος πιστοποίησης στοιχείων δεν είναι εγκατεστημένη.",
 
-	'logout' => "Log out",
-	'logoutok' => "You have been logged out.",
-	'logouterror' => "We couldn't log you out. Please try again.",
-	'session_expired' => "Your session has expired. Please reload the page to log in.",
+	'logout' => "Αποσύνδεση",
+	'logoutok' => "Αποσυνδεθήκατε.",
+	'logouterror' => "Η αποσύνδεση απέτυχε. Παρακαλώ ξαναπροσπαθήστε.",
+	'session_expired' => "Η σύνδεσή σας έληξε. Παρακαλώ ξαναφορτώστε τη σελίδα για να συνδεθείτε.",/* #2 (Συνεδρία αντί για σύνδεση?) */
 
-	'loggedinrequired' => "You must be logged in to view the requested page.",
-	'adminrequired' => "You must be an administrator to view the requested page.",
-	'membershiprequired' => "You must be a member of this group to view the requested page.",
-	'limited_access' => "You do not have permission to view the requested page.",
+	'loggedinrequired' => "Πρέπει να συνδεθείτε για να δείτε τη ζητούμενη σελίδα.",
+	'adminrequired' => "Πρέπει να είστε διαχειριστής για να δείτε τη ζητούμενη σελίδα.",
+	'membershiprequired' => "Πρέπει να είστε μέλος αυτής της ομάδας για να δείτε τη ζητούμενη σελίδα.",
+	'limited_access' => "Δεν έχετε το δικαίωμα να δείτε τη ζητούμενη σελίδα.",
 
 
 /**
  * Errors
  */
 
-	'exception:title' => "Fatal Error.",
-	'exception:contact_admin' => 'An unrecoverable error has occurred and has been logged. Contact the site administrator with the following information:',
+	'exception:title' => "Ανεπανόρθωτο Σφάλμα.",
+	'exception:contact_admin' => 'Ένα ανεπανόρθωτο σφάλμα έχει συμβεί και καταγραφεί. Επικοινωνήστε με τον διαχειριστή της σελίδας. Πληροφορίες:',
 
-	'actionundefined' => "The requested action (%s) was not defined in the system.",
-	'actionnotfound' => "The action file for %s was not found.",
-	'actionloggedout' => "Sorry, you cannot perform this action while logged out.",
-	'actionunauthorized' => 'You are unauthorized to perform this action',
+	'actionundefined' => "Η ζητούμενη ενέργεια (%s) δεν έχει οριστεί στο σύστημα.",
+	'actionnotfound' => "Το αρχείο ενέργειας για την %s δεν βρέθηκε.", /* #2 [The action file for %s was not found.] */
+	'actionloggedout' => "Συγνώμη, δεν μπορείτε να πραγματοποιήσετε αυτή την ενέργεια όσο είστε συνδεδεμένος.",
+	'actionunauthorized' => 'Δεν είστε εξουσιοδοτημένος για να πραγματοποιήσετε αυτή την ενέργεια',
 
-	'PluginException:MisconfiguredPlugin' => "%s (guid: %s) is a misconfigured plugin. It has been disabled. Please search the Elgg wiki for possible causes (http://docs.elgg.org/wiki/).",
-	'PluginException:CannotStart' => '%s (guid: %s) cannot start and has been deactivated.  Reason: %s',
-	'PluginException:InvalidID' => "%s is an invalid plugin ID.",
-	'PluginException:InvalidPath' => "%s is an invalid plugin path.",
-	'PluginException:InvalidManifest' => 'Invalid manifest file for plugin %s',
-	'PluginException:InvalidPlugin' => '%s is not a valid plugin.',
-	'PluginException:InvalidPlugin:Details' => '%s is not a valid plugin: %s',
-	'PluginException:NullInstantiated' => 'ElggPlugin cannot be null instantiated. You must pass a GUID, a plugin ID, or a full path.',
-	'ElggPlugin:MissingID' => 'Missing plugin ID (guid %s)',
-	'ElggPlugin:NoPluginPackagePackage' => 'Missing ElggPluginPackage for plugin ID %s (guid %s)',
-	'ElggPluginPackage:InvalidPlugin:MissingFile' => 'The required file "%s" is missing.',
-	'ElggPluginPackage:InvalidPlugin:InvalidId' => 'This plugin\'s directory must be renamed to "%s" to match the ID in its manifest.',
-	'ElggPluginPackage:InvalidPlugin:InvalidDependency' => 'Its manifest contains an invalid dependency type "%s".',
-	'ElggPluginPackage:InvalidPlugin:InvalidProvides' => 'Its manifest contains an invalid provides type "%s".',
-	'ElggPluginPackage:InvalidPlugin:CircularDep' => 'There is an invalid %s dependency "%s" in plugin %s.  Plugins cannot conflict with or require something they provide!',
-	'ElggPlugin:Exception:CannotIncludeFile' => 'Cannot include %s for plugin %s (guid: %s) at %s.',
-	'ElggPlugin:Exception:CannotRegisterViews' => 'Cannot open views dir for plugin %s (guid: %s) at %s.',
-	'ElggPlugin:Exception:CannotRegisterLanguages' => 'Cannot register languages for plugin %s (guid: %s) at %s.',
-	'ElggPlugin:Exception:NoID' => 'No ID for plugin guid %s!',
-	'PluginException:NoPluginName' => "The plugin name could not be found",
-	'PluginException:ParserError' => 'Error parsing manifest with API version %s in plugin %s.',
-	'PluginException:NoAvailableParser' => 'Cannot find a parser for manifest API version %s in plugin %s.',
-	'PluginException:ParserErrorMissingRequiredAttribute' => "Missing required '%s' attribute in manifest for plugin %s.",
-	'ElggPlugin:InvalidAndDeactivated' => '%s is an invalid plugin and has been deactivated.',
+	'PluginException:MisconfiguredPlugin' => "Το %s (guid: %s) είναι ένα πρόσθετο με λάθος ρυθμίσεις και έχει απενεργοποιηθεί. Παρακαλώ ψάξτε στο wiki του Elgg για τις πιθανές αιτίες. (http://docs.elgg.org/wiki/).",
+	'PluginException:CannotStart' => 'Το %s (guid: %s) αδυνατεί να ξεκινήσει και απενεργοποιήθηκε. Αιτία: %s',
+	'PluginException:InvalidID' => "Το %s είναι ένα μη έγκυρο ID προσθέτου.", /* #2 [ID]: (να το πούμε αναγνωριστικό ή να το αφήσουμε έτσι?) */
+	'PluginException:InvalidPath' => "Το %s είναι ένα μη έγκυρο μονοπάτι προσθέτου.",
+	'PluginException:InvalidManifest' => 'Μη έγκυρο αρχείο  manifest για το πρόσθετο %s', /* #1 [manifest]: (Μη έγκυρο αρχείο Δήλωσης?) */
+	'PluginException:InvalidPlugin' => 'Το %s είναι ένα μη έγκυρο πρόσθετο.',
+	'PluginException:InvalidPlugin:Details' => 'Το %s είναι ένα μη έγκυρο πρόσθετο: %s',
+	'PluginException:NullInstantiated' => 'Το ElggPlugin δεν μπορεί να αρχικοποιηθεί με την τιμή null. Πρέπει να δώσετε ένα GUID, ένα ID προσθέτου, ή ένα πλήρες μονοπάτι.', /* #2 [ElggPlugin cannot be null instantiated. You must pass a GUID, a plugin ID, or a full path.] */
+	'ElggPlugin:MissingID' => 'Το ID του προσθέτου (guid %s) απουσιάζει',
+	'ElggPlugin:NoPluginPackagePackage' => 'Απουσία ElggPluginPackage για το ID πρόσθετου %s (guid %s)', /* ( 'για το ID πρόθετου' ή 'για πρόσθετο με ID'?) [Missing ElggPluginPackage for plugin ID %s (guid %s)] */
+	'ElggPluginPackage:InvalidPlugin:MissingFile' => 'Το απαιτούμενο αρχείο "%s" απουσιάζει.',
+	'ElggPluginPackage:InvalidPlugin:InvalidId' => 'Ο φάκελος αυτού του πρόσθετου πρέπει να μετονομαστεί σε "%s" για να ταιριάζει με το ID του στο manifest.', /* #12 [in its manifest] */
+	'ElggPluginPackage:InvalidPlugin:InvalidDependency' => 'Το manifest περιλαμβάνει ένα μη έγκυρο είδος εξάρτησης "%s".', /* #12 [Its manifest contains an invalid dependency type "%s".] */
+	'ElggPluginPackage:InvalidPlugin:InvalidProvides' => 'Its manifest contains an invalid provides type "%s".', /* #1 + #12 [invalid provides] (Λογικά provides=ουσιαστικό) */
+	'ElggPluginPackage:InvalidPlugin:CircularDep' => 'Υπάρχει μία μη έγκυρη %s εξάρτηση "%s" στο πρόσθετο %s. Τα πρόσθετα δεν μπορούν να απαιτούν ή να έρχονται σε σύγκρουση με κάτι που τα ίδια παρέχουν!', /* #2 [Plugins cannot conflict with or require something they provide!] (ή αλλιώς 'με πληροφορίες που τα ίδια έχουν ως έξοδο') */
+	'ElggPlugin:Exception:CannotIncludeFile' => 'Το %s δεν μπορεί να περιληφθεί για το πρόσθετο %s (guid: %s) στο %s.',
+	'ElggPlugin:Exception:CannotRegisterViews' => 'Ο φάκελος προβολών δεν μπορεί να ανοιχτεί για το πρόσθετο %s (guid: %s) στο %s', /* #2 [Cannot open views dir for plugin %s (guid: %s) at %s.] */
+	'ElggPlugin:Exception:CannotRegisterLanguages' => 'Η καταχώρηση γλωσσών για το πρόσθετο %s (guid: %s) στο %s είναι αδύνατη.', /* #2 [Cannot register languages for plugin %s (guid: %s) at %s.]*/
+	'ElggPlugin:Exception:NoID' => 'Το ID για το πρόσθετο guid %s δεν βρέθηκε!', /* #1 [No ID for plugin guid %s!] (στο string "με guid" ίσως το "guid" να μην χρειάζεται μετάφραση) */
+	'PluginException:NoPluginName' => "Το όνομα του πρόσθετου δεν μπόρεσε να εντοπιστεί",
+	'PluginException:ParserError' => 'Υπήρξε σφάλμα όταν έγινε προσπάθεια να διατρεχτεί το manifest με την έκδοση %s του API στο πρόσθετο %s' /* #2 [Error parsing manifest with API version %s in plugin %s.] */,
+	'PluginException:NoAvailableParser' => 'Δεν μπόρεσε να βρεθεί κάποιος parser για το manifest στην έκδοση API %s στο πρόσθετο %s.', /* #1 + #12 [Cannot find a parser for manifest API version %s in plugin %s.](parser:πρόγραμμα ανάλυσης, διατρέχον πρόγραμμα) (Λογικά το σωστό string στα Αγγλικά είναι "Cannot Find a parser for manifest by  API version %s in plugin %s." */
+	'PluginException:ParserErrorMissingRequiredAttribute' => "Το απαιτούμενο attribute '%s' λείπει από το manifest για το πρόσθετο %s.", /* #1 + #12 [attribute]:(χαρακτηριστικό)? */
+	'ElggPlugin:InvalidAndDeactivated' => 'Το %s είναι μη έγκυρο πρόσθετο και έχει απενεργοποιηθεί.',
 
-	'ElggPlugin:Dependencies:Requires' => 'Requires',
-	'ElggPlugin:Dependencies:Suggests' => 'Suggests',
-	'ElggPlugin:Dependencies:Conflicts' => 'Conflicts',
-	'ElggPlugin:Dependencies:Conflicted' => 'Conflicted',
-	'ElggPlugin:Dependencies:Provides' => 'Provides',
-	'ElggPlugin:Dependencies:Priority' => 'Priority',
+	'ElggPlugin:Dependencies:Requires' => 'Απαιτεί',
+	'ElggPlugin:Dependencies:Suggests' => 'Προτείνει',
+	'ElggPlugin:Dependencies:Conflicts' => 'Συγκρούεται',/* #2 conflicts*/
+	'ElggPlugin:Dependencies:Conflicted' => 'Σε σύγκρουση',
+	'ElggPlugin:Dependencies:Provides' => 'Παρέχει',
+	'ElggPlugin:Dependencies:Priority' => 'Προτεραιότητα',
 
-	'ElggPlugin:Dependencies:Elgg' => 'Elgg version',
-	'ElggPlugin:Dependencies:PhpVersion' => 'PHP version',
-	'ElggPlugin:Dependencies:PhpExtension' => 'PHP extension: %s',
-	'ElggPlugin:Dependencies:PhpIni' => 'PHP ini setting: %s',
-	'ElggPlugin:Dependencies:Plugin' => 'Plugin: %s',
-	'ElggPlugin:Dependencies:Priority:After' => 'After %s',
-	'ElggPlugin:Dependencies:Priority:Before' => 'Before %s',
-	'ElggPlugin:Dependencies:Priority:Uninstalled' => '%s is not installed',
-	'ElggPlugin:Dependencies:Suggests:Unsatisfied' => 'Missing',
+	'ElggPlugin:Dependencies:Elgg' => 'Έκδοση Elgg',
+	'ElggPlugin:Dependencies:PhpVersion' => 'Έκδοση PHP',
+	'ElggPlugin:Dependencies:PhpExtension' => 'Επέκταση PHP: %s',
+	'ElggPlugin:Dependencies:PhpIni' => 'Αρχική ρύθμιση PHP: %s', /* #2 [PHP ini setting] */
+	'ElggPlugin:Dependencies:Plugin' => 'Πρόσθετο: %s',
+	'ElggPlugin:Dependencies:Priority:After' => 'Μετά το %s',
+	'ElggPlugin:Dependencies:Priority:Before' => 'Πριν το %s',
+	'ElggPlugin:Dependencies:Priority:Uninstalled' => 'Το %s δεν είναι εγκατεστημένο',
+	'ElggPlugin:Dependencies:Suggests:Unsatisfied' => 'Λείπει',
 	
-	'ElggPlugin:Dependencies:ActiveDependent' => 'There are other plugins that list %s as a dependency.  You must disable the following plugins before disabling this one: %s',
+	'ElggPlugin:Dependencies:ActiveDependent' => 'Υπάρχουν και άλλα πρόσθετα που καταγράφουν το %s ως εξάρτηση. Πρέπει να απενεργοποιήσετε τα ακόλουθα πρόσθετα πριν απενεργοποιήσετε αυτό: %s', /* #2 [There are other plugins that list %s as a dependency.] {[list]:( κατατάσσουν? κατηγοριοποιούν?)} */
 
 
-	'RegistrationException:EmptyPassword' => 'The password fields cannot be empty',
-	'RegistrationException:PasswordMismatch' => 'Passwords must match',
-	'LoginException:BannedUser' => 'You have been banned from this site and cannot log in',
-	'LoginException:UsernameFailure' => 'We could not log you in. Please check your username/email and password.',
-	'LoginException:PasswordFailure' => 'We could not log you in. Please check your username/email and password.',
-	'LoginException:AccountLocked' => 'Your account has been locked for too many log in failures.',
-	'LoginException:ChangePasswordFailure' => 'Failed current password check.',
-	'LoginException:Unknown' => 'We could not log you in due to an unknown error.',
+	'RegistrationException:EmptyPassword' => 'Τα πεδία εισαγωγής κωδικού δεν μπορούν να είναι κενά',
+	'RegistrationException:PasswordMismatch' => 'Οι κωδικοί πρέπει να είναι ίδιοι',
+	'LoginException:BannedUser' => 'Έχετε αποκλειστεί από αυτή τη σελίδα και δεν μπορείτε να συνδεθείτε',
+	'LoginException:UsernameFailure' => 'Η σύνδεση απέτυχε. Παρακαλώ ελέγξτε το όνομα χρήστη/email και τον κωδικό πρόσβασης.',
+	'LoginException:PasswordFailure' => 'Η σύνδεση απέτυχε. Παρακαλώ ελέγξτε το όνομα χρήστη/email και τον κωδικό πρόσβασης.',
+	'LoginException:AccountLocked' => 'Ο λογαριασμός σας κλειδώθηκε λόγω πολλαπλών αποτυχημένων προσπαθειών σύνδεσης.',
+	'LoginException:ChangePasswordFailure' => 'Η επαλήθευση του κωδικού πρόσβασης απέτυχε.',
+	'LoginException:Unknown' => 'Η σύνδεση απέτυχε λόγω άγνωστου σφάλματος.',
 
-	'deprecatedfunction' => 'Warning: This code uses the deprecated function \'%s\' and is not compatible with this version of Elgg',
+	'deprecatedfunction' => 'Προσοχή: Αυτός ο κώδικας χρησιμοποιεί την παρωχημένη συνάρτηση \'%s\' που δεν είναι συμβατή με αυτή την έκδοση του Elgg', /* #1 [Warning: This code uses the deprecated function \'%s\' and is not compatible with this version of Elgg] {[deprecated]:(παρωχημένη/απαρχαιομένη συνάρτηση) }*/
 
-	'pageownerunavailable' => 'Warning: The page owner %d is not accessible!',
-	'viewfailure' => 'There was an internal failure in the view %s',
-	'view:missing_param' => "The required parameter '%s' is missing in the view %s",
-	'changebookmark' => 'Please change your bookmark for this page',
-	'noaccess' => 'The content you were trying to view has been removed or you do not have permission to view it.',
-	'error:missing_data' => 'There was some data missing in your request',
-	'save:fail' => 'There was a failure saving your data',
-	'save:success' => 'Your data was saved',
+	'pageownerunavailable' => 'Προσοχή: Ο ιδιοκτήτης %d της σελίδας δεν μπορεί να προβληθεί!',
+	'viewfailure' => 'Υπήρξε εσωτερικό σφάλμα κατά την προβολή %s', /* #2 [There was an internal failure in the view %s] */
+	'view:missing_param' => "Η απαιτούμενη παράμετρος '%s' απουσιάζει από την προβολή %s", /* #2 [The required parameter '%s' is missing in the view %s] */
+	'changebookmark' => 'Παρακαλώ αλλάξτε τον σελιδοδείκτη σας για αυτή τη σελίδα',
+	'noaccess' => 'Το περιεχόμενο που ζητήσατε έχει αφαιρεθεί ή δεν έχετε δικαίωμα να το δείτε.',
+	'error:missing_data' => 'Το αίτημά σας περιείχε ελλιπείς πληροφορίες',
+	'save:fail' => 'Αποτυχία αποθήκευσης των δεδομένων σας',
+	'save:success' => 'Τα δεδομένα σας αποθηκεύτηκαν',
 
-	'error:default:title' => 'Oops...',
-	'error:default:content' => 'Oops... something went wrong.',
-	'error:404:title' => 'Page not found',
-	'error:404:content' => 'Sorry. We could not find the page that you requested.',
+	'error:default:title' => 'Ουπς...',
+	'error:default:content' => 'Ουπς... κάτι πήγε στραβά.',
+	'error:404:title' => 'Η σελίδα δεν βρέθηκε',
+	'error:404:content' => 'Λυπούμαστε. Η σελίδα που ζητήσατε δεν βρέθηκε.',
 
-	'upload:error:ini_size' => 'The file you tried to upload is too large.',
-	'upload:error:form_size' => 'The file you tried to upload is too large.',
-	'upload:error:partial' => 'The file upload did not complete.',
-	'upload:error:no_file' => 'No file was selected.',
-	'upload:error:no_tmp_dir' => 'Cannot save the uploaded file.',
-	'upload:error:cant_write' => 'Cannot save the uploaded file.',
-	'upload:error:extension' => 'Cannot save the uploaded file.',
-	'upload:error:unknown' => 'The file upload failed.',
+	'upload:error:ini_size' => 'Το αρχείο που προσπαθήσατε να ανεβάσετε είναι πολύ μεγάλο.',
+	'upload:error:form_size' => 'Το αρχείο που προσπαθήσατε να ανεβάσετε είναι πολύ μεγάλο.',
+	'upload:error:partial' => 'Το ανέβασμα του αρχείου δεν ολοκληρώθηκε.',
+	'upload:error:no_file' => 'Δεν έχετε επιλέξει κάποιο αρχείο.',
+	'upload:error:no_tmp_dir' => 'Το αρχείο που ανεβάσατε δεν μπορεί να αποθηκευτεί.',
+	'upload:error:cant_write' => 'Το αρχείο που ανεβάσατε δεν μπορεί να αποθηκευτεί.',
+	'upload:error:extension' => 'Το αρχείο που ανεβάσατε δεν μπορεί να αποθηκευτεί.',
+	'upload:error:unknown' => 'Το ανέβασμα του αρχείου απέτυχε.',
+
+//###################################################################################
+//#                              END OF PART 1                                      #
+//###################################################################################
 
 
 /**
