@@ -36,10 +36,10 @@ When comments include:
 
 Translation Progress
 -----
- -[x] __Sites__ (line 1-8)
- -[x] __Sessions__ (line 9 - 30)
- -[x] __Errors__ (line 31-126)
- -[] __User Deteils__ (line 127-138)
+ [x] __Sites__ (line 1-8)
+ [x] __Sessions__ (line 9 - 30)
+ [x] __Errors__ (line 31-126)
+ [] __User Deteils__ (line 127-138)
  -[] __Access__ (line 139-155)
  -[] __Dashboard and widgets__ (line 156-181)
  -[] __Groups__ (line 182-188)
