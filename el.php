@@ -128,314 +128,321 @@ return array(
  * User details
  */
 
-	'name' => "Display name",
-	'email' => "Email address",
-	'username' => "Username",
-	'loginusername' => "Username or email",
-	'password' => "Password",
-	'passwordagain' => "Password (again for verification)",
-	'admin_option' => "Make this user an admin?",
+	'name' => "Εμφανιζόμενο όνομα",
+	'email' => "Διεύθυνση ηλεκτρονικού ταχυδρομείου",
+	'username' => "Όνομα χρήστη",
+	'loginusername' => "Όνομα χρήστη ή διεύθυνση ηλ. ταχυδρομείου",
+	'password' => "Κωδικός πρόσβασης",
+	'passwordagain' => "Κωδικός πρόσβασης (ξανά για επαλήθευση)",
+	'admin_option' => "Ορισμός αυτού του χρήση ως διαχειριστή;",
 
 /**
  * Access
  */
 
-	'PRIVATE' => "Private",
-	'LOGGED_IN' => "Logged in users",
-	'PUBLIC' => "Public",
-	'LOGGED_OUT' => "Logged out users",
-	'access:friends:label' => "Friends",
-	'access' => "Access",
-	'access:overridenotice' => "Note: Due to group policy, this content will be accessible only by group members.",
-	'access:limited:label' => "Limited",
-	'access:help' => "The access level",
-	'access:read' => "Read access",
-	'access:write' => "Write access",
-	'access:admin_only' => "Administrators only",
+	'PRIVATE' => "Ιδιωτικό",
+	'LOGGED_IN' => "Συνδεδεμένοι χρήστες",
+	'PUBLIC' => "Δημόσιο",
+	'LOGGED_OUT' => "Αποσυνδεδεμένοι χρήστες",
+	'access:friends:label' => "Φίλοι",
+	'access' => "Πρόσβαση",
+	'access:overridenotice' => "Σημείωση: Λόγω της πολιτικής αυτής της ομάδας, το περιεχόμενο είναι προσβάσιμο μόνο από τα μέλη της.",
+	'access:limited:label' => "Περιορισμένο",
+	'access:help' => "Επίπεδο πρόσβασης", /* #2 [The access level] */
+	'access:read' => "Δικαίωμα  ανάγνωσης", /* #1 [Read access] */
+	'access:write' => "Δικαίωμα εγγραφής", /* #12 [Write access] */
+	'access:admin_only' => "Μόνο διαχειριστές",
 
 /**
  * Dashboard and widgets
  */
 
-	'dashboard' => "Dashboard",
-	'dashboard:nowidgets' => "Your dashboard lets you track the activity and content on this site that matters to you.",
+	'dashboard' => "Πίνακας ελέγχου", /* #2 [Dashboard] */
+	'dashboard:nowidgets' => "Ο πίνακας ελέγχου σας επιτρέπει να παρακολουθείτε τη δραστηριότητα που σας ενδιαφέρει σε αυτή τη σελίδα.", /* #2 (...τη δραστηριότητα και το περιεχόμενο που...) */
 
-	'widgets:add' => 'Add widgets',
-	'widgets:add:description' => "Click on any widget button below to add it to the page.",
-	'widgets:position:fixed' => '(Fixed position on page)',
-	'widget:unavailable' => 'You have already added this widget',
-	'widget:numbertodisplay' => 'Number of items to display',
+	'widgets:add' => 'Προσθήκη widget', /* #2 [widget]:(Θα μεταφραστεί;) */
+	'widgets:add:description' => "Κάντε κλικ σε οποιοδήποτε widget από τα παρακάτω για να το προσθέσετε στη σελίδα.", /* #12 [widget] */
+	'widgets:position:fixed' => '(Σταθερή θέση στη σελίδα)',
+	'widget:unavailable' => 'Έχετε ήδη προσθέσει αυτό το widget', /* #12 [widget] */
+	'widget:numbertodisplay' => 'Πλήθος στοιχείων για προβολή', 
 
-	'widget:delete' => 'Remove %s',
-	'widget:edit' => 'Customize this widget',
+	'widget:delete' => 'Αφαίρεση του %s',
+	'widget:edit' => 'Προσαρμόστε αυτό το widget', /* #12 [widget] */
 
-	'widgets' => "Widgets",
-	'widget' => "Widget",
-	'item:object:widget' => "Widgets",
-	'widgets:save:success' => "The widget was successfully saved.",
-	'widgets:save:failure' => "We could not save your widget.",
-	'widgets:add:success' => "The widget was successfully added.",
-	'widgets:add:failure' => "We could not add your widget.",
-	'widgets:move:failure' => "We could not store the new widget position.",
-	'widgets:remove:failure' => "Unable to remove this widget",
+	'widgets' => "Widgets", /* #12 [widget] */
+	'widget' => "Widget", /* #12 [widget] */
+	'item:object:widget' => "Widgets", /* #12 [widget] */
+	'widgets:save:success' => "Το widget αποθηκεύτηκε επιτυχώς.", /* #12 [widget] */
+	'widgets:save:failure' => "Το widget δεν μπόρεσε να αποθηκευτεί.", /* #12 [widget] */
+	'widgets:add:success' => "Το widget προστέθηκε με επιτυχία.", /* #12 [widget] */
+	'widgets:add:failure' => "Το widget δεν μπόρεσε να προστεθεί.", /* #12 [widget] */
+	'widgets:move:failure' => "Η νέα θέση του widget δεν μπόρεσε να αποθηκευτεί.", /* #12 [widget] */
+	'widgets:remove:failure' => "Αδυναμία αφαίρεσης του widget", /* #12 [widget] */
 
 /**
  * Groups
  */
 
-	'group' => "Group",
-	'item:group' => "Groups",
+	'group' => "Ομάδα",
+	'item:group' => "Ομάδες",
 
 /**
  * Users
  */
 
-	'user' => "User",
-	'item:user' => "Users",
+	'user' => "Χρήστης",
+	'item:user' => "Χρήστες",
 
 /**
  * Friends
  */
 
-	'friends' => "Friends",
-	'friends:yours' => "Your friends",
-	'friends:owned' => "%s's friends",
-	'friend:add' => "Add friend",
-	'friend:remove' => "Remove friend",
+	'friends' => "Φίλοι",
+	'friends:yours' => "Οι φίλοι σας",
+	'friends:owned' => "Οι φίλοι του/της %s",
+	'friend:add' => "Προσθήκη φίλου",
+	'friend:remove' => "Διαγραφή φίλου",
 
-	'friends:add:successful' => "You have successfully added %s as a friend.",
-	'friends:add:failure' => "We couldn't add %s as a friend.",
+	'friends:add:successful' => "Ο/Η %s προστέθηκε επιτυχώς στους φίλους σας.",
+	'friends:add:failure' => "Ο/Η %s δεν μπόρεσε να προστεθεί στους φίλους σας.",
 
-	'friends:remove:successful' => "You have successfully removed %s from your friends.",
-	'friends:remove:failure' => "We couldn't remove %s from your friends.",
+	'friends:remove:successful' => "Αφαιρέσατε επιτυχώς τον/την %s από τους φίλους σας.",
+	'friends:remove:failure' => "Ο/Η %s δεν μπόρεσε να αφαιρεθεί από τους φίλους σας.",
 
-	'friends:none' => "No friends yet.",
-	'friends:none:you' => "You don't have any friends yet.",
+	'friends:none' => "Προς το παρόν δεν βρέθηκαν φίλοι.",
+	'friends:none:you' => "Δεν έχετε κάποιο φίλο προς το παρόν.",
 
-	'friends:none:found' => "No friends were found.",
+	'friends:none:found' => "Δεν βρέθηκε κανένας φίλος.",
 
-	'friends:of:none' => "Nobody has added this user as a friend yet.",
-	'friends:of:none:you' => "Nobody has added you as a friend yet. Start adding content and fill in your profile to let people find you!",
+	'friends:of:none' => "Προς το παρόν κανένας δεν έχει προσθέσει αυτόν το χρήστη ως φίλο.",
+	'friends:of:none:you' => "Δεν σας έχει προσθέσει κανένας χρήστης ως φίλο. Για να σας βρούνε άλλοι χρήστες, αρχίστε να εμπλουτίζετε το προφίλ σας.",
 
-	'friends:of:owned' => "People who have made %s a friend",
+	'friends:of:owned' => "Άτομα που πρόσθεσαν ως φίλο τον/την %s",
 
-	'friends:of' => "Friends of",
-	'friends:collections' => "Friend collections",
-	'collections:add' => "New collection",
-	'friends:collections:add' => "New friends collection",
-	'friends:addfriends' => "Select friends",
-	'friends:collectionname' => "Collection name",
-	'friends:collectionfriends' => "Friends in collection",
-	'friends:collectionedit' => "Edit this collection",
-	'friends:nocollections' => "You do not have any collections yet.",
-	'friends:collectiondeleted' => "Your collection has been deleted.",
-	'friends:collectiondeletefailed' => "We were unable to delete the collection. Either you don't have permission, or some other problem has occurred.",
-	'friends:collectionadded' => "Your collection was successfully created",
-	'friends:nocollectionname' => "You need to give your collection a name before it can be created.",
-	'friends:collections:members' => "Collection members",
-	'friends:collections:edit' => "Edit collection",
-	'friends:collections:edited' => "Saved collection",
-	'friends:collection:edit_failed' => 'Could not save collection.',
+	'friends:of' => "Φίλοι του/της",
+	'friends:collections' => "Ομάδες φίλων", /* #2 [Friend collections]:(ομάδες φίλων)? */
+	'collections:add' => "Νέα ομάδα",
+	'friends:collections:add' => "Νέα ομάδα φίλων",
+	'friends:addfriends' => "Επιλέξτε φίλους",
+	'friends:collectionname' => "Όνομα ομάδας",
+	'friends:collectionfriends' => "Φίλοι στην ομάδα",
+	'friends:collectionedit' => "Επεξεργασία αυτής της ομάδας",
+	'friends:nocollections' => "Προς το παρόν δεν έχετε δημιουργήσει κάποια ομάδα.",
+	'friends:collectiondeleted' => "Η ομάδα σας διαγράφτηκε.",
+	'friends:collectiondeletefailed' => "Αδυναμία διαγραφής αυτής της ομάδας. Είτε δεν έχετε το δικαίωμα, είτε υπήρξε κάποιο άλλο πρόβλημα.",
+	'friends:collectionadded' => "Η ομάδα σας δημιουργήθηκε επιτυχώς",
+	'friends:nocollectionname' => "Πρέπει να δώσετε ένα όνομα στην ομάδα σας για να δημιουργηθεί.",
+	'friends:collections:members' => "Μέλη ομάδας",
+	'friends:collections:edit' => "Επεξεργασία ομάδας",
+	'friends:collections:edited' => "Αποθηκευμένη ομάδα",
+	'friends:collection:edit_failed' => 'Η ομάδα δεν μπόρεσε να αποθηκευτεί.',
 
-	'friendspicker:chararray' => 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+	'friendspicker:chararray' => 'ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ', /* #8888 */
 
-	'avatar' => 'Avatar',
-	'avatar:noaccess' => "You're not allowed to edit this user's avatar",
-	'avatar:create' => 'Create your avatar',
-	'avatar:edit' => 'Edit avatar',
-	'avatar:preview' => 'Preview',
-	'avatar:upload' => 'Upload a new avatar',
-	'avatar:current' => 'Current avatar',
-	'avatar:remove' => 'Remove your avatar and set the default icon',
-	'avatar:crop:title' => 'Avatar cropping tool',
-	'avatar:upload:instructions' => "Your avatar is displayed throughout the site. You can change it as often as you'd like. (File formats accepted: GIF, JPG or PNG)",
-	'avatar:create:instructions' => 'Click and drag a square below to match how you want your avatar cropped. A preview will appear in the box on the right. When you are happy with the preview, click \'Create your avatar\'. This cropped version will be used throughout the site as your avatar.',
-	'avatar:upload:success' => 'Avatar successfully uploaded',
-	'avatar:upload:fail' => 'Avatar upload failed',
-	'avatar:resize:fail' => 'Resize of the avatar failed',
-	'avatar:crop:success' => 'Cropping the avatar succeeded',
-	'avatar:crop:fail' => 'Avatar cropping failed',
-	'avatar:remove:success' => 'Removing the avatar succeeded',
-	'avatar:remove:fail' => 'Avatar remove failed',
+	'avatar' => 'Avatar', /* #1 [avatar]: (να το μεταφράσουμε σε "Εικόνα χρήστη" για παράδειγμα ή να το αφήσουμε έτσι?) */
+	'avatar:noaccess' => "Δεν μπορείτε να επεξεργαστείτε το avatar αυτού του χρήστη",
+	'avatar:create' => 'Δημιουργία avatar',
+	'avatar:edit' => 'Επεξεργασία avatar',
+	'avatar:preview' => 'Προεπισκόπηση',
+	'avatar:upload' => 'Ανέβασμα νέου avatar',
+	'avatar:current' => 'Τρέχον avatar',
+	'avatar:remove' => 'Ορισμός του προεπιλεγμένου avatar',
+	'avatar:crop:title' => 'Εργαλείο περικοπής avatar',
+	'avatar:upload:instructions' => "Το avatar προβάλλεται σε ολόκληρη την ιστοσελίδα. Μπορείτε να το αλλάζετε όσο συχνά επιθυμείτε. (Αποδεκτοί τύποι αρχείων: GIF, JPG ή PNG)",
+	'avatar:create:instructions' => 'Κάντε κλικ και σύρτε παρακάτω ένα τετράγωνο που ταιριάζει με το πως θέλετε να περικοπεί το avatar σας. Μία προεπισκόπηση θα εμφανιστεί στο πλαίσιο δεξιά. Όταν σας ικανοποιήσει το αποτέλεσμα, κάντε κλικ στο κουμπί \'Δημιουργία avatar\'. Η περικομμένη έκδοση θα χρησιμοποιείται σε όλη την ιστοσελίδα ως το avatar σας.', /* #2 (μικρογραφία αντί για περικομμένη έκδοση) */
+	'avatar:upload:success' => 'Το avatar ανέβηκε επιτυχώς',
+	'avatar:upload:fail' => 'Το ανέβασμα του avatar απέτυχε',
+	'avatar:resize:fail' => 'Αποτυχία αλλαγής μεγέθους του avatar',
+	'avatar:crop:success' => 'Η περικοπή του avatar ήταν επιτυχής',
+	'avatar:crop:fail' => 'Η περικοπή του avatar απέτυχε',
+	'avatar:remove:success' => 'Η αφαίρεση του avatar ήταν επιτυχής',
+	'avatar:remove:fail' => 'Αποτυχία αφαίρεσης του avatar',
 
-	'profile:edit' => 'Edit profile',
-	'profile:aboutme' => "About me",
-	'profile:description' => "About me",
-	'profile:briefdescription' => "Brief description",
-	'profile:location' => "Location",
-	'profile:skills' => "Skills",
-	'profile:interests' => "Interests",
-	'profile:contactemail' => "Contact email",
-	'profile:phone' => "Telephone",
-	'profile:mobile' => "Mobile phone",
-	'profile:website' => "Website",
-	'profile:twitter' => "Twitter username",
-	'profile:saved' => "Your profile was successfully saved.",
+	'profile:edit' => 'Επεξεργασία προφίλ',
+	'profile:aboutme' => "Σχετικά με εμένα",
+	'profile:description' => "Σχετικά με εμένα",
+	'profile:briefdescription' => "Σύντομη περιγραφή",
+	'profile:location' => "Τοποθεσία",
+	'profile:skills' => "Ικανότητες",
+	'profile:interests' => "Ενδιαφέροντα",
+	'profile:contactemail' => "Email επικοινωνίας",
+	'profile:phone' => "Τηλέφωνο",
+	'profile:mobile' => "Κινητό τηλέφωνο",
+	'profile:website' => "Ιστοσελίδα",
+	'profile:twitter' => "Όνομα χρήστη Twitter",
+	'profile:saved' => "Το προφίλ σας αποθηκεύτηκε επιτυχώς.",
 
-	'profile:field:text' => 'Short text',
-	'profile:field:longtext' => 'Large text area',
-	'profile:field:tags' => 'Tags',
-	'profile:field:url' => 'Web address',
-	'profile:field:email' => 'Email address',
-	'profile:field:location' => 'Location',
-	'profile:field:date' => 'Date',
+	'profile:field:text' => 'Σύντομο κείμενο',
+	'profile:field:longtext' => 'Περιοχή μακροσκελούς κειμένου',
+	'profile:field:tags' => 'Ετικέτες',
+	'profile:field:url' => 'Υπερσύνδεσμος',
+	'profile:field:email' => 'Διεύθυνση ηλ. ταχυδρομείου',
+	'profile:field:location' => 'Τοποθεσία',
+	'profile:field:date' => 'Ημερομηνία',
 
-	'admin:appearance:profile_fields' => 'Edit Profile Fields',
-	'profile:edit:default' => 'Edit profile fields',
-	'profile:label' => "Profile label",
-	'profile:type' => "Profile type",
-	'profile:editdefault:delete:fail' => 'Removed default profile item field failed',
-	'profile:editdefault:delete:success' => 'Profile field deleted',
-	'profile:defaultprofile:reset' => 'Profile fields reset to the system default',
-	'profile:resetdefault' => 'Reset profile fields to system defaults',
-	'profile:resetdefault:confirm' => 'Are you sure you want to delete your custom profile fields?',
-	'profile:explainchangefields' => "You can replace the existing profile fields with your own using the form below. \n\n Give the new profile field a label, for example, 'Favorite team', then select the field type (eg. text, url, tags), and click the 'Add' button. To re-order the fields drag on the handle next to the field label. To edit a field label - click on the label's text to make it editable. \n\n At any time you can revert back to the default profile set up, but you will lose any information already entered into custom fields on profile pages.",
-	'profile:editdefault:success' => 'New profile field added',
-	'profile:editdefault:fail' => 'Default profile could not be saved',
-	'profile:field_too_long' => 'Cannot save your profile information because the "%s" section is too long.',
-	'profile:noaccess' => "You do not have permission to edit this profile.",
-	'profile:invalid_email' => '%s must be a valid email address.',
+	'admin:appearance:profile_fields' => 'Επεξεργασία Πεδίων Προφίλ',
+	'profile:edit:default' => 'Επεξεργασία πεδίων προφίλ',
+	'profile:label' => "Ετικέτα προφίλ",
+	'profile:type' => "Τύπος προφίλ",
+	'profile:editdefault:delete:fail' => 'Αποτυχία διαγραφής πεδίου προφίλ',
+	'profile:editdefault:delete:success' => 'Το πεδίο προφίλ διαγράφτηκε',
+	'profile:defaultprofile:reset' => 'Τα πεδία προφίλ επαναφέρθηκαν στις προεπιλογές συστήματος',
+	'profile:resetdefault' => 'Επαναφορά των πεδίων προφίλ στις προεπιλογές συστήματος',
+	'profile:resetdefault:confirm' => 'Είστε σίγουρος ότι θέλετε να διαγράψετε τα προσαρμοσμένα πεδία προφίλ;',
+	'profile:explainchangefields' => "Μπορείτε να αντικαταστήσετε τα υπάρχοντα πεδία προφίλ με δικά σας, συμπληρώνοντας την παρακάτω φόρμα. \n\n Δώστε έναν τίτλο στο νέο πεδίο (πχ. \'Αγαπημένη ομάδα\'), επιλέξτε τον τύπο του πεδίου (πχ. Κείμενο, Υπερσύνδεσμος, Ετικέτες) και κάντε κλικ στο κουμπί 'Προσθήκη'. Για να αναδιατάξετε τα πεδία, σύρτε τα από την περιοχή δίπλα στον τίτλο. Για να επεξεργαστείτε ένα πεδίο, κάντε κλικ στο κείμενο της ετικέτας. \n\n Μπορείτε να επαναφέρετε τις αρχικές ρυθμίσεις προφίλ οποιαδήποτε στιγμή το θελήσετε, αλλά θα χάσετε οποιαδήποτε πληροφορία έχει εισαχθεί στα προσαρμοσμένα πεδία.", /* #8888 The whole code-block */
+	'profile:editdefault:success' => 'Προστέθηκε επιτυχώς ένα νέο πεδίο προφίλ',
+	'profile:editdefault:fail' => 'Το προκαθορισμένο προφίλ δεν μπόρεσε να αποθηκευτεί.', /* #2 [Default profile could not be saved](προεπιλεγμένο) */
+	'profile:field_too_long' => 'Οι πληροφορίες προφίλ δεν μπορούν να αποθηκευτούν καθώς το τμήμα "%s" είναι υπερβολικά μεγάλο.',
+	'profile:noaccess' => "Δεν έχετε το δικαίωμα να επεξεργαστείτε αυτό το προφίλ.",
+	'profile:invalid_email' => 'Το %s πρέπει να είναι μια έγκυρη διεύθυνση ηλ. ταχυδρομείου',
 
 
 /**
  * Feeds
  */
-	'feed:rss' => 'RSS feed for this page',
+	'feed:rss' => 'Ροή RSS για αυτή τη σελίδα',
 /**
  * Links
  */
-	'link:view' => 'view link',
-	'link:view:all' => 'View all',
+	'link:view' => 'προβολή συνδέσμου',
+	'link:view:all' => 'Προβολή όλων',
 
 
 /**
  * River
  */
-	'river' => "River",
-	'river:friend:user:default' => "%s is now a friend with %s",
-	'river:update:user:avatar' => '%s has a new avatar',
-	'river:update:user:profile' => '%s has updated their profile',
-	'river:noaccess' => 'You do not have permission to view this item.',
-	'river:posted:generic' => '%s posted',
-	'riveritem:single:user' => 'a user',
-	'riveritem:plural:user' => 'some users',
-	'river:ingroup' => 'in the group %s',
-	'river:none' => 'No activity',
-	'river:update' => 'Update for %s',
-	'river:delete' => 'Remove this activity item',
-	'river:delete:success' => 'River item has been deleted',
-	'river:delete:fail' => 'River item could not be deleted',
-	'river:subject:invalid_subject' => 'Invalid user',
-	'activity:owner' => 'View activity',
+	'river' => "Ροή ειδήσεων", /* #2 [River]:(ροή/ροή ειδήσεων) (θα μπορούσαμε να το ονομάσουμε και αρχική) */
+	'river:friend:user:default' => "Ο/Η %s έγινε φίλος/η με τον/την %s",
+	'river:update:user:avatar' => 'Ο/Η %s άλλαξε το avatar του/της',
+	'river:update:user:profile' => 'Ο/Η %s ανανέωσε το προφίλ του/της',
+	'river:noaccess' => 'Δεν έχετε δικαίωμα προβολής αυτού του περιεχομένου.',
+	'river:posted:generic' => 'Ο/Η %s δημοσίευσε', /* #8888 */
+	'riveritem:single:user' => 'ένας χρήστης',
+	'riveritem:plural:user' => 'κάποιοι χρήστες',
+	'river:ingroup' => 'στην ομάδα %s',
+	'river:none' => 'Καμία δραστηριότητα',
+	'river:update' => 'Ενημέρωση για %s', /* #8888 */
+	'river:delete' => 'Αφαιρέστε αυτή τη δραστηριότητα', /* #2 (...αυτό το αντικείμενο δραστηριότητας) */
+	'river:delete:success' => 'Το αντικείμενο αφαιρέθηκε από τη Ροή ειδήσεων', /* #2 (Η δραστηριότητα...) */
+	'river:delete:fail' => 'Το αντικείμενο δεν μπόρεσε να αφαιρεθεί από τη Ροή ειδήσεων', /* #2 (Η δραστηριότητα...) */
+	'river:subject:invalid_subject' => 'Μη έγκυρος χρήστης',
+	'activity:owner' => 'Προβολή δραστηριότητας',
 
-	'river:widget:title' => "Activity",
-	'river:widget:description' => "Display latest activity",
-	'river:widget:type' => "Type of activity",
-	'river:widgets:friends' => 'Friends activity',
-	'river:widgets:all' => 'All site activity',
+	'river:widget:title' => "Δραστηριότητα",
+	'river:widget:description' => "Προβολή πρόσφατης δραστηριότητας",
+	'river:widget:type' => "Είδος δραστηριότητας",
+	'river:widgets:friends' => 'Δραστηριότητα φίλων',
+	'river:widgets:all' => 'Δραστηριότητα όλης της σελίδας',
 
 /**
  * Notifications
  */
-	'notifications:usersettings' => "Notification settings",
-	'notification:method:email' => 'Email',
+	'notifications:usersettings' => "Ρυθμίσεις ειδοποιήσεων",
+	'notification:method:email' => 'Ηλεκτρονικό ταχυδρομείο',
 
-	'notifications:usersettings:save:ok' => "Notification settings were successfully saved.",
-	'notifications:usersettings:save:fail' => "There was a problem saving the notification settings.",
+	'notifications:usersettings:save:ok' => "Οι ρυθμίσεις ειδοποιήσεων αποθηκεύτηκαν επιτυχώς.",
+	'notifications:usersettings:save:fail' => "Υπήρξε πρόβλημα κατά την αποθήκευση των ρυθμίσεων ειδοποίησης.",
 
-	'notification:subject' => 'Notification about %s',
-	'notification:body' => 'View the new activity at %s',
+	'notification:subject' => 'Ειδοποίηση για %s',
+	'notification:body' => 'Προβολή νέας δραστηριότητας σε %s',
 
 /**
  * Search
  */
 
-	'search' => "Search",
-	'searchtitle' => "Search: %s",
-	'users:searchtitle' => "Searching for users: %s",
-	'groups:searchtitle' => "Searching for groups: %s",
+	'search' => "Αναζήτηση",
+	'searchtitle' => "Αναζήτηση: %s",
+	'users:searchtitle' => "Αναζήτηση χρηστών: %s",
+	'groups:searchtitle' => "Αναζήτηση ομάδων: %s",
 	'advancedsearchtitle' => "%s with results matching %s",
-	'notfound' => "No results found.",
-	'next' => "Next",
-	'previous' => "Previous",
+	'notfound' => "Δεν βρέθηκαν αποτελέσματα.",
+	'next' => "Επόμενο",
+	'previous' => "Προηγούμενο",
 
-	'viewtype:change' => "Change list type",
-	'viewtype:list' => "List view",
-	'viewtype:gallery' => "Gallery",
+	'viewtype:change' => "Αλλαγή τύπου κατηγοριοποίησης",
+	'viewtype:list' => "Προβολή λίστας",
+	'viewtype:gallery' => "Συλλογή", /* #2 [Gallery] */
 
-	'tag:search:startblurb' => "Items with tags matching '%s':",
+	'tag:search:startblurb' => "Αντικείμενα με αντίστοιχες ετικέτες '%s':", /* #2 [Items with tags matching '%s':](αντιστοιχες/σχετικες) */
 
-	'user:search:startblurb' => "Users matching '%s':",
-	'user:search:finishblurb' => "To view more, click here.",
+	'user:search:startblurb' => "Σχετικοί χρήστες'%s':", /*[Users matching '%s':]*/
+	'user:search:finishblurb' => "Για να δείτε περισσότερα, κάντε κλικ εδώ.",
 
-	'group:search:startblurb' => "Groups matching '%s':",
-	'group:search:finishblurb' => "To view more, click here.",
-	'search:go' => 'Go',
-	'userpicker:only_friends' => 'Only friends',
+	'group:search:startblurb' => "Σχετικές ομάδες '%s':", /*[Groups matching '%s':]*/
+	'group:search:finishblurb' => "Για να δείτε περισσότερα, κάντε κλικ εδώ.",
+	'search:go' => 'Αναζήτηση',
+	'userpicker:only_friends' => 'Μόνο φίλοι',
 
 /**
  * Account
  */
 
-	'account' => "Account",
-	'settings' => "Settings",
-	'tools' => "Tools",
-	'settings:edit' => 'Edit settings',
+	'account' => "Λογαριασμός",
+	'settings' => "Ρυθμίσεις",
+	'tools' => "Εργαλεία",
+	'settings:edit' => 'Επεξεργασία ρυθμίσεων',
 
-	'register' => "Register",
-	'registerok' => "You have successfully registered for %s.",
-	'registerbad' => "Your registration was unsuccessful because of an unknown error.",
-	'registerdisabled' => "Registration has been disabled by the system administrator",
-	'register:fields' => 'All fields are required',
+	'register' => "Εγγραφή",
+	'registerok' => "Έγγραφήκατε επιτυχώς για %s.", /* #8888 */
+	'registerbad' => "Η εγγραφή σας απέτυχε λόγω κάποιου άγνωστου προβλήματος.",
+	'registerdisabled' => "Η εγγραφή απενεργοποιήθηκε από τον διαχειριστή του συστήματος",
+	'register:fields' => 'Απαιτούνται όλα τα πεδία',
 
-	'registration:notemail' => 'The email address you provided does not appear to be a valid email address.',
-	'registration:userexists' => 'That username already exists',
-	'registration:usernametooshort' => 'Your username must be a minimum of %u characters long.',
-	'registration:usernametoolong' => 'Your username is too long. It can have a maximum of %u characters.',
-	'registration:passwordtooshort' => 'The password must be a minimum of %u characters long.',
-	'registration:dupeemail' => 'This email address has already been registered.',
-	'registration:invalidchars' => 'Sorry, your username contains the character %s which is invalid. The following characters are invalid: %s',
-	'registration:emailnotvalid' => 'Sorry, the email address you entered is invalid on this system',
-	'registration:passwordnotvalid' => 'Sorry, the password you entered is invalid on this system',
-	'registration:usernamenotvalid' => 'Sorry, the username you entered is invalid on this system',
+	'registration:notemail' => 'Η διεύθυνση ηλ. ταχυδρομείου που παρείχατε φαίνεται πως είναι μη έγκυρη.',
+	'registration:userexists' => 'Το όνομα χρήστη υπάρχει ήδη',
+	'registration:usernametooshort' => 'Το όνομα χρήστη θα πρέπει να είναι τουλάχιστον %u χαρακτήρες.',
+	'registration:usernametoolong' => 'Το όνομα χρήστη είναι πολύ μεγάλο. Το μέγιστο πλήθος χαρακτήρων που μπορεί να έχει είναι %u .',
+	'registration:passwordtooshort' => 'Ο κωδικός πρόσβασης θα πρέπει να είναι τουλάχιστον %u χαρακτήρες.',
+	'registration:dupeemail' => 'Αυτή η διεύθυνση ηλ. ταχυδρομείου είναι ήδη καταχωρημένη.',
+	'registration:invalidchars' => 'Λυπούμαστε. Το όνομα χρήστη περιέχει τον μη έγκυρο χαρακτήρα %s. Οι εξής χαρακτήρες είναι έγκυροι: %s',
+	'registration:emailnotvalid' => 'Λυπούμαστε. Η διεύθυνση ηλ. ταχυδρομείου είναι μη έγκυρη σε αυτό το σύστημα',
+	'registration:passwordnotvalid' => 'Λυπούμαστε. Ο κωδικός πρόσβασης που εισάγατε είναι μη έγκυρος σε αυτό το σύστημα.',
+	'registration:usernamenotvalid' => 'Λυπούμαστε. Το όνομα χρήστη που εισάγατε είναι μη έγκυρο σε αυτό το σύστημα.',
 
-	'adduser' => "Add User",
-	'adduser:ok' => "You have successfully added a new user.",
-	'adduser:bad' => "The new user could not be created.",
+	'adduser' => "Προσθήκη χρήστη",
+	'adduser:ok' => "Προσθέσατε επιτυχώς νέο χρήστη.", /* #8888 (Προσθέσατε επιτυχώς το χρήστη */
+	'adduser:bad' => "Ο νέος χρήστης δεν μπόρεσε να δημιουργηθεί.",
 
-	'user:set:name' => "Account name settings",
-	'user:name:label' => "Display name",
-	'user:name:success' => "Successfully changed display name on the system.",
-	'user:name:fail' => "Could not change display name on the system.",
+	'user:set:name' => "Ρυθμίσεις ονόματος λογαριασμού",
+	'user:name:label' => "Εμφανιζόμενο όνομα",
+	'user:name:success' => "To εμφανιζόμενο όνομα αλλάχτηκε επιτυχώς στο σύστημα.",/* #2 (Αφαίρεση του string "στο σύστημα") */
+	'user:name:fail' => "Αποτυχία αλλαγής του εμφανιζόμενου ονόματος στο σύστημα.",/* #2 (Αφαίρεση του string "στο σύστημα") */
 
-	'user:set:password' => "Account password",
-	'user:current_password:label' => 'Current password',
-	'user:password:label' => "New password",
-	'user:password2:label' => "New password again",
-	'user:password:success' => "Password changed",
-	'user:password:fail' => "Could not change your password on the system.",
-	'user:password:fail:notsame' => "The two passwords are not the same!",
-	'user:password:fail:tooshort' => "Password is too short!",
-	'user:password:fail:incorrect_current_password' => 'The current password entered is incorrect.',
-	'user:changepassword:unknown_user' => 'Invalid user.',
-	'user:changepassword:change_password_confirm' => 'This will change your password.',
+	'user:set:password' => "Κωδικός πρόσβασης λογαριασμού",
+	'user:current_password:label' => 'Τρέχον κωδικός',
+	'user:password:label' => "Νέος κωδικός",
+	'user:password2:label' => "Νέος κωδικός ξανά",
+	'user:password:success' => "Ο κωδικός αλλάχτηκε",
+	'user:password:fail' => "Αδυναμία αλλαγής κωδικού στο σύστημα.", /* #2 (Αφαίρεση του string "στο σύστημα") */
+	'user:password:fail:notsame' => "Οι κωδικοί πρόσβασης διαφέρουν!",
+	'user:password:fail:tooshort' => "Ο κωδικός πρόσβασης είναι πολύ μικρός!",
+	'user:password:fail:incorrect_current_password' => 'Εισάγατε λάθος τον τρέχοντα κωδικό πρόσβασης.',
+	'user:changepassword:unknown_user' => 'Μη έγκυρος χρήστης.',
+	'user:changepassword:change_password_confirm' => 'Θα πραγματοποιηθεί αλλαγή του κωδικού σας.',
 
-	'user:set:language' => "Language settings",
-	'user:language:label' => "Language",
-	'user:language:success' => "Language settings have been updated.",
-	'user:language:fail' => "Language settings could not be saved.",
+	'user:set:language' => "Ρυθμίσεις γλώσσας",
+	'user:language:label' => "Γλώσσα",
+	'user:language:success' => "Οι ρυθμίσεις γλώσσας ανανεώθηκαν.",
+	'user:language:fail' => "Αδυναμία αποθήκευσης των ρυθμίσεων γλώσσας.",
 
-	'user:username:notfound' => 'Username %s not found.',
+	'user:username:notfound' => 'Το όνομα χρήστη %s δεν βρέθηκε.',
 
-	'user:password:lost' => 'Lost password',
-	'user:password:changereq:success' => 'Successfully requested a new password, email sent',
-	'user:password:changereq:fail' => 'Could not request a new password.',
+	'user:password:lost' => 'Έχασα τον κωδικό μου',
+	'user:password:changereq:success' => 'Κατατέθηκε επιτυχώς αίτημα ανάκτησης κωδικού. Σας έχει σταλεί μήνυμα ηλ. ταχυδρομείου',
+	'user:password:changereq:fail' => 'Αδυναμία αίτησης απόκτησης νέου κωδικού.',
 
-	'user:password:text' => 'To request a new password, enter your username or email address below and click the Request button.',
+	'user:password:text' => 'Για να ζητήσετε νέο κωδικό, εισάγετε το όνομα χρήστη ή τη διεύθυνση ηλ. ταχυδρομείου και κάντε κλικ στο κουμπί κατάθεσης του αιτήματος.', /* #2 #8888 [Request button] */
 
-	'user:persistent' => 'Remember me',
+	'user:persistent' => 'Να με θυμάσαι',
 
-	'walled_garden:welcome' => 'Welcome to',
+	'walled_garden:welcome' => 'Καλωσήρθατε στο', /* #8888 */
+
+
+//###################################################################################
+//#                              END OF PART 2                                      #
+//###################################################################################
+
+
 
 /**
  * Administration
