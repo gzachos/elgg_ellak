@@ -11,7 +11,7 @@ The Organization responsible
 -----
 
 >University of Ioannina Excellence Units -
->Greek Free and Open Source Software (GFOSS) Society
+>Greek Free and Open Source Software Society (GFOSS)
 
 
 About Elgg
@@ -34,6 +34,7 @@ When comments include:
  * __"#12"__ - _Untranslated word/phrase which has been already stated_ (zero-importance issue)
  * __"#2"__ -  _Interpretation issue_ (Middle Priority issue)
  * __"#8888"__ - _Error possibility during code execution_ (Both "Logic" and "Run Time" errors may occur)
+ * __[<text>]__ - _An English string or part of a string unchanged_
 
 Translation Progress
 -----
@@ -52,7 +53,7 @@ Translation Progress
  - [x] __Notifications__ (337-348)
  - [x] __Search__ (349-375)
  - [x] __Account__ (376-439)
- - [ ] __Administration__ (440-576)
+ - [x] __Administration__ (440-576)
  - [ ] __Plugins__ (577-717)
  - [ ] __User Settings__ (718-744)
  - [ ] __Activity river__ (745-762)
@@ -80,8 +81,11 @@ Translation Progress
  - [ ] __Javascript__ (1280-1287)
  - [ ] __Miscellaneous__ (1288-1292)
  - [ ] __Languages according to ISO 639-1__ (1293-1440)
+
  
 Completed Sections
+-----
+(Ready for push to official GFOSS repository)
  - [ ] __Sites__ (line 1-8)
  - [ ] __Sessions__ (line 9 - 30)
  - [ ] __Errors__ (line 31-126)
