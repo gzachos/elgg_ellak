@@ -34,7 +34,7 @@ When comments include:
  * __"#12"__ - _Untranslated word/phrase which has been already stated_ (zero-importance issue)
  * __"#2"__ -  _Interpretation issue_ (Middle Priority issue)
  * __"#8888"__ - _Error possibility during code execution_ (Both "Logic" and "Run Time" errors may occur)
- * __[<text>]__ - _An English string or part of a string unchanged_
+ * __[ text ]__ - _An English string or part of a string unchanged_
 
 Translation Progress
 -----
