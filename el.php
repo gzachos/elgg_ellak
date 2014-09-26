@@ -20,7 +20,7 @@ return array(
 	'logout' => "Αποσύνδεση",
 	'logoutok' => "Αποσυνδεθήκατε.",
 	'logouterror' => "Η αποσύνδεση απέτυχε. Παρακαλώ ξαναπροσπαθήστε.",
-	'session_expired' => "Η σύνδεσή σας έληξε. Παρακαλώ ξαναφορτώστε τη σελίδα για να συνδεθείτε.",/* #2 (Συνεδρία αντί για σύνδεση?) */
+	'session_expired' => "Η σύνδεσή σας έληξε. Παρακαλώ ξαναφορτώστε τη σελίδα για να συνδεθείτε.",
 
 	'loggedinrequired' => "Πρέπει να συνδεθείτε για να δείτε τη ζητούμενη σελίδα.",
 	'adminrequired' => "Πρέπει να είστε διαχειριστής για να δείτε τη ζητούμενη σελίδα.",
@@ -42,21 +42,21 @@ return array(
 
 	'PluginException:MisconfiguredPlugin' => "Το %s (guid: %s) είναι ένα πρόσθετο με λάθος ρυθμίσεις και έχει απενεργοποιηθεί. Παρακαλώ ψάξτε στο wiki του Elgg για τις πιθανές αιτίες. (http://docs.elgg.org/wiki/).",
 	'PluginException:CannotStart' => 'Το %s (guid: %s) αδυνατεί να ξεκινήσει και απενεργοποιήθηκε. Αιτία: %s',
-	'PluginException:InvalidID' => "Το %s είναι ένα μη έγκυρο ID προσθέτου.", /* #2 [ID]: (να το πούμε αναγνωριστικό ή να το αφήσουμε έτσι?) */
+	'PluginException:InvalidID' => "Το %s είναι ένα μη έγκυρο ID προσθέτου.", 
 	'PluginException:InvalidPath' => "Το %s είναι ένα μη έγκυρο μονοπάτι προσθέτου.",
-	'PluginException:InvalidManifest' => 'Μη έγκυρο αρχείο  manifest για το πρόσθετο %s', /* #1 [manifest]: (Μη έγκυρο αρχείο Δήλωσης?) */
+	'PluginException:InvalidManifest' => 'Μη έγκυρο αρχείο δήλωσης (manifest) για το πρόσθετο %s', 
 	'PluginException:InvalidPlugin' => 'Το %s είναι ένα μη έγκυρο πρόσθετο.',
 	'PluginException:InvalidPlugin:Details' => 'Το %s είναι ένα μη έγκυρο πρόσθετο: %s',
-	'PluginException:NullInstantiated' => 'Το ElggPlugin δεν μπορεί να αρχικοποιηθεί με την τιμή null. Πρέπει να δώσετε ένα GUID, ένα ID προσθέτου, ή ένα πλήρες μονοπάτι.', /* #2 [ElggPlugin cannot be null instantiated. You must pass a GUID, a plugin ID, or a full path.] */
+	'PluginException:NullInstantiated' => 'Το ElggPlugin δεν μπορεί να αρχικοποιηθεί με την τιμή null. Πρέπει να δώσετε ένα GUID, ένα ID προσθέτου, ή ένα πλήρες μονοπάτι.', 
 	'ElggPlugin:MissingID' => 'Το ID του προσθέτου (guid %s) απουσιάζει',
-	'ElggPlugin:NoPluginPackagePackage' => 'Απουσία ElggPluginPackage για το ID πρόσθετου %s (guid %s)', /* ( 'για το ID πρόθετου' ή 'για πρόσθετο με ID'?) [Missing ElggPluginPackage for plugin ID %s (guid %s)] */
+	'ElggPlugin:NoPluginPackagePackage' => 'Απουσία ElggPluginPackage για το πρόσθετο με ID %s (guid %s)', 
 	'ElggPluginPackage:InvalidPlugin:MissingFile' => 'Το απαιτούμενο αρχείο "%s" απουσιάζει.',
-	'ElggPluginPackage:InvalidPlugin:InvalidId' => 'Ο φάκελος αυτού του πρόσθετου πρέπει να μετονομαστεί σε "%s" για να ταιριάζει με το ID του στο manifest.', /* #12 [in its manifest] */
+	'ElggPluginPackage:InvalidPlugin:InvalidId' => 'Ο φάκελος αυτού του πρόσθετου πρέπει να μετονομαστεί σε "%s" για να ταιριάζει με το ID του στο αρχείο δήλωσης(manifest).', /* #12 [in its manifest] */
 	'ElggPluginPackage:InvalidPlugin:InvalidDependency' => 'Το manifest περιλαμβάνει ένα μη έγκυρο είδος εξάρτησης "%s".', /* #12 [Its manifest contains an invalid dependency type "%s".] */
-	'ElggPluginPackage:InvalidPlugin:InvalidProvides' => 'Its manifest contains an invalid provides type "%s".', /* #1 + #12 [invalid provides] (Λογικά provides=ουσιαστικό) */
-	'ElggPluginPackage:InvalidPlugin:CircularDep' => 'Υπάρχει μία μη έγκυρη %s εξάρτηση "%s" στο πρόσθετο %s. Τα πρόσθετα δεν μπορούν να απαιτούν ή να έρχονται σε σύγκρουση με κάτι που τα ίδια παρέχουν!', /* #2 [Plugins cannot conflict with or require something they provide!] (ή αλλιώς 'με πληροφορίες που τα ίδια έχουν ως έξοδο') */
+	'ElggPluginPackage:InvalidPlugin:InvalidProvides' => 'Το αρχείο δήλωσης περιλαμβάνει ένα μη έγκυρο "%s" τύπο παρόχου. (Its manifest contains an invalid provides type "%s".)', /* #1 + #12 [invalid provides] (Λογικά provides=ουσιαστικό) */
+	'ElggPluginPackage:InvalidPlugin:CircularDep' => 'Υπάρχει μία μη έγκυρη %s εξάρτηση "%s" στο πρόσθετο %s. Τα πρόσθετα δεν μπορούν να απαιτούν ή να έρχονται σε σύγκρουση με πληροφορία που τα ίδια παρέχουν!', 
 	'ElggPlugin:Exception:CannotIncludeFile' => 'Το %s δεν μπορεί να περιληφθεί για το πρόσθετο %s (guid: %s) στο %s.',
-	'ElggPlugin:Exception:CannotRegisterViews' => 'Ο φάκελος προβολών δεν μπορεί να ανοιχτεί για το πρόσθετο %s (guid: %s) στο %s', /* #2 [Cannot open views dir for plugin %s (guid: %s) at %s.] */
+	'ElggPlugin:Exception:CannotRegisterViews' => 'Ο φάκελος \"views\" δεν μπορεί να ανοιχτεί για το πρόσθετο %s (guid: %s) στο %s', /* #2 [Cannot open views dir for plugin %s (guid: %s) at %s.] */
 	'ElggPlugin:Exception:CannotRegisterLanguages' => 'Η καταχώρηση γλωσσών για το πρόσθετο %s (guid: %s) στο %s είναι αδύνατη.', /* #2 [Cannot register languages for plugin %s (guid: %s) at %s.]*/
 	'ElggPlugin:Exception:NoID' => 'Το ID για το πρόσθετο guid %s δεν βρέθηκε!', /* #1 [No ID for plugin guid %s!] (στο string "με guid" ίσως το "guid" να μην χρειάζεται μετάφραση) */
 	'PluginException:NoPluginName' => "Το όνομα του πρόσθετου δεν μπόρεσε να εντοπιστεί",
