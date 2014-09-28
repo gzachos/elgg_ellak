@@ -51,18 +51,18 @@ return array(
 	'ElggPlugin:MissingID' => 'Το ID του προσθέτου (guid %s) απουσιάζει',
 	'ElggPlugin:NoPluginPackagePackage' => 'Απουσία ElggPluginPackage για το πρόσθετο με ID %s (guid %s)', 
 	'ElggPluginPackage:InvalidPlugin:MissingFile' => 'Το απαιτούμενο αρχείο "%s" απουσιάζει.',
-	'ElggPluginPackage:InvalidPlugin:InvalidId' => 'Ο φάκελος αυτού του πρόσθετου πρέπει να μετονομαστεί σε "%s" για να ταιριάζει με το ID του στο αρχείο δήλωσης(manifest).', /* #12 [in its manifest] */
-	'ElggPluginPackage:InvalidPlugin:InvalidDependency' => 'Το manifest περιλαμβάνει ένα μη έγκυρο είδος εξάρτησης "%s".', /* #12 [Its manifest contains an invalid dependency type "%s".] */
-	'ElggPluginPackage:InvalidPlugin:InvalidProvides' => 'Το αρχείο δήλωσης περιλαμβάνει ένα μη έγκυρο "%s" τύπο παρόχου. (Its manifest contains an invalid provides type "%s".)', /* #1 + #12 [invalid provides] (Λογικά provides=ουσιαστικό) */
+	'ElggPluginPackage:InvalidPlugin:InvalidId' => 'Ο φάκελος αυτού του πρόσθετου πρέπει να μετονομαστεί σε "%s" για να ταιριάζει με το ID του στο αρχείο δήλωσης(manifest).',
+	'ElggPluginPackage:InvalidPlugin:InvalidDependency' => 'Το αρχείο δήλωσης(manifest) περιλαμβάνει ένα μη έγκυρο είδος εξάρτησης "%s".',
+	'ElggPluginPackage:InvalidPlugin:InvalidProvides' => 'Το αρχείο δήλωσης (manifest) περιλαμβάνει ένα μη έγκυρο "%s" τύπο παρόχου. (Its manifest contains an invalid provides type "%s".)', /* #1 [invalid provides]*/
 	'ElggPluginPackage:InvalidPlugin:CircularDep' => 'Υπάρχει μία μη έγκυρη %s εξάρτηση "%s" στο πρόσθετο %s. Τα πρόσθετα δεν μπορούν να απαιτούν ή να έρχονται σε σύγκρουση με πληροφορία που τα ίδια παρέχουν!', 
 	'ElggPlugin:Exception:CannotIncludeFile' => 'Το %s δεν μπορεί να περιληφθεί για το πρόσθετο %s (guid: %s) στο %s.',
-	'ElggPlugin:Exception:CannotRegisterViews' => 'Ο φάκελος \"views\" δεν μπορεί να ανοιχτεί για το πρόσθετο %s (guid: %s) στο %s', /* #2 [Cannot open views dir for plugin %s (guid: %s) at %s.] */
+	'ElggPlugin:Exception:CannotRegisterViews' => 'Ο φάκελος \"views\" δεν μπορεί να ανοιχτεί για το πρόσθετο %s (guid: %s) στο %s',
 	'ElggPlugin:Exception:CannotRegisterLanguages' => 'Η καταχώρηση γλωσσών για το πρόσθετο %s (guid: %s) στο %s είναι αδύνατη.', /* #2 [Cannot register languages for plugin %s (guid: %s) at %s.]*/
-	'ElggPlugin:Exception:NoID' => 'Το ID για το πρόσθετο guid %s δεν βρέθηκε!', /* #1 [No ID for plugin guid %s!] (στο string "με guid" ίσως το "guid" να μην χρειάζεται μετάφραση) */
+	'ElggPlugin:Exception:NoID' => 'Το ID για το πρόσθετο με guid %s δεν βρέθηκε!', /* #2 [No ID for plugin guid %s!] */
 	'PluginException:NoPluginName' => "Το όνομα του πρόσθετου δεν μπόρεσε να εντοπιστεί",
 	'PluginException:ParserError' => 'Υπήρξε σφάλμα όταν έγινε προσπάθεια να διατρεχτεί το manifest με την έκδοση %s του API στο πρόσθετο %s' /* #2 [Error parsing manifest with API version %s in plugin %s.] */,
-	'PluginException:NoAvailableParser' => 'Δεν μπόρεσε να βρεθεί κάποιος parser για το manifest στην έκδοση API %s στο πρόσθετο %s.', /* #1 + #12 [Cannot find a parser for manifest API version %s in plugin %s.](parser:πρόγραμμα ανάλυσης, διατρέχον πρόγραμμα) (Λογικά το σωστό string στα Αγγλικά είναι "Cannot Find a parser for manifest by  API version %s in plugin %s." */
-	'PluginException:ParserErrorMissingRequiredAttribute' => "Το απαιτούμενο attribute '%s' λείπει από το manifest για το πρόσθετο %s.", /* #1 + #12 [attribute]:(χαρακτηριστικό)? */
+	'PluginException:NoAvailableParser' => 'Δεν μπόρεσε να βρεθεί κάποιος parser για το αρχείο δήλωσης (manifest) στην έκδοση API %s στο πρόσθετο %s.', /* #1 [Cannot find a parser for manifest API version %s in plugin %s.](parser:πρόγραμμα ανάλυσης, διατρέχον πρόγραμμα) (Λογικά το σωστό string στα Αγγλικά είναι "Cannot Find a parser for manifest by  API version %s in plugin %s." */
+	'PluginException:ParserErrorMissingRequiredAttribute' => "Το απαιτούμενο attribute '%s' λείπει από το αρχείο δήλωσης (manifest) για το πρόσθετο %s.", /* #1 [attribute]:(χαρακτηριστικό)? */
 	'ElggPlugin:InvalidAndDeactivated' => 'Το %s είναι μη έγκυρο πρόσθετο και έχει απενεργοποιηθεί.',
 
 	'ElggPlugin:Dependencies:Requires' => 'Απαιτεί',
@@ -94,7 +94,7 @@ return array(
 	'LoginException:ChangePasswordFailure' => 'Η επαλήθευση του κωδικού πρόσβασης απέτυχε.',
 	'LoginException:Unknown' => 'Η σύνδεση απέτυχε λόγω άγνωστου σφάλματος.',
 
-	'deprecatedfunction' => 'Προσοχή: Αυτός ο κώδικας χρησιμοποιεί την παρωχημένη συνάρτηση \'%s\' που δεν είναι συμβατή με αυτή την έκδοση του Elgg', /* #1 [Warning: This code uses the deprecated function \'%s\' and is not compatible with this version of Elgg] {[deprecated]:(παρωχημένη/απαρχαιομένη συνάρτηση) }*/
+	'deprecatedfunction' => 'Προσοχή: Αυτός ο κώδικας χρησιμοποιεί την παρωχημένη συνάρτηση \'%s\' που δεν είναι συμβατή με αυτή την έκδοση του Elgg',
 
 	'pageownerunavailable' => 'Προσοχή: Ο ιδιοκτήτης %d της σελίδας δεν μπορεί να προβληθεί!',
 	'viewfailure' => 'Υπήρξε εσωτερικό σφάλμα κατά την προβολή %s', /* #2 [There was an internal failure in the view %s] */
