@@ -17,7 +17,7 @@ $greek = array(
  * Sessions
  */
 
-	'login' => "Εισαγωγή",
+	'login' => "Εισαγωγή", /* # */
 	'loginok' => "Έχετε συνδεθεί.",
 	'loginerror' => "Η σύνδεση απέτυχε. Παρακαλώ ελέγξτε τα διαπιστευτήριά σας και προσπαθήστε ξανά.",
 	'login:empty' => "Απαιτούνται όνομα/email και κωδικός.",
@@ -26,11 +26,11 @@ $greek = array(
 
 	'logout' => "Αποσύνδεση",
 	'logoutok' => "Έχετε αποσυνδεθεί.",
-	'logouterror' => "Δεν μπορείσαμε να σας αποσυνδέσομε. Παρακαλώ προσπαθείστε ξανά.",
+	'logouterror' => "Δεν μπορέσαμε να σας αποσυνδέσουμε. Παρακαλώ προσπαθήστε ξανά.",
 
 	'loggedinrequired' => "Πρέπει να είστε συνδεδεμένος για να δείτε αυτή τη σελίδα.",
 	'adminrequired' => "Πρέπει να είστε διαχειριστής για να δείτε αυτή τη σελίδα.",
-	'membershiprequired' => "Πρέπει να είστε μέλος αυτού του περιστατικού για να δείτε αυτή τη σελίδα.",
+	'membershiprequired' => "Πρέπει να είστε μέλος αυτού του περιστατικού για να δείτε αυτή τη σελίδα.",/* # */
 
 
 /**
@@ -39,7 +39,7 @@ $greek = array(
 	'exception:title' => "Ανεπανόρθωτο Σφάλμα.",
 	'exception:contact_admin' => 'Συνέβει ένα ανεπανόρθωτο σφάλμα και έχει καταχωρηθεί. Επικοινωνήστε με τον διαχειρηστή της σελίδας στέλνοντας τις παρακάτω πληροφορίες:',
 
-	'actionundefined' => "Η ζητούμενη δράση (%s) δεν έχει οριστεί στο σύστημα.",
+	'actionundefined' => "Η ζητούμενη δράση (%s) δεν έχει οριστεί στο σύστημα.",/* # */
 	'actionnotfound' => "Το αρχείο δράσης για %s δε βρέθηκε.",
 	'actionloggedout' => "Συγγνώμη, δεν μπορείτε να κάνετε αυτή τη δράση όταν είστε αποσυνδεδεμένος.",
 	'actionunauthorized' => 'Δεν έχετε εξουσιοδότηση για να πράξετε αυτή τη δράση',
@@ -52,7 +52,7 @@ $greek = array(
 	'SecurityException:Codeblock' => "Η πρόσβαση για εκτέλεση προνομιακού κομματιού κώδικα απορρίφθηκε",
 	'DatabaseException:WrongCredentials' => "Το σύστημα δεν μπόρεσε να συνδεθεί στη βάση δεδομένων χρησιμοποιώντας τα δοσμένα πιστοποιητικά. Ελέγξτε το αρχείο ρυθμίσεων.",
 	'DatabaseException:NoConnect' => "Το σύστημα δεν μπόρεσε να επιλέξει τη βάση δεδομένων '%s', παρακαλώ ελέγξτε ότι η βάση δεδομένων έχει δημιουργηθεί και ότι έχετε πρόσβαση σε αυτή.",
-	'SecurityException:FunctionDenied' => "Η πρόσβαση στην προνομιακή συνάρτηση '%s' απορρίφθηκε.",
+	'SecurityException:FunctionDenied' => "Η πρόσβαση στην προνομιακή συνάρτηση '%s' απορρίφθηκε.",/* # */
 	'DatabaseException:DBSetupIssues' => "Παρουσιάστηκε ένας αριθμός προβλημάτων: ",
 	'DatabaseException:ScriptNotFound' => "Το σύστημα δεν μπόρεσε να βρει το ζητούμενο σενάριο βάσης δεδομένων στο %s.",
 	'DatabaseException:InvalidQuery' => "Άκυρο ερώτημα",
@@ -62,7 +62,7 @@ $greek = array(
 	'InvalidParameterException:NonElggObject' => "Περνάτε ένα non-ElggObject σε ένα ElggObject κατασκευαστή!",
 	'InvalidParameterException:UnrecognisedValue' => "Μη αναγνωρισμένη τιμή πέρασε στον κατασκευαστή.",
 
-	'InvalidClassException:NotValidElggStar' => "Το GUID:%d δεν είναι δόκιμο %s",
+	'InvalidClassException:NotValidElggStar' => "Το GUID:%d δεν είναι δόκιμο %s",/* # */
 
 	'PluginException:MisconfiguredPlugin' => "Το %s (guid: %s) είναι ένα κακώς ρυθμισμένο πρόσθετο. Απενεργοποιήθηκε.",
 	'PluginException:CannotStart' => 'Το %s (guid: %s) δεν μπόρεσε να ξεκινήσει και έχει απενεργοποιηθεί.  Λόγος: %s',
@@ -71,13 +71,13 @@ $greek = array(
 	'PluginException:InvalidManifest' => 'Άκυρο αρχείο μανιφέστου για το πρόσθετο %s',
 	'PluginException:InvalidPlugin' => 'Το %s δεν είναι δόκιμο πρόσθετο.',
 	'PluginException:InvalidPlugin:Details' => 'Το %s δεν είναι δόκιμο πρόσθετο: %s',
-	'PluginException:NullInstantiated' => 'Το ElggPlugin δεν μπορεί να δημιουργήσει στιγμιότυπο με null είσοδο. Πρέπει να περάσετε ένα GUID, ένα ID πρόσθετου ή ένα πλήρες μονοπάτι.',
+	'PluginException:NullInstantiated' => 'Το ElggPlugin δεν μπορεί να δημιουργήσει στιγμιότυπο με null είσοδο. Πρέπει να περάσετε ένα GUID, ένα ID πρόσθετου ή ένα πλήρες μονοπάτι.',/* # */
 
 	'ElggPlugin:MissingID' => 'Λείπει το ID του πρόσθετου (guid %s)',
 	'ElggPlugin:NoPluginPackagePackage' => 'Λείπει το ElggPluginPackage για το ID του πρόσθετου %s (guid %s)',
 
 	'ElggPluginPackage:InvalidPlugin:MissingFile' => 'Το απαιτούμενο αρχείο "%s" λείπει.',
-	'ElggPluginPackage:InvalidPlugin:InvalidDependency' => 'Το μανιφέστο του περιέχει ένα άκυρο τύπο εξάρτησης "%s".',
+	'ElggPluginPackage:InvalidPlugin:InvalidDependency' => 'Το μανιφέστο του περιέχει ένα άκυρο τύπο εξάρτησης "%s".',/* # */
 	'ElggPluginPackage:InvalidPlugin:InvalidProvides' => 'Το μανιφέστο του περιέχει ένα άκυρο τύπο παροχής "%s".',
 	'ElggPluginPackage:InvalidPlugin:CircularDep' => 'Υπάρχει μία άκυρη εξάρτηση %s "%s" στο πρόσθετο %s. Τα πρόσθετα δεν μπορούν να συγκρούονται ή να απαιτούν κάτι που αυτά παρέχουν!',
 
@@ -87,7 +87,7 @@ $greek = array(
 	'ElggPlugin:Exception:NoID' => 'Δεν υπάρχει ID για το plugin guid %s!',
 
 	'PluginException:ParserError' => 'Λάθος κατά την ανάλυση του μανιφέστου με API έκδοση %s στο πρόσθετο %s.',
-	'PluginException:NoAvailableParser' => 'Δεν μπορεί να εντοπιστεί αναλυτής για το μανιφέστο με API έκδοση %s στο πρόσθετο %s.',
+	'PluginException:NoAvailableParser' => 'Δεν μπορεί να εντοπιστεί αναλυτής για το μανιφέστο με API έκδοση %s στο πρόσθετο %s.',/* # */
 	'PluginException:ParserErrorMissingRequiredAttribute' => "Λείπει απαιτούμενο '%s' χαρακτηριστικό στο μανιφέστο για το πρόσθετο %s.",
 
 	'ElggPlugin:Dependencies:Requires' => 'Απαιτεί',
@@ -159,17 +159,17 @@ $greek = array(
 	'DatabaseException:NoTablesSpecified' => "Δεν ορίστηκαν πίνακες για το ερώτημα.",
 	'DatabaseException:NoACL' => "Δεν παράχθηκε έλεγχος πρόσβασης στο ερώτημα",
 
-	'InvalidParameterException:NoEntityFound' => "Δεν βρέθηκε οντόντητα, είτε δεν υπάρχει ή δεν έχετε πρόσβαση σε αυτή.",
+	'InvalidParameterException:NoEntityFound' => "Δεν βρέθηκε οντόντητα, είτε δεν υπάρχει ή δεν έχετε πρόσβαση σε αυτή.",/* # */
 
 	'InvalidParameterException:GUIDNotFound' => "Το GUID:%s δεν μπόρεσε να βρεθεί ή δεν μπορείτε να το προσπελάσετε.",
 	'InvalidParameterException:IdNotExistForGUID' => "Συγγνώμη, το '%s' δεν υπάρχει για το guid:%d",
-	'InvalidParameterException:CanNotExportType' => "Συγγνώμη, δεν ξέρω πώς να εξάγω το '%s'",
+	'InvalidParameterException:CanNotExportType' => "Συγγνώμη, δεν ξέρω πώς να εξάγω το '%s'",/* # */
 	'InvalidParameterException:NoDataFound' => "Δεν βρέθηκαν δεδομένα.",
 	'InvalidParameterException:DoesNotBelong' => "Δεν ανήκει στην οντότητα.",
 	'InvalidParameterException:DoesNotBelongOrRefer' => "Δεν ανήκει στην οντότητα ή δεν αναφέρεται σε οντότητα.",
 	'InvalidParameterException:MissingParameter' => "Λείπουν παράμετροι, πρέπει να παρέχετε ένα GUID.",
 	'InvalidParameterException:LibraryNotRegistered' => 'Το %s δεν είναι καταχωρημένη βιβλιοθήκη',
-	'InvalidParameterException:LibraryNotFound' => 'Η βιβλιοθήκη %s δεν μπόρεσε να φορτωθέι από %s',
+	'InvalidParameterException:LibraryNotFound' => 'Η βιβλιοθήκη %s δεν μπόρεσε να φορτωθεί από %s',
 
 	'APIException:ApiResultUnknown' => "Το αποτέλεσμα API έχει άγνωστο τύπο, αυτό δε θα έπρεπε να συμβαίνει ποτέ.",
 	'ConfigurationException:NoSiteID' => "Δεν έχει οριστεί ID ιστοσελίδας.",
@@ -240,7 +240,7 @@ $greek = array(
 	'error:missing_data' => 'Έλειπαν κάποια δεδομένα από το έτημά σας',
 
 	'error:default' => 'Ουψ...κάτι πήγε στραβά.',
-	'error:404' => 'Συγγνώμη. Δεν μπορέσαμε να βρούμε τη σελίδα που αιτηθήκατε.',
+	'error:404' => 'Συγγνώμη. Δεν μπορέσαμε να βρούμε τη σελίδα που αιτηθήκατε.',/* # */
 
 /**
  * API
@@ -257,7 +257,7 @@ $greek = array(
 	'username' => "Όνομα χρήστη",
 	'loginusername' => "Όνομα χρήστη ή email",
 	'password' => "Κωδικός",
-	'passwordagain' => "Κωδικός (ξανά για επαλήθευση)",
+	'passwordagain' => "Κωδικός (ξανά για επαλήθευση)",/* # */
 	'admin_option' => "Θέλετε να κάνετε αυτόν τον χρήστη διαχειριστή?",
 
 /**
@@ -279,14 +279,14 @@ $greek = array(
 	'dashboard' => "Πίνακας",
 	'dashboard:nowidgets' => "Ο πίνακας σας σας δίνει τη δυνατότητα να ακολουθείτε τις δραστηριότητες και το περιεχόμενο που σας ενδιαφέρουν στη σελίδα.",
 
-	'widgets:add' => 'Προσθήκη widgets',
+	'widgets:add' => 'Προσθήκη widgets',/* # */
 	'widgets:add:description' => "Πατήστε σε οποιοδήποτε κουμπί των widget παρακάτω για να το προσθέσετε στη σελίδα.",
 	'widgets:position:fixed' => '(Σταθερή θέση στη σελίδα)',
 	'widget:unavailable' => 'Έχετε ήδη προσθέσει αυτό το widget',
 	'widget:numbertodisplay' => 'Αριθμός αντικειμένων για εμφάνιση',
 
 	'widget:delete' => 'Αφαίρεση %s',
-	'widget:edit' => 'Προσαρμόστε αυτό το widget',
+	'widget:edit' => 'Προσαρμόστε αυτό το widget',/* # */
 
 	'widgets' => "Widgets",
 	'widget' => "Widget",
@@ -316,7 +316,7 @@ $greek = array(
  * Friends
  */
 
-	'friends' => "Συνεργάτες",
+	'friends' => "Συνεργάτες",/* # */
 	'friends:yours' => "Οι συνεργάτες σου",
 	'friends:owned' => "Οι συνεργάτες του %s",
 	'friend:add' => "Προσθέστε έναν συνεργάτη",
@@ -329,7 +329,7 @@ $greek = array(
 	'friends:remove:failure' => "Δεν μπορέσαμε να αφαιρέσουμε τον %s από τους συνεργάτες σας.",
 
 	'friends:none' => "Δεν υπάρχουν ακόμα συνεργάτες.",
-	'friends:none:you' => "Δεν έχετε ακόμα κανένα συνεργάτηYou don't have any friends yet.",
+	'friends:none:you' => "Δεν έχετε ακόμα κανένα συνεργάτη.",/* # */
 
 	'friends:none:found' => "Δε βρέθηκαν συνεργάτες.",
 
@@ -352,13 +352,13 @@ $greek = array(
 	'friends:collectionadded' => "Η συλλογή σας δημιουργήθηκε επιτυχώς",
 	'friends:nocollectionname' => "Πρέπει να δώσετε στη συλλογή σας όνομα πριν μπορέσει να δημιουργηθεί.",
 	'friends:collections:members' => "Μέλη συλλογής",
-	'friends:collections:edit' => "Επεξεργασία συλλογήςEdit collection",
+	'friends:collections:edit' => "Επεξεργασία συλλογής",
 	'friends:collections:edited' => "Αποθηκευμένη συλλογή",
 	'friends:collection:edit_failed' => 'Η συλλογή δεν μπόρεσε να αποθηκευτεί.',
 
-	'friendspicker:chararray' => 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+	'friendspicker:chararray' => 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',/* # */
 
-	'avatar' => 'Άβαταρ',
+	'avatar' => 'Άβαταρ',/* # */
 	'avatar:create' => 'Δημιουργήστε το αβατάρ σας',
 	'avatar:edit' => 'Επεξεργασία άβαταρ',
 	'avatar:preview' => 'Προεπισκόπηση',
@@ -428,7 +428,7 @@ $greek = array(
 /**
  * River
  */
-	'river' => "Ποτάμι",
+	'river' => "Ποτάμι",/* # */
 	'river:friend:user:default' => "Ο %s είναι τώρα φίλος με τον %s",
 	'river:update:user:avatar' => 'Ο %s έχει νέα φωτογραφία',
 	'river:update:user:profile' => 'Ο %s έχει ανανεώσει το προφίλ του',
@@ -556,7 +556,7 @@ $greek = array(
  */
 	'menu:page:header:administer' => 'Διαχείρηση',
 	'menu:page:header:configure' => 'Ρυθμίσεις',
-	'menu:page:header:develop' => 'Ανάπτηξη',
+	'menu:page:header:develop' => 'Ανάπτυξη',
 	'menu:page:header:default' => 'Λοιπά',
 
 	'admin:view_site' => 'Δείτε τον ιστότοπο',
@@ -564,13 +564,13 @@ $greek = array(
 	'admin:menu' => 'Μενού',
 
 	'admin:configuration:success' => "Οι ρυθμίσεις σας αποθηκεύτηκαν.",
-	'admin:configuration:fail' => "Οι ρθυμίσεις σας δεν μπόρεσαν να αποθηκευτούν.",
-	'admin:configuration:dataroot:relative_path' => 'Δεν μπορείτε να θέσετε το "%s" ως dataroot γιατί δεν είναι απόλυτο μονοπατί.',
+	'admin:configuration:fail' => "Οι ρυθμίσεις σας δεν μπόρεσαν να αποθηκευτούν.",
+	'admin:configuration:dataroot:relative_path' => 'Δεν μπορείτε να θέσετε το "%s" ως dataroot γιατί δεν είναι απόλυτο μονοπατί.',/* # */
 
-	'admin:unknown_section' => 'Άκυρο τμήμα διαχειρηστή.',
+	'admin:unknown_section' => 'Άκυρο τμήμα διαχειριστή.',
 
-	'admin' => "Διαχείρηση",
-	'admin:description' => "Το πεδίο του διαχειριστή επιτρέπει τον έλεγχο όλων των πλευρών του συστήματος, από διαχείρηση των χρηστών μέχρι το πώς συμπεριφέρονται τα πρόσθετα. Επίλέξτε μια επιλογή για να ξεκινήσετε.",
+	'admin' => "Διαχείριση",
+	'admin:description' => "Το πεδίο του διαχειριστή επιτρέπει τον έλεγχο όλων των πλευρών του συστήματος, από διαχείριση των χρηστών μέχρι το πώς συμπεριφέρονται τα πρόσθετα. Επίλέξτε μια επιλογή για να ξεκινήσετε.",
 
 	'admin:statistics' => "Στατιστικά",
 	'admin:statistics:overview' => 'Περίληψη',
@@ -582,7 +582,7 @@ $greek = array(
 
 	'admin:users' => "Χρήστες",
 	'admin:users:online' => 'Αυτή τη στιγμή συνδεδεμένοι',
-	'admin:users:newest' => 'Νεότερος',
+	'admin:users:newest' => 'Νεότερος',/* # */
 	'admin:users:admins' => 'Διαχειριστές',
 	'admin:users:add' => 'Προσθέστε νέο χρήστη',
 	'admin:users:description' => "Αυτό το πεδίο διαχειριστή σας επιτρέπει να ελέγχετε τις ρυθμίσεις χρηστών στον ιστότοπό σας. Επιλέξτε μια από τις παρακάτω επιλογές για να ξεκινήσετε.",
@@ -633,15 +633,15 @@ $greek = array(
 	'admin:cache:flushed' => "Οι caches του ιστότοπου έχουν καθαριστεί",
 
 	'admin:footer:faq' => 'FAQ Διαχειριστή',
-	'admin:footer:manual' => 'Βιβλίο οδηγειών διαχειριστή',
-	'admin:footer:community_forums' => 'Φόρα κοινώτητας Elgg',
+	'admin:footer:manual' => 'Βιβλίο οδηγιών διαχειριστή',
+	'admin:footer:community_forums' => 'Φόρα κοινότητας Elgg',
 	'admin:footer:blog' => 'Elgg Blog',
 
 	'admin:plugins:category:all' => 'Όλα τα πρόσθετα',
 	'admin:plugins:category:active' => 'Ενεργά πρόσθετα',
 	'admin:plugins:category:inactive' => 'Ανενεργά πρόσθετα',
 	'admin:plugins:category:admin' => 'Διαχειριστής',
-	'admin:plugins:category:bundled' => 'Ομαδοποιημένα',
+	'admin:plugins:category:bundled' => 'Ομαδοποιημένα',/* # */
 	'admin:plugins:category:nonbundled' => 'Μη-ομαδοποιημένα',
 	'admin:plugins:category:content' => 'Περιεχόμενο',
 	'admin:plugins:category:development' => 'Ανάπτυξη',
@@ -685,16 +685,16 @@ $greek = array(
 	'admin:plugins:activate' => 'Ενεργοποίηση',
 	'admin:plugins:deactivate' => 'Απενεργοποίηση',
 	'admin:plugins:description' => "Αυτός ο πίνακας του διαχειριστή επιτρέπει τον έλεγχο και την ρύθμιση των εργαλέιων που είναι εγκατεστημένα στον ιστότοπό σας.",
-	'admin:plugins:opt:linktext' => "Ρ΄θυμιση εργαλείων...",
+	'admin:plugins:opt:linktext' => "Ρύθμιση εργαλείων...",
 	'admin:plugins:opt:description' => "Ρύθμιση των εργαλέιων που είναι εγκατεστημένα σε αυτόν τον ιστότοπο. ",
 	'admin:plugins:label:author' => "Συγγραφέας",
-	'admin:plugins:label:copyright' => "Copyright",
+	'admin:plugins:label:copyright' => "Copyright",/* # */
 	'admin:plugins:label:categories' => 'Κατηγορίες',
 	'admin:plugins:label:licence' => "Άδεια",
 	'admin:plugins:label:website' => "Διεύθυνση",
 	'admin:plugins:label:repository' => "Κώδικας",
 	'admin:plugins:label:bugtracker' => "Αναφορά προβλήματος",
-	'admin:plugins:label:donate' => "Προσφορά",
+	'admin:plugins:label:donate' => "Προσφορά",/* # */
 	'admin:plugins:label:moreinfo' => 'περισσότερες πλήροφορίες',
 	'admin:plugins:label:version' => 'Έκδοση',
 	'admin:plugins:label:location' => 'Τοποθεσία',
@@ -749,16 +749,16 @@ $greek = array(
 	'admin:server:label:php_ini' => 'Τοποθεσία PHP ini αρχείου',
 	'admin:server:label:php_log' => 'PHP Log',
 	'admin:server:label:mem_avail' => 'Μνήμη διαθέσιμη',
-	'admin:server:label:mem_used' => 'Μνήμη κατελειμμένη',
+	'admin:server:label:mem_used' => 'Μνήμη κατελειμμένη',/* # */
 	'admin:server:error_log' => "Οι καταγραφές σφαλμάτων του Web εξυπηρετητή",
-	'admin:server:label:post_max_size' => 'POST μέγιστο μέγεθος',
+	'admin:server:label:post_max_size' => 'POST μέγιστο μέγεθος',/* # */
 	'admin:server:label:upload_max_filesize' => 'Ανέβασμα μέγιστο μέγεθος',
 	'admin:server:warning:post_max_too_small' => '(Σημείωση: το post_max_size πρέπει να είναι μεγαλύτερο από αυτή την τιμή για να υπόστηρίζει ανέβασμα αρχείων αυτού του μεγέθους)',
 
 	'admin:user:label:search' => "Εύρεση χρηστών:",
 	'admin:user:label:searchbutton' => "Αναζήτηση",
 
-	'admin:user:ban:no' => "Δεν γίνεται να απαγορευτεί ο χρήστης",
+	'admin:user:ban:no' => "Δεν γίνεται να απαγορευτεί ο χρήστης",/* # */
 	'admin:user:ban:yes' => "Έγινε άρση απαγόρευσης του χρήστη.",
 	'admin:user:self:ban:no' => "Δεν μπορείτε να απογορεύσετε τον ευατό σας",
 	'admin:user:unban:no' => "Δεν γίνεται να αρθεί η απαγόρευση του χρήστη",
