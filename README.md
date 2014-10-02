@@ -54,7 +54,7 @@ Translation Progress
  - [x] __Search__ (349-375)
  - [x] __Account__ (376-439)
  - [x] __Administration__ (440-576)
- - [ ] __Plugins__ (577-717)
+ - [x] __Plugins__ (577-717)
  - [ ] __User Settings__ (718-744)
  - [ ] __Activity river__ (745-762)
  - [ ] __Icons__ (763-774)

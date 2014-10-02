@@ -589,142 +589,146 @@ return array(
  * Plugins
  */
 
-	'plugins:disabled' => 'Plugins are not being loaded because a file named "disabled" is in the mod directory.',
-	'plugins:settings:save:ok' => "Settings for the %s plugin were saved successfully.",
-	'plugins:settings:save:fail' => "There was a problem saving settings for the %s plugin.",
-	'plugins:usersettings:save:ok' => "User settings for the %s plugin were saved successfully.",
-	'plugins:usersettings:save:fail' => "There was a problem saving  user settings for the %s plugin.",
-	'item:object:plugin' => 'Plugins',
+	'plugins:disabled' => 'Τα πρόσθετα δεν φορτώνονται επειδή υπάρχει ένα αρχείο με το όνομα "disabled" στο φάκελο mod.', /* #1 [Plugins are not being loaded because a file named "disabled" is in the mod directory.] */
+	'plugins:settings:save:ok' => "Οι ρυθμίσεις για το πρόσθετο %s αποθηκεύτηκαν επιτυχώς.",
+	'plugins:settings:save:fail' => "Υπήρξε πρόβλημα κατά την αποθήκευση των ρυθμίσεων για το πρόσθετο %s.",
+	'plugins:usersettings:save:ok' => "Οι ρυθμίσεις χρήστη για το πρόσθετο %s αποθηκεύτηκαν επιτυχώς.",
+	'plugins:usersettings:save:fail' => "Υπήρξε πρόβλημα κατά την αποθήκευση των ρυθμίσεων χρήστη για το πρόσθετο %s.",
+	'item:object:plugin' => 'Πρόσθετα',
 
-	'admin:plugins' => "Plugins",
-	'admin:plugins:activate_all' => 'Activate All',
-	'admin:plugins:deactivate_all' => 'Deactivate All',
-	'admin:plugins:activate' => 'Activate',
-	'admin:plugins:deactivate' => 'Deactivate',
-	'admin:plugins:description' => "This admin panel allows you to control and configure tools installed on your site.",
-	'admin:plugins:opt:linktext' => "Configure tools...",
-	'admin:plugins:opt:description' => "Configure the tools installed on the site. ",
-	'admin:plugins:label:author' => "Author",
-	'admin:plugins:label:copyright' => "Copyright",
-	'admin:plugins:label:categories' => 'Categories',
-	'admin:plugins:label:licence' => "License",
-	'admin:plugins:label:website' => "URL",
-	'admin:plugins:label:repository' => "Code",
-	'admin:plugins:label:bugtracker' => "Report issue",
-	'admin:plugins:label:donate' => "Donate",
-	'admin:plugins:label:moreinfo' => 'more info',
-	'admin:plugins:label:version' => 'Version',
-	'admin:plugins:label:location' => 'Location',
-	'admin:plugins:label:contributors' => 'Contributors',
-	'admin:plugins:label:contributors:name' => 'Name',
-	'admin:plugins:label:contributors:email' => 'E-mail',
-	'admin:plugins:label:contributors:website' => 'Website',
-	'admin:plugins:label:contributors:username' => 'Community username',
-	'admin:plugins:label:contributors:description' => 'Description',
-	'admin:plugins:label:dependencies' => 'Dependencies',
+	'admin:plugins' => "Πρόσθετα",
+	'admin:plugins:activate_all' => 'Ενεργοποίηση όλων',
+	'admin:plugins:deactivate_all' => 'Απενεργοποίηση όλων',
+	'admin:plugins:activate' => 'Ενεργοποίηση',
+	'admin:plugins:deactivate' => 'Απενεργοποίηση',
+	'admin:plugins:description' => "Αυτός ο πίνακας ελέγχου διαχειριστή επιτρέπει τον έλεγχο και configure των εγκατεστημένων εργαλείων στη σελίδα σας.", /*333*/
+	'admin:plugins:opt:linktext' => "Διαμόρφωση εργαλείων...", /* #12 */
+	'admin:plugins:opt:description' => "Διαμορφώστε τα εργαλεία που έχουν εγκατασταθεί στη σελίδα. ", /* #12 */
+	'admin:plugins:label:author' => "Συγγραφέας",/* #2 [Author] */
+	'admin:plugins:label:copyright' => "Πνευματικό δικαίωμα",/* #2 (πνευματικά δικαιώματα) */
+	'admin:plugins:label:categories' => 'Κατηγορίες',
+	'admin:plugins:label:licence' => "Άδεια", /*2 (άδεια χρήσης) */
+	'admin:plugins:label:website' => "Υπερσύνδεσμος", 
+	'admin:plugins:label:repository' => "Κώδικας",
+	'admin:plugins:label:bugtracker' => "Αναφορά προβλήματος",
+	'admin:plugins:label:donate' => "Δωρεά",/* [Donate] */
+	'admin:plugins:label:moreinfo' => 'περισσότερες πληροφορίες',
+	'admin:plugins:label:version' => 'Έκδοση',
+	'admin:plugins:label:location' => 'Τοποθεσία',
+	'admin:plugins:label:contributors' => 'Συντελεστές',/* #2 [Contributors] */
+	'admin:plugins:label:contributors:name' => 'Όνομα',
+	'admin:plugins:label:contributors:email' => 'Διεύθυνση ηλ. ταχυδρομείου',
+	'admin:plugins:label:contributors:website' => 'Ιστοσελίδα',
+	'admin:plugins:label:contributors:username' => 'Όνομα χρήστη στην κοινότητα',/* #2 [Community username] */
+	'admin:plugins:label:contributors:description' => 'Περιγραφή',
+	'admin:plugins:label:dependencies' => 'Εξαρτήσεις', /* #2 [Dependencies] */
 
-	'admin:plugins:warning:elgg_version_unknown' => 'This plugin uses a legacy manifest file and does not specify a compatible Elgg version. It probably will not work!',
-	'admin:plugins:warning:unmet_dependencies' => 'This plugin has unmet dependencies and cannot be activated. Check dependencies under more info.',
-	'admin:plugins:warning:invalid' => 'This plugin is invalid: %s',
-	'admin:plugins:warning:invalid:check_docs' => 'Check <a href="http://docs.elgg.org/Invalid_Plugin">the Elgg documentation</a> for troubleshooting tips.',
-	'admin:plugins:cannot_activate' => 'cannot activate',
+	'admin:plugins:warning:elgg_version_unknown' => 'Αυτό το πρόσθετο χρησιμοποιεί ένα αρχείο δήλωσης(manifest) τύπου legacy και δεν καθορίζει κάποια συμβατή έκδοση του Elgg. Πιθανόν να μη δουλέψει!', /* [legacy](μετάφραση?) */
+	'admin:plugins:warning:unmet_dependencies' => 'Αυτό το πρόσθετο έχει ανικανοποίητες εξαρτήσεις και δεν μπορεί να ενεργοποιηθεί. Ελέγξτε τις εξαρτήσεις στο πλαίσιο των περισσότερων πληροφοριών.', /* #2 [Check dependencies under more info.] */
+	'admin:plugins:warning:invalid' => 'Αυτό το πρόσθετο είναι μη έγκυρο: %s',
+	'admin:plugins:warning:invalid:check_docs' => 'Ελέγξτε <a href="http://docs.elgg.org/Invalid_Plugin"> το εγχειρίδιο του Elgg </a> για συμβουλές επίλυσης.',/* #2 [documentation] */
+	'admin:plugins:cannot_activate' => 'αδυναμία ενεργοποίησης',
 
-	'admin:plugins:set_priority:yes' => "Reordered %s.",
-	'admin:plugins:set_priority:no' => "Could not reorder %s.",
-	'admin:plugins:set_priority:no_with_msg' => "Could not reorder %s. Error: %s",
-	'admin:plugins:deactivate:yes' => "Deactivated %s.",
-	'admin:plugins:deactivate:no' => "Could not deactivate %s.",
-	'admin:plugins:deactivate:no_with_msg' => "Could not deactivate %s. Error: %s",
-	'admin:plugins:activate:yes' => "Activated %s.",
-	'admin:plugins:activate:no' => "Could not activate %s.",
-	'admin:plugins:activate:no_with_msg' => "Could not activate %s. Error: %s",
-	'admin:plugins:categories:all' => 'All categories',
-	'admin:plugins:plugin_website' => 'Plugin website',
+	'admin:plugins:set_priority:yes' => "Το %s αναδιατάχθηκε.",
+	'admin:plugins:set_priority:no' => "Αδυναμία αναδιάταξης του %s.",
+	'admin:plugins:set_priority:no_with_msg' => "Αδυναμία αναδιάταξης του %s. Σφάλμα: %s",
+	'admin:plugins:deactivate:yes' => "Το %s απενεργοποιήθηκε.",
+	'admin:plugins:deactivate:no' => "Αδυναμία απενεργοποίησης του %s.",
+	'admin:plugins:deactivate:no_with_msg' => "Αδυναμία απενεργοποίησης του %s. Σφάλμα: %s",
+	'admin:plugins:activate:yes' => "Το %s ενεργοποιήθηκε.",
+	'admin:plugins:activate:no' => "Αδυναμία ενεργοποίησης του %s.",
+	'admin:plugins:activate:no_with_msg' => "Αδυναμία ενεργοποίησης του %s. Σφάλμα: %s",
+	'admin:plugins:categories:all' => 'Όλες οι κατηγορίες',
+	'admin:plugins:plugin_website' => 'Ιστοσελίδα πρόσθετου',
 	'admin:plugins:author' => '%s',
-	'admin:plugins:version' => 'Version %s',
-	'admin:plugin_settings' => 'Plugin Settings',
-	'admin:plugins:warning:unmet_dependencies_active' => 'This plugin is active but has unmet dependencies. You may encounter problems. See "more info" below for details.',
+	'admin:plugins:version' => 'Έκδοση  %s',
+	'admin:plugin_settings' => 'Ρυθμίσεις πρόσθετου',
+	'admin:plugins:warning:unmet_dependencies_active' => 'Αυτό το πρόσθετο είναι ενεργό αλλά έχει ανικανοποίητες εξαρτήσεις. Μπορεί να αντιμετωπίσετε προβλήματα. Πατήστε στο "περισσότερες πληροφορίες" για λεπτομέρειες.',
 
-	'admin:plugins:dependencies:type' => 'Type',
-	'admin:plugins:dependencies:name' => 'Name',
-	'admin:plugins:dependencies:expected_value' => 'Expected Value',
-	'admin:plugins:dependencies:local_value' => 'Actual value',
-	'admin:plugins:dependencies:comment' => 'Comment',
+	'admin:plugins:dependencies:type' => 'Τύπος',
+	'admin:plugins:dependencies:name' => 'Όνομα',
+	'admin:plugins:dependencies:expected_value' => 'Αναμενώμενη τιμή',
+	'admin:plugins:dependencies:local_value' => 'Πραγματική τιμή',
+	'admin:plugins:dependencies:comment' => 'Σχόλιο',
 
-	'admin:statistics:description' => "This is an overview of statistics on your site. If you need more detailed statistics, a professional administration feature is available.",
-	'admin:statistics:opt:description' => "View statistical information about users and objects on your site.",
-	'admin:statistics:opt:linktext' => "View statistics...",
-	'admin:statistics:label:basic' => "Basic site statistics",
-	'admin:statistics:label:numentities' => "Entities on site",
-	'admin:statistics:label:numusers' => "Number of users",
-	'admin:statistics:label:numonline' => "Number of users online",
-	'admin:statistics:label:onlineusers' => "Users online now",
-	'admin:statistics:label:admins'=>"Admins",
-	'admin:statistics:label:version' => "Elgg version",
-	'admin:statistics:label:version:release' => "Release",
-	'admin:statistics:label:version:version' => "Version",
+	'admin:statistics:description' => "Αυτή είναι μια επισκόπηση των στατιστικών στοιχείων στη σελίδα σας. Αν χρειάζεστε πιο λεπτομερή στοιχεία, ένα επαγγελματικό feature διαχείρισης είναι διαθέσιμο.", /* #1 [feature]] */
+	'admin:statistics:opt:description' => "Προβολή στατιστικών πληροφοριών για τους χρήστες και τα αντικείμενα στη σελίδα σας.",
+	'admin:statistics:opt:linktext' => "Προβολή στατιστικών στοιχείων...",
+	'admin:statistics:label:basic' => "Βασικά στατιστικά στοιχεία της σελίδας",
+	'admin:statistics:label:numentities' => "Πρόσωπα στη σελίδα",/* #2 [Entities on site]=(οντότητες,υπάρξεις)(ίσως πρόσωπα) */
+	'admin:statistics:label:numusers' => "Πλήθος χρηστών",
+	'admin:statistics:label:numonline' => "Πλήθος συνδεδεμένων χρηστών",
+	'admin:statistics:label:onlineusers' => "Τρέχοντα συνδεδεμένοι χρήστες",/* #2 (Τρέχοντα? Στέκει;)*/
+	'admin:statistics:label:admins'=>"Διαχειριστές",
+	'admin:statistics:label:version' => "Έκδοση Elgg",
+	'admin:statistics:label:version:release' => "Κυκλοφορία",/* #2 [Release] */
+	'admin:statistics:label:version:version' => "Έκδοση",
 
 	'admin:server:label:php' => 'PHP',
-	'admin:server:label:web_server' => 'Web Server',
-	'admin:server:label:server' => 'Server',
-	'admin:server:label:log_location' => 'Log Location',
-	'admin:server:label:php_version' => 'PHP version',
-	'admin:server:label:php_ini' => 'PHP ini file location',
-	'admin:server:label:php_log' => 'PHP Log',
-	'admin:server:label:mem_avail' => 'Memory available',
-	'admin:server:label:mem_used' => 'Memory used',
-	'admin:server:error_log' => "Web server's error log",
-	'admin:server:label:post_max_size' => 'POST maximum size',
-	'admin:server:label:upload_max_filesize' => 'Upload maximum size',
-	'admin:server:warning:post_max_too_small' => '(Note: post_max_size must be larger than this value to support uploads of this size)',
+	'admin:server:label:web_server' => 'Εξυπηρετητής ιστού',/* #2 [Web Server](διακομιστής) */
+	'admin:server:label:server' => 'Εξυπηρετητής',
+	'admin:server:label:log_location' => 'Τοποθεσία αρχείου καταγραφής(log)',/*[Log Location]*/
+	'admin:server:label:php_version' => 'Έκδοση PHP',
+	'admin:server:label:php_ini' => 'Τοποθεσία αρχείου αρχικοποίησης της PHP', /* #2 [PHP ini file location] */
+	'admin:server:label:php_log' => 'Αρχείο καταγραφής PHP',
+	'admin:server:label:mem_avail' => 'Διαθέσιμη μνήμη',
+	'admin:server:label:mem_used' => 'Δεσμευμένη μνήμη',
+	'admin:server:error_log' => "Αρχείο καταγραφής σφαλμάτων του εξυπηρετητή ιστού", /* #22 [web server] */
+	'admin:server:label:post_max_size' => 'Μέγιστο μέγεθος POST',
+	'admin:server:label:upload_max_filesize' => 'Μέγιστο μέγεθος αρχείου για ανέβασμα', /* #2 ['Upload maximum size'] */
+	'admin:server:warning:post_max_too_small' => '(Σημείωση: Το post_max_size πρέπει να είναι μεγαλύτερο από αυτή την τιμή για να υποστηριχθεί \'ανέβασμα\' αρχείου τέτοιου μεγέθους)', /* #8888 */
 
-	'admin:user:label:search' => "Find users:",
-	'admin:user:label:searchbutton' => "Search",
+	'admin:user:label:search' => "Εύρεση χρηστών:",
+	'admin:user:label:searchbutton' => "Αναζήτηση",
 
-	'admin:user:ban:no' => "Can not ban user",
-	'admin:user:ban:yes' => "User banned.",
-	'admin:user:self:ban:no' => "You cannot ban yourself",
-	'admin:user:unban:no' => "Can not unban user",
-	'admin:user:unban:yes' => "User unbanned.",
-	'admin:user:delete:no' => "Can not delete user",
-	'admin:user:delete:yes' => "The user %s has been deleted",
-	'admin:user:self:delete:no' => "You cannot delete yourself",
+	'admin:user:ban:no' => "Αδυναμία αποκλεισμού του χρήστη",
+	'admin:user:ban:yes' => "Ο χρήστης αποκλείστηκε.",
+	'admin:user:self:ban:no' => "Δεν μπορείτε να αποκλείσετε τον εαυτό σας",
+	'admin:user:unban:no' => "Αδυναμία άρσης αποκλεισμού του χρήστη",
+	'admin:user:unban:yes' => "Ο αποκλεισμός του χρήστη αναιρέθηκε.",
+	'admin:user:delete:no' => "Αδυναμία διαγραφής του χρήστη",
+	'admin:user:delete:yes' => "Ο χρήστης %s έχει αποκλειστεί",
+	'admin:user:self:delete:no' => "Δεν μπορείτε να διαγράψετε τον εαυτό σας",
 
-	'admin:user:resetpassword:yes' => "Password reset, user notified.",
-	'admin:user:resetpassword:no' => "Password could not be reset.",
+	'admin:user:resetpassword:yes' => "Επαναφορά κωδικού πρόσβασης. Ο χρήστης ειδοποιήθηκε.",
+	'admin:user:resetpassword:no' => "Αδυναμία επαναφοράς κωδικού πρόσβασης.",
 
-	'admin:user:makeadmin:yes' => "User is now an admin.",
-	'admin:user:makeadmin:no' => "We could not make this user an admin.",
+	'admin:user:makeadmin:yes' => "Ο χρήστης είναι πλέον διαχειριστής.",
+	'admin:user:makeadmin:no' => "Αδυναμία ορισμού του χρήστη ως διαχειριστή.",
 
-	'admin:user:removeadmin:yes' => "User is no longer an admin.",
-	'admin:user:removeadmin:no' => "We could not remove administrator privileges from this user.",
-	'admin:user:self:removeadmin:no' => "You cannot remove your own administrator privileges.",
+	'admin:user:removeadmin:yes' => "Ο χρήστης δεν είναι πλέον διαχειριστής.",
+	'admin:user:removeadmin:no' => "Αδυναμία άρχης των δικαιωμάτων διαχειριστή από αυτό τον χρήστη.",
+	'admin:user:self:removeadmin:no' => "Δεν μπορείτε να αφαιρέσετε τα δικαιώματα διαχειριστή που έχετε.",
 
-	'admin:appearance:menu_items' => 'Menu Items',
-	'admin:menu_items:configure' => 'Configure main menu items',
-	'admin:menu_items:description' => 'Select which menu items you want to show as featured links.  Unused items will be added as "More" at the end of the list.',
-	'admin:menu_items:hide_toolbar_entries' => 'Remove links from tool bar menu?',
-	'admin:menu_items:saved' => 'Menu items saved.',
-	'admin:add_menu_item' => 'Add a custom menu item',
-	'admin:add_menu_item:description' => 'Fill out the Display name and URL to add custom items to your navigation menu.',
+	'admin:appearance:menu_items' => 'Στοιχεία μενού', /* #2 [Menu Items] */
+	'admin:menu_items:configure' => 'Διαμόρφωση στοιχείων κυρίως μενού',
+	'admin:menu_items:description' => 'Επιλέξτε ποια στοιχεία μενού θέλετε να φαίνονται ως featured σύνδεσμοι.  Τα μη χρησιμοποιημένα στοιχεία θα προστεθούν ως "Περισσότερα" στο τέλος της λίστας.', /* #1 [featured] */
+	'admin:menu_items:hide_toolbar_entries' => 'Αφαίρεση συνδέσμων από το μενού της γραμμής εργαλείων;',
+	'admin:menu_items:saved' => 'Τα στοιχεία μενού αποθηκεύτηκαν.',
+	'admin:add_menu_item' => 'Προσθήκη προσαρμοσμένου στοιχείου μενού', /* #2 [custom] (νέου) */
+	'admin:add_menu_item:description' => 'Συμπληρώστε το εμφανιζόμενο όνομα και τον υπερσύνδεσμο για να προσθέσετε προσαρμοσμένα στοιχεία στο μενού πλοήγησης.',/* #22 [custom] */
 
-	'admin:appearance:default_widgets' => 'Default Widgets',
-	'admin:default_widgets:unknown_type' => 'Unknown widget type',
-	'admin:default_widgets:instructions' => 'Add, remove, position, and configure default widgets for the selected widget page.
-These changes will only affect new users on the site.',
+	'admin:appearance:default_widgets' => 'Προεπιλεγμένα Widgets', /* #12 [widget] */
+	'admin:default_widgets:unknown_type' => 'Άγνωστος τύπος  widget', /* #12 [widget] */
+	'admin:default_widgets:instructions' => 'Προσθέστε, αφαιρέστε, τοποθετήστε και διαμορφώστε τα προεπιλεγμένα widgets για την επιλεγμένη σελίδα των widget.
+Αυτές οι αλλαγές θα επηρεάσουν μόνο τους νέους χρήστες στη σελίδα.', /* #2 ['Add, remove, position, and configure default widgets for the selected widget page.] */
 
-	'admin:robots.txt:instructions' => "Edit this site's robots.txt file below",
-	'admin:robots.txt:plugins' => "Plugins are adding the following to the robots.txt file",
-	'admin:robots.txt:subdir' => "The robots.txt tool will not work because Elgg is installed in a sub-directory",
+	'admin:robots.txt:instructions' => "Επεξεργαστείτε παρακάτω το αρχείο robots.txt της σελίδας",
+	'admin:robots.txt:plugins' => "Τα πρόσθετα προσθέτους τα εξής στο αρχείο robots.txt",
+	'admin:robots.txt:subdir' => "Το εργαλείο του αρχείου robots.txt δεν θα δουλέψει επειδή το Elgg είναι εγκατεστημένο σε ένα υπο-φάκελο",
 
-	'admin:maintenance_mode:default_message' => 'This site is down for maintenance',
-	'admin:maintenance_mode:instructions' => 'Maintenance mode should be used for upgrades and other large changes to the site.
-		When it is on, only admins can log in and browse the site.',
-	'admin:maintenance_mode:mode_label' => 'Maintenance mode',
-	'admin:maintenance_mode:message_label' => 'Message displayed to users when maintenance mode is on',
-	'admin:maintenance_mode:saved' => 'The maintenance mode settings were saved.',
-	'admin:maintenance_mode:indicator_menu_item' => 'The site is in maintenance mode.',
-	'admin:login' => 'Admin Login',
+	'admin:maintenance_mode:default_message' => 'Η σελίδα βρίσκεται υπό συντήρηση',
+	'admin:maintenance_mode:instructions' => 'Η λειτουργία συντήρησης θα πρέπει να χρησιμοποιείται για τις αναβαθμίσεις και άλλες μεγάλες αλλαγές στη σελίδα.
+		Όταν είναι ενεργοποιημένη, μόνο οι διαχειριστές μπορούν να συνδεθούν και να περιηγηθούν στη σελίδα.',
+	'admin:maintenance_mode:mode_label' => 'Λειτουργία συντήρησης',
+	'admin:maintenance_mode:message_label' => 'Το μήνυμα που προβάλλεται στους χρήτες όταν η λειτουργία συντήρησης είναι ενεργή',
+	'admin:maintenance_mode:saved' => 'Οι ρυθμίσεις της λειτουργίας συντήρησης αποθηκεύτηκαν.',
+	'admin:maintenance_mode:indicator_menu_item' => 'Η σελίδα βρίσκεται σε λειτουργία συντήρησης.',
+	'admin:login' => 'Σύνδεση διαχειριστή',
+
+//###################################################################################
+//#                              END OF PART 4                                      #
+//###################################################################################
 
 /**
  * User settings
