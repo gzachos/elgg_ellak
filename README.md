@@ -36,7 +36,7 @@ When comments include:
  * __"#8888"__ - _Error possibility during code execution_ (Both "Logic" and "Run Time" errors may occur)
  * __[ text ]__ - _An English string or part of a string unchanged_
 
-Translation Progress
+Translation Progress by Sections
 -----
  - [x] __Sites__ (line 1-8)
  - [x] __Sessions__ (line 9 - 30)
@@ -81,6 +81,17 @@ Translation Progress
  - [ ] __Javascript__ (1280-1287)
  - [ ] __Miscellaneous__ (1288-1292)
  - [ ] __Languages according to ISO 639-1__ (1293-1440)
+
+Translation Progress by Parts
+-----
+ - [x] P1: Sessions and Errors
+ - [x] P2: User Details - Account
+ - [X] P3: Administration
+ - [X] P4: Plugins
+ - [ ] P5: User settings - Time
+ - [ ] P6: System settings
+ - [ ] P7: Welcome - Miscellaneous
+ - [ ] P8: Languages
 
  
 Completed Sections
@@ -130,4 +141,15 @@ Completed Sections
  - [ ] __Miscellaneous__ (1288-1292)
  - [ ] __Languages according to ISO 639-1__ (1293-1440)
 
+Completes Parts
+-----
+(Ready for push to official GFOSS repository)
+ - [ ] P1: Sessions and Errors
+ - [ ] P2: User Details - Account
+ - [ ] P3: Administration
+ - [ ] P4: Plugins
+ - [ ] P5: User settings - Time
+ - [ ] P6: System settings
+ - [ ] P7: Welcome - Miscellaneous
+ - [ ] P8: Languages
 

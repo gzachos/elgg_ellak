@@ -1042,6 +1042,13 @@ Once you have logged in, we highly recommend that you change your password.
 	'interval:yearly' => 'Yearly',
 	'interval:reboot' => 'On reboot',
 
+
+
+//###################################################################################
+//#                              END OF PART 5                                      #
+//###################################################################################
+
+
 /**
  * System settings
  */
@@ -1153,6 +1160,12 @@ Once you have logged in, we highly recommend that you change your password.
 	// Strings specific for the discussion reply upgrade
 	'admin:upgrades:discussion_replies' => 'Discussion reply upgrade',
 	'discussion:upgrade:replies:create_failed' => 'Failed to convert discussion reply id %s to an entity.',
+
+
+//###################################################################################
+//#                              END OF PART 6                                      #
+//###################################################################################
+
 
 /**
  * Welcome
@@ -1305,6 +1318,13 @@ Please do not reply to this email.",
  */
 	'elgg:powered' => "Powered by Elgg",
 
+
+//###################################################################################
+//#                              END OF PART 7                                      #
+//###################################################################################
+
+
+
 /**
  * Languages according to ISO 639-1
  */
@@ -1452,4 +1472,9 @@ Please do not reply to this email.",
 	"za" => "Zuang",
 	"zh" => "Chinese",
 	"zu" => "Zulu",
+
+//###################################################################################
+//#                              END OF PART 8                                      #
+//###################################################################################
+
 );
