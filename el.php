@@ -734,313 +734,313 @@ return array(
  * User settings
  */
 		
-	'usersettings:description' => "The user settings panel allows you to control all your personal settings, from user management to how plugins behave. Choose an option below to get started.",
+	'usersettings:description' => "Ο πίνακας ρυθμίσεων χρήστη σας επιτρέπει να ελέγχετε όλες τις προσωπικές σας ρυθμίσεις, από τη διαχείριση χρήστη, μέχρι το πως συμπεριφέρονται τα πρόσθετα. Διαλέξτε παρακάτω μια επιλογή για να ξεκινήσετε.",/* [The user settings panel allows you to control all your personal settings, from user management to how plugins behave. Choose an option below to get started.] */
 
-	'usersettings:statistics' => "Your statistics",
-	'usersettings:statistics:opt:description' => "View statistical information about users and objects on your site.",
-	'usersettings:statistics:opt:linktext' => "Account statistics",
+	'usersettings:statistics' => "Τα στατιστικά στοιχεία σας",
+	'usersettings:statistics:opt:description' => "Προβολή στατιστικών πληροφοριών σχετικά με χρήστες και περιεχόμενα στη σελίδα σας.", /* [objects](αντικείμενα) */
+	'usersettings:statistics:opt:linktext' => "Στατιστικά στοιχεία λογαριασμού",
 
-	'usersettings:user' => "%s's settings",
-	'usersettings:user:opt:description' => "This allows you to control user settings.",
-	'usersettings:user:opt:linktext' => "Change your settings",
+	'usersettings:user' => "Οι ρυθμίσεις του/της %s",
+	'usersettings:user:opt:description' => "Σας επιτρέπει να ελέγξετε τις ρυθμίσεις χρήστη.",
+	'usersettings:user:opt:linktext' => "Αλλάξτε τις ρυθμίσεις σας",
 
-	'usersettings:plugins' => "Tools",
-	'usersettings:plugins:opt:description' => "Configure settings (if any) for your active tools.",
-	'usersettings:plugins:opt:linktext' => "Configure your tools",
+	'usersettings:plugins' => "Εργαλεία",
+	'usersettings:plugins:opt:description' => "Διαμόρφωση ρυθμίσεων (αν υπάρχουν) για τα ενεργά εργαλεία.",/* #2 [Configure] */
+	'usersettings:plugins:opt:linktext' => "Διαμορφώστε τα εργαλεία σας",
 
-	'usersettings:plugins:description' => "This panel allows you to control and configure the personal settings for the tools installed by your system administrator.",
-	'usersettings:statistics:label:numentities' => "Your content",
+	'usersettings:plugins:description' => "Αυτός ο πίνακας ελέγχου σας επιτρέπει να ελέγχετε και να διαμορφώνεται τις προσωπικές σας ρυθμίσεις για εργαλεία που εγκαταστάθηκαν από τον διαχειριστή συστήματος.",/* #2 [panel] */
+	'usersettings:statistics:label:numentities' => "Το περιεχόμενό σας",
 
-	'usersettings:statistics:yourdetails' => "Your details",
-	'usersettings:statistics:label:name' => "Full name",
-	'usersettings:statistics:label:email' => "Email",
-	'usersettings:statistics:label:membersince' => "Member since",
-	'usersettings:statistics:label:lastlogin' => "Last logged in",
+	'usersettings:statistics:yourdetails' => "Οι λεπτομέρειές σας",
+	'usersettings:statistics:label:name' => "Πλήρες όνομα",
+	'usersettings:statistics:label:email' => "Διεύθυνση ηλ. ταχυδρομείου",
+	'usersettings:statistics:label:membersince' => "Μέλος από",
+	'usersettings:statistics:label:lastlogin' => "Τελευταία σύνδεση",
 
 /**
  * Activity river
  */
 		
-	'river:all' => 'All Site Activity',
-	'river:mine' => 'My Activity',
-	'river:owner' => 'Activity of %s',
-	'river:friends' => 'Friends Activity',
-	'river:select' => 'Show %s',
-	'river:comments:more' => '+%u more',
-	'river:generic_comment' => 'commented on %s %s',
+	'river:all' => 'Η δραστηριότητα όλης της σελίδας',
+	'river:mine' => 'Η δραστηριότητά μου',
+	'river:owner' => 'Η δραστηριότητα του/της %s',
+	'river:friends' => 'Δραστηριότητα φίλων',
+	'river:select' => 'Προβολή %s', /* #8888 */
+	'river:comments:more' => '+%u περισσότερα',
+	'river:generic_comment' => 'σχολίασε σε %s %s',
 
-	'friends:widget:description' => "Displays some of your friends.",
-	'friends:num_display' => "Number of friends to display",
-	'friends:icon_size' => "Icon size",
-	'friends:tiny' => "tiny",
-	'friends:small' => "small",
+	'friends:widget:description' => "Προβάλλει κάποιους από τους φίλους σας.",
+	'friends:num_display' => "Πλήθος φίλων για προβολή",
+	'friends:icon_size' => "Μέγεθος εικονιδίου", /* #2 [Icon size](Εικόνες)(Προτάθηκε "εικονίδιο" καθώς παρακάτω γίνεται αναφορά σε icons του topbar) */
+	'friends:tiny' => "μικροσκοπικό", /* #2 [για icon] */
+	'friends:small' => "μικρό", /* #2 [για icon] */
 
 /**
  * Icons
  */
 
-	'icon:size' => "Icon size",
-	'icon:size:topbar' => "Topbar",
-	'icon:size:tiny' => "Tiny",
-	'icon:size:small' => "Small",
-	'icon:size:medium' => "Medium",
-	'icon:size:large' => "Large",
-	'icon:size:master' => "Extra Large",
+	'icon:size' => "Μέγεθος εικονιδίου", /* [icon] */
+	'icon:size:topbar' => "Πάνω γραμμή εργαλείων", /* #2 [topbar] */
+	'icon:size:tiny' => "Μικροσκοπικό",
+	'icon:size:small' => "Μικρό",
+	'icon:size:medium' => "Μεσαίο",
+	'icon:size:large' => "Μεγάλο",
+	'icon:size:master' => "Πολύ μεγάλο",
 		
 /**
  * Generic action words
  */
 
-	'save' => "Save",
-	'reset' => 'Reset',
-	'publish' => "Publish",
-	'cancel' => "Cancel",
-	'saving' => "Saving ...",
-	'update' => "Update",
-	'preview' => "Preview",
-	'edit' => "Edit",
-	'delete' => "Delete",
-	'accept' => "Accept",
-	'reject' => "Reject",
-	'decline' => "Decline",
-	'approve' => "Approve",
-	'activate' => "Activate",
-	'deactivate' => "Deactivate",
-	'disapprove' => "Disapprove",
-	'revoke' => "Revoke",
-	'load' => "Load",
-	'upload' => "Upload",
-	'download' => "Download",
-	'ban' => "Ban",
-	'unban' => "Unban",
-	'banned' => "Banned",
-	'enable' => "Enable",
-	'disable' => "Disable",
-	'request' => "Request",
-	'complete' => "Complete",
-	'open' => 'Open',
-	'close' => 'Close',
-	'hide' => 'Hide',
-	'show' => 'Show',
-	'reply' => "Reply",
-	'more' => 'More',
-	'more_info' => 'More info',
-	'comments' => 'Comments',
-	'import' => 'Import',
-	'export' => 'Export',
-	'untitled' => 'Untitled',
-	'help' => 'Help',
-	'send' => 'Send',
-	'post' => 'Post',
-	'submit' => 'Submit',
-	'comment' => 'Comment',
-	'upgrade' => 'Upgrade',
-	'sort' => 'Sort',
-	'filter' => 'Filter',
-	'new' => 'New',
-	'add' => 'Add',
-	'create' => 'Create',
-	'remove' => 'Remove',
-	'revert' => 'Revert',
+	'save' => "Αποθήκευση",
+	'reset' => 'Επαναφορά',
+	'publish' => "Δημοσίευση",
+	'cancel' => "Ακύρωση",
+	'saving' => "Αποθήκευση ...",
+	'update' => "Ανανέωση",/* #2 [update] */
+	'preview' => "Προεπισκόπηση",
+	'edit' => "Επεξεργασία",
+	'delete' => "Διαγραφή",
+	'accept' => "Αποδοχή",
+	'reject' => "Απόρριψη",
+	'decline' => "Άρνηση",
+	'approve' => "Έγκριση",
+	'activate' => "Ενεργοποίηση",
+	'deactivate' => "Απενεργοποίηση",
+	'disapprove' => "Μη αποδοχή", /* [Disapprove] */
+	'revoke' => "Ανάκληση",
+	'load' => "Φόρτωση",
+	'upload' => "Ανέβασμα",
+	'download' => "Κατέβασμα",
+	'ban' => "Αποκλεισμός",
+	'unban' => "Άρση αποκλεισμού",
+	'banned' => "Αποκλεισμένος",
+	'enable' => "Ενεργοποίηση",
+	'disable' => "Απενεργοποίηση",
+	'request' => "Αίτηση",/* #2 [Request] */
+	'complete' => "Ολοκλήρωση", /* #2 */
+	'open' => 'Άνοιγμα',
+	'close' => 'Κλείσιμο',
+	'hide' => 'Κρύψιμο',
+	'show' => 'Προβολή',
+	'reply' => "Απάντηση",
+	'more' => 'Περισσότερα',
+	'more_info' => 'Περισσότερες πληροφορίες',
+	'comments' => 'Σχόλια',
+	'import' => 'Εισαγωγή',
+	'export' => 'Εξαγωγή',
+	'untitled' => 'Χωρίς τίτλο',
+	'help' => 'Βοήθεια',
+	'send' => 'Αποστολή',
+	'post' => 'Δημοσίευση',
+	'submit' => 'Κατάθεση',
+	'comment' => 'Σχολιασμός',
+	'upgrade' => 'Αναβάθμιση',
+	'sort' => 'Ταξινόμηση',
+	'filter' => 'Φιλτράρισμα',
+	'new' => 'Νέο', /* #8888 */
+	'add' => 'Προσθήκη',
+	'create' => 'Δημιουργία',
+	'remove' => 'Αφαίρεση',
+	'revert' => 'Επαναφορά',
 
-	'site' => 'Site',
-	'activity' => 'Activity',
-	'members' => 'Members',
-	'menu' => 'Menu',
+	'site' => 'Σελίδα',
+	'activity' => 'Δραστηριότητα',
+	'members' => 'Μέλη',
+	'menu' => 'Μενού',
 
-	'up' => 'Up',
-	'down' => 'Down',
-	'top' => 'Top',
-	'bottom' => 'Bottom',
-	'right' => 'Right',
-	'left' => 'Left',
-	'back' => 'Back',
+	'up' => 'Πάνω',
+	'down' => 'Κάτω',
+	'top' => 'Κορυφή',
+	'bottom' => 'Τέλος',
+	'right' => 'Δεξιά',
+	'left' => 'Αριστερά',
+	'back' => 'Πίσω',
 
-	'invite' => "Invite",
+	'invite' => "Πρόσκληση",
 
-	'resetpassword' => "Reset password",
-	'changepassword' => "Change password",
-	'makeadmin' => "Make admin",
-	'removeadmin' => "Remove admin",
+	'resetpassword' => "Επαναφορά κωδικού πρόσβασης",
+	'changepassword' => "Αλλαγή κωδικού πρόσβασης",
+	'makeadmin' => "Προσθήκη διαχειριστή", /* [make](δημιουργία) */
+	'removeadmin' => "Αφαίρεση διαχειριστή",
 
-	'option:yes' => "Yes",
-	'option:no' => "No",
+	'option:yes' => "Ναι",
+	'option:no' => "Όχι",
 
-	'unknown' => 'Unknown',
-	'never' => 'Never',
+	'unknown' => 'Άγνωστο', /* #8888 */
+	'never' => 'Ποτέ',
 
-	'active' => 'Active',
-	'total' => 'Total',
+	'active' => 'Ενεργό', /* #8888 */ 
+	'total' => 'Συνολικά',
 	
 	'ok' => 'OK',
-	'any' => 'Any',
-	'error' => 'Error',
+	'any' => 'Κανένα', /* #8888 [any](οποιοδήποτε) */
+	'error' => 'Σφάλμα',
 	
-	'other' => 'Other',
-	'options' => 'Options',
-	'advanced' => 'Advanced',
+	'other' => 'Άλλο', /* #8888 [other](άλλα) */
+	'options' => 'Επιλογές',
+	'advanced' => 'Για προχωρημένους',
 
-	'learnmore' => "Click here to learn more.",
-	'unknown_error' => 'Unknown error',
+	'learnmore' => "Κάντε κλικ για να μάθετε περισσότερα.",
+	'unknown_error' => 'Άγνωστο σφάλμα',
 
-	'content' => "content",
-	'content:latest' => 'Latest activity',
-	'content:latest:blurb' => 'Alternatively, click here to view the latest content from across the site.',
+	'content' => "περιεχόμενο",
+	'content:latest' => 'Πρόσφατη δραστηριότητα',
+	'content:latest:blurb' => 'Εναλλακτικά κάντε κλικ εδώ για να δείτε την πρόσφατη δραστηριότητα σε όλη τη σελίδα.',
 
-	'link:text' => 'view link',
+	'link:text' => 'προβολή συνδέσμου',
 	
 /**
  * Generic questions
  */
 
-	'question:areyousure' => 'Are you sure?',
+	'question:areyousure' => 'Είστε σίγουρος/η;',
 
 /**
  * Status
  */
 
-	'status' => 'Status',
-	'status:unsaved_draft' => 'Unsaved Draft',
-	'status:draft' => 'Draft',
-	'status:unpublished' => 'Unpublished',
-	'status:published' => 'Published',
-	'status:featured' => 'Featured',
-	'status:open' => 'Open',
-	'status:closed' => 'Closed',
+	'status' => 'Κατάσταση', /*[Status] */
+	'status:unsaved_draft' => 'Μη αποθηκευμένο προσχέδιο',
+	'status:draft' => 'Προσχέδιο',
+	'status:unpublished' => 'Αδημοσίευτη',
+	'status:published' => 'Δημοσιευμένη',
+	'status:featured' => 'Featured', /* #12 [featured] */
+	'status:open' => 'Ανοιχτή',
+	'status:closed' => 'Κλειστή', /* (γένος τελευταίου "blocl") */
 
 /**
  * Generic sorts
  */
 
-	'sort:newest' => 'Newest',
-	'sort:popular' => 'Popular',
-	'sort:alpha' => 'Alphabetical',
-	'sort:priority' => 'Priority',
+	'sort:newest' => 'Πρόσφατα', /* #8888 whole block */
+	'sort:popular' => 'Δημοφιλή',
+	'sort:alpha' => 'Αλφαβητικά',
+	'sort:priority' => 'Προτεραιότητα',
 		
 /**
  * Generic data words
  */
 
-	'title' => "Title",
-	'description' => "Description",
-	'tags' => "Tags",
-	'spotlight' => "Spotlight",
-	'all' => "All",
-	'mine' => "Mine",
+	'title' => "Τίτλος",
+	'description' => "Περιγραφή",
+	'tags' => "Ετικέτες",
+	'spotlight' => "Επίκεντρο",/* #2 [Spotlight](προσκήνιο ή επίκεντρο) */
+	'all' => "Όλα", /* #8888 */
+	'mine' => "Τα δικά μου",/* #8888 */
 
-	'by' => 'by',
-	'none' => 'none',
+	'by' => 'από',
+	'none' => 'κανένα', /* #8888 */
 
-	'annotations' => "Annotations",
-	'relationships' => "Relationships",
-	'metadata' => "Metadata",
-	'tagcloud' => "Tag cloud",
-	'tagcloud:allsitetags' => "All site tags",
+	'annotations' => "Σχολιασμοί",/*[Annotations](Σημειώσεις)*/
+	'relationships' => "Σχέσεις",
+	'metadata' => "Μεταδεδομένα", /* [Metadata] */
+	'tagcloud' => "Σύννεφο ετικετών",/* #2 [tag cloud] */
+	'tagcloud:allsitetags' => "Οι ετικέτες όλης της σελίδας",
 
-	'on' => 'On',
-	'off' => 'Off',
+	'on' => 'Ανοιχτό', /* #8888 */
+	'off' => 'Κλειστό',/* #8888 */
 
 /**
  * Entity actions
  */
 		
-	'edit:this' => 'Edit this',
-	'delete:this' => 'Delete this',
-	'comment:this' => 'Comment on this',
+	'edit:this' => 'Επεξεργασία', /* [Edit this] */ /* [Entity] (προηγουμένος αναφέρθηκε σε πρόσωπο)(πρόσωπα στη σελίδα) */
+	'delete:this' => 'Διαγραφή', /*[Delete this] */
+	'comment:this' => 'Σχολιασμός',/*[Comment on this]*/
 
 /**
  * Input / output strings
  */
 
-	'deleteconfirm' => "Are you sure you want to delete this item?",
-	'deleteconfirm:plural' => "Are you sure you want to delete these items?",
-	'fileexists' => "A file has already been uploaded. To replace it, select it below:",
+	'deleteconfirm' => "Είστε σίγουρος/η ότι θέλετε να διαγράψετε αυτό το αντικείμενο;", /* #2 [item](στοιχείο) */
+	'deleteconfirm:plural' => "Είστε σίγουρος/η ότι θέλετε να διαγράψετε αυτά τα αντικείμενα;",/* #2 same as above] */
+	'fileexists' => "Ένα αρχείο έχει ήδη ανεβεί. Για να το αντικαταστήσετε επιλέξτετο παρακάτω:",
 
 /**
  * User add
  */
 
-	'useradd:subject' => 'User account created',
+	'useradd:subject' => 'Ο λογαριαμός χρήστη δημιουργήθηκε',
 	'useradd:body' => '
 %s,
 
-A user account has been created for you at %s. To log in, visit:
+Ένας λογαριασμός χρήστη δημιουργήθηκε για εσάς στο %s. Για να συνδεθείτε, επισκεφθείτε το:
 
 %s
 
-And log in with these user credentials:
+Και εισάγετε τα εξής στοιχεία:
 
-Username: %s
-Password: %s
+Όνομα χρήστη: %s
+Κωδικός πρόσβασης: %s
 
-Once you have logged in, we highly recommend that you change your password.
+Όταν συνδεθείτε, σας προτείνουμε να αλλάξετε τον κωδικό πρόσβασης σας.
 ',
 
 /**
  * System messages
  */
 
-	'systemmessages:dismiss' => "click to dismiss",
+	'systemmessages:dismiss' => "κάντε κλικ για παράβλεψη",
 
 
 /**
  * Import / export
  */
 		
-	'importsuccess' => "Import of data was successful",
-	'importfail' => "OpenDD import of data failed.",
+	'importsuccess' => "Επιτυχής εισαγωγή δεδομένων",
+	'importfail' => "Ανεπιτυχής εισαγωγή δεδομένων τύπου OpenDD.",/* #1 [OpenDD import of data failed.] */
 
 /**
  * Time
  */
 
-	'friendlytime:justnow' => "just now",
-	'friendlytime:minutes' => "%s minutes ago",
-	'friendlytime:minutes:singular' => "a minute ago",
-	'friendlytime:hours' => "%s hours ago",
-	'friendlytime:hours:singular' => "an hour ago",
-	'friendlytime:days' => "%s days ago",
-	'friendlytime:days:singular' => "yesterday",
-	'friendlytime:date_format' => 'j F Y @ g:ia',
+	'friendlytime:justnow' => "μόλις τώρα",
+	'friendlytime:minutes' => "%s λεπτά πριν",
+	'friendlytime:minutes:singular' => "πριν ένα λεπτό",
+	'friendlytime:hours' => "%s ώρες πριν",
+	'friendlytime:hours:singular' => "πριν μία ώρα",
+	'friendlytime:days' => "%s μέρες πριν",
+	'friendlytime:days:singular' => "χθες",
+	'friendlytime:date_format' => 'j F Y @ g:ia', /* #1 #8888 [j F Y @ g:ia] */
 	
-	'friendlytime:future:minutes' => "in %s minutes",
-	'friendlytime:future:minutes:singular' => "in a minute",
-	'friendlytime:future:hours' => "in %s hours",
-	'friendlytime:future:hours:singular' => "in an hour",
-	'friendlytime:future:days' => "in %s days",
-	'friendlytime:future:days:singular' => "tomorrow",
+	'friendlytime:future:minutes' => "σε %s λεπτά",
+	'friendlytime:future:minutes:singular' => "σε ένα λεπτό",
+	'friendlytime:future:hours' => "σε %s ώρες",
+	'friendlytime:future:hours:singular' => "σε μία ώρα",
+	'friendlytime:future:days' => "σε %s μέρες",
+	'friendlytime:future:days:singular' => "αύριο",
 
-	'date:month:01' => 'January %s',
-	'date:month:02' => 'February %s',
-	'date:month:03' => 'March %s',
-	'date:month:04' => 'April %s',
-	'date:month:05' => 'May %s',
-	'date:month:06' => 'June %s',
-	'date:month:07' => 'July %s',
-	'date:month:08' => 'August %s',
-	'date:month:09' => 'September %s',
-	'date:month:10' => 'October %s',
-	'date:month:11' => 'November %s',
-	'date:month:12' => 'December %s',
+	'date:month:01' => '%s Ιανουαρίου',
+	'date:month:02' => '%s Φεβρουαρίου',
+	'date:month:03' => '%s Μαρτίου',
+	'date:month:04' => '%s Απριλίου',
+	'date:month:05' => '%s Μαίου',
+	'date:month:06' => '%s Ιουνίου',
+	'date:month:07' => '%s Ιουλίου',
+	'date:month:08' => '%s Αυγούστου',
+	'date:month:09' => '%s Σεπτεμβρίου',
+	'date:month:10' => '%s Οκτωβρίου',
+	'date:month:11' => '%s Νοεμβρίου',
+	'date:month:12' => '%s Δεκεμβρίου',
 
-	'date:weekday:0' => 'Sunday',
-	'date:weekday:1' => 'Monday',
-	'date:weekday:2' => 'Tuesday',
-	'date:weekday:3' => 'Wednesday',
-	'date:weekday:4' => 'Thursday',
-	'date:weekday:5' => 'Friday',
-	'date:weekday:6' => 'Saturday',
+	'date:weekday:0' => 'Κυριακή',
+	'date:weekday:1' => 'Δευτέρα',
+	'date:weekday:2' => 'Τρίτη',
+	'date:weekday:3' => 'Τετάρτη',
+	'date:weekday:4' => 'Πέμπτη',
+	'date:weekday:5' => 'Παρασκευή',
+	'date:weekday:6' => 'Σάββατο',
 	
-	'interval:minute' => 'Every minute',
-	'interval:fiveminute' => 'Every five minutes',
-	'interval:fifteenmin' => 'Every fifteen minutes',
-	'interval:halfhour' => 'Every half hour',
-	'interval:hourly' => 'Hourly',
-	'interval:daily' => 'Daily',
-	'interval:weekly' => 'Weekly',
-	'interval:monthly' => 'Monthly',
-	'interval:yearly' => 'Yearly',
-	'interval:reboot' => 'On reboot',
+	'interval:minute' => 'Κάθε λεπτό',
+	'interval:fiveminute' => 'Κάθε πέντε λεπτά',
+	'interval:fifteenmin' => 'Κάθε δεκαπέντε λεπτά',
+	'interval:halfhour' => 'Κάθε μισή ώρα',
+	'interval:hourly' => 'Κάθε μία ώρα',
+	'interval:daily' => 'Κάθε μέρα',
+	'interval:weekly' => 'Κάθε εβδομάδα',
+	'interval:monthly' => 'Κάθε μήνα',
+	'interval:yearly' => 'Κάθε χρόνο',
+	'interval:reboot' => 'Κατά την επανεκκίνηση',
 
 
 
