@@ -55,20 +55,20 @@ Translation Progress by Sections
  - [x] __Account__ (376-439)
  - [x] __Administration__ (440-576)
  - [x] __Plugins__ (577-717)
- - [ ] __User Settings__ (718-744)
- - [ ] __Activity river__ (745-762)
- - [ ] __Icons__ (763-774)
- - [ ] __Generic action words__ (775-876)
- - [ ] __Generic questions__ (877-882)
- - [ ] __Status__ (883-895)
- - [ ] __Generic sorts__ (896-904)
- - [ ] __Generic data words__ (905-927)
- - [ ] __Entity actions__ (928-935)
- - [ ] __Input / output strings__ (936-943)
- - [ ] __Input / output strings__ (944-963)
- - [ ] __System messages__ (964-970)
- - [ ] __Import / export__ (971-977)
- - [ ] __Time__ (978-1029)
+ - [x] __User Settings__ (718-744)
+ - [x] __Activity river__ (745-762)
+ - [x] __Icons__ (763-774)
+ - [x] __Generic action words__ (775-876)
+ - [x] __Generic questions__ (877-882)
+ - [x] __Status__ (883-895)
+ - [x] __Generic sorts__ (896-904)
+ - [x] __Generic data words__ (905-927)
+ - [x] __Entity actions__ (928-935)
+ - [x] __Input / output strings__ (936-943)
+ - [x] __User add__ (944-963)
+ - [x] __System messages__ (964-970)
+ - [x] __Import / export__ (971-977)
+ - [x] __Time__ (978-1029)
  - [ ] __System settings__ (1030-1141)
  - [ ] __Welcome__ (1142-1148)
  - [ ] __Emails__ (1149-1192)
@@ -88,7 +88,7 @@ Translation Progress by Parts
  - [x] P2: User Details - Account
  - [X] P3: Administration
  - [X] P4: Plugins
- - [ ] P5: User settings - Time
+ - [x] P5: User settings - Time
  - [ ] P6: System settings
  - [ ] P7: Welcome - Miscellaneous
  - [ ] P8: Languages
@@ -124,7 +124,7 @@ Completed Sections
  - [ ] __Generic data words__ (905-927)
  - [ ] __Entity actions__ (928-935)
  - [ ] __Input / output strings__ (936-943)
- - [ ] __Input / output strings__ (944-963)
+ - [ ] __User add__ (944-963)
  - [ ] __System messages__ (964-970)
  - [ ] __Import / export__ (971-977)
  - [ ] __Time__ (978-1029)
