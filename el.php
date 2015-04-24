@@ -13,7 +13,7 @@ return array(
 	'login' => "Συνδεθείτε",
 	'loginok' => "Έχετε συνδεθεί.",
 	'loginerror' => "Η σύνδεση απέτυχε. Παρακαλώ ελέγξτε τα στοιχεία σας και ξαναπροσπαθήστε.",
-	'login:empty' => "Το όνομα χρήστη/email και ο κωδικός απαιτούνται.",
+	'login:empty' => "Το όνομα χρήστη/διεύθυνση ηλ. ταχυδρομείου και ο κωδικός πρόσβασης απαιτούνται.",
 	'login:baduser' => "Αδυναμία φόρτωσης του λογαριασμού σας.", 
 	'auth:nopams' => "Εσωτερικό πρόβλημα. Καμία μέθοδος πιστοποίησης στοιχείων δεν είναι εγκατεστημένη.",
 
@@ -52,7 +52,7 @@ return array(
 	'ElggPlugin:NoPluginPackagePackage' => 'Απουσία ElggPluginPackage για το πρόσθετο με ID %s (guid %s)', 
 	'ElggPluginPackage:InvalidPlugin:MissingFile' => 'Το απαιτούμενο αρχείο "%s" απουσιάζει.',
 	'ElggPluginPackage:InvalidPlugin:InvalidId' => 'Ο φάκελος αυτού του πρόσθετου πρέπει να μετονομαστεί σε "%s" για να ταιριάζει με το ID του στο αρχείο δήλωσης(manifest).',
-	'ElggPluginPackage:InvalidPlugin:InvalidDependency' => 'Το αρχείο δήλωσης(manifest) περιλαμβάνει ένα μη έγκυρο είδος εξάρτησης "%s".',
+	'ElggPluginPackage:InvalidPlugin:InvalidDependency' => 'Το αρχείο δήλωσης (manifest) περιλαμβάνει ένα μη έγκυρο είδος εξάρτησης "%s".',
 	'ElggPluginPackage:InvalidPlugin:InvalidProvides' => 'Το αρχείο δήλωσης (manifest) περιλαμβάνει ένα μη έγκυρο "%s" τύπο παρόχου. (Its manifest contains an invalid provides type "%s".)', /* #1 [invalid provides]*/
 	'ElggPluginPackage:InvalidPlugin:CircularDep' => 'Υπάρχει μία μη έγκυρη %s εξάρτηση "%s" στο πρόσθετο %s. Τα πρόσθετα δεν μπορούν να απαιτούν ή να έρχονται σε σύγκρουση με πληροφορία που τα ίδια παρέχουν!', 
 	'ElggPlugin:Exception:CannotIncludeFile' => 'Το %s δεν μπορεί να περιληφθεί για το πρόσθετο %s (guid: %s) στο %s.',
@@ -60,8 +60,8 @@ return array(
 	'ElggPlugin:Exception:CannotRegisterLanguages' => 'Η καταχώρηση γλωσσών για το πρόσθετο %s (guid: %s) στο %s είναι αδύνατη.', /* #2 [Cannot register languages for plugin %s (guid: %s) at %s.]*/
 	'ElggPlugin:Exception:NoID' => 'Το ID για το πρόσθετο με guid %s δεν βρέθηκε!', /* #2 [No ID for plugin guid %s!] */
 	'PluginException:NoPluginName' => "Το όνομα του πρόσθετου δεν μπόρεσε να εντοπιστεί",
-	'PluginException:ParserError' => 'Υπήρξε σφάλμα όταν έγινε προσπάθεια να διατρεχτεί το manifest με την έκδοση %s του API στο πρόσθετο %s' /* #2 [Error parsing manifest with API version %s in plugin %s.] */,
-	'PluginException:NoAvailableParser' => 'Δεν μπόρεσε να βρεθεί κάποιος parser για το αρχείο δήλωσης (manifest) στην έκδοση API %s στο πρόσθετο %s.', /* #1 [Cannot find a parser for manifest API version %s in plugin %s.](parser:πρόγραμμα ανάλυσης, διατρέχον πρόγραμμα) (Λογικά το σωστό string στα Αγγλικά είναι "Cannot Find a parser for manifest by  API version %s in plugin %s." */
+	'PluginException:ParserError' => 'Υπήρξε σφάλμα όταν έγινε προσπάθεια να διατρεχτεί το αρχείο δήλωσης (manifest) με την έκδοση %s του API στο πρόσθετο %s' /* #2 [Error parsing manifest with API version %s in plugin %s.] */,
+	'PluginException:NoAvailableParser' => 'Δεν μπόρεσε να βρεθεί κάποιος parser για το αρχείο δήλωσης (manifest) για την έκδοση API %s στο πρόσθετο %s.', /* #1 [Cannot find a parser for manifest API version %s in plugin %s.](parser:πρόγραμμα ανάλυσης, διατρέχον πρόγραμμα)*/
 	'PluginException:ParserErrorMissingRequiredAttribute' => "Το απαιτούμενο attribute '%s' λείπει από το αρχείο δήλωσης (manifest) για το πρόσθετο %s.", /* #1 [attribute]:(χαρακτηριστικό)? */
 	'ElggPlugin:InvalidAndDeactivated' => 'Το %s είναι μη έγκυρο πρόσθετο και έχει απενεργοποιηθεί.',
 
@@ -75,14 +75,14 @@ return array(
 	'ElggPlugin:Dependencies:Elgg' => 'Έκδοση Elgg',
 	'ElggPlugin:Dependencies:PhpVersion' => 'Έκδοση PHP',
 	'ElggPlugin:Dependencies:PhpExtension' => 'Επέκταση PHP: %s',
-	'ElggPlugin:Dependencies:PhpIni' => 'Αρχική ρύθμιση PHP: %s', /* #2 [PHP ini setting] */
+	'ElggPlugin:Dependencies:PhpIni' => 'Ρύθμιση PHP ini: %s', 
 	'ElggPlugin:Dependencies:Plugin' => 'Πρόσθετο: %s',
 	'ElggPlugin:Dependencies:Priority:After' => 'Μετά το %s',
 	'ElggPlugin:Dependencies:Priority:Before' => 'Πριν το %s',
 	'ElggPlugin:Dependencies:Priority:Uninstalled' => 'Το %s δεν είναι εγκατεστημένο',
 	'ElggPlugin:Dependencies:Suggests:Unsatisfied' => 'Λείπει',
 	
-	'ElggPlugin:Dependencies:ActiveDependent' => 'Υπάρχουν και άλλα πρόσθετα που καταγράφουν το %s ως εξάρτηση. Πρέπει να απενεργοποιήσετε τα ακόλουθα πρόσθετα πριν απενεργοποιήσετε αυτό: %s', /* #2 [There are other plugins that list %s as a dependency.] {[list]:( κατατάσσουν? κατηγοριοποιούν?)} */
+	'ElggPlugin:Dependencies:ActiveDependent' => 'Υπάρχουν και άλλα πρόσθετα που καταγράφουν το %s ως εξάρτηση. Πρέπει να απενεργοποιήσετε τα ακόλουθα πρόσθετα πριν απενεργοποιήσετε αυτό: %s',
 
 
 	'RegistrationException:EmptyPassword' => 'Τα πεδία εισαγωγής κωδικού δεν μπορούν να είναι κενά',
@@ -97,8 +97,8 @@ return array(
 	'deprecatedfunction' => 'Προσοχή: Αυτός ο κώδικας χρησιμοποιεί την παρωχημένη συνάρτηση \'%s\' που δεν είναι συμβατή με αυτή την έκδοση του Elgg',
 
 	'pageownerunavailable' => 'Προσοχή: Ο ιδιοκτήτης %d της σελίδας δεν μπορεί να προβληθεί!',
-	'viewfailure' => 'Υπήρξε εσωτερικό σφάλμα κατά την προβολή %s', /* #2 [There was an internal failure in the view %s] */
-	'view:missing_param' => "Η απαιτούμενη παράμετρος '%s' απουσιάζει από την προβολή %s", /* #2 [The required parameter '%s' is missing in the view %s] */
+	'viewfailure' => 'Υπήρξε εσωτερικό σφάλμα κατά την όψη %s',
+	'view:missing_param' => "Η απαιτούμενη παράμετρος '%s' απουσιάζει από την όψη %s",
 	'changebookmark' => 'Παρακαλώ αλλάξτε τον σελιδοδείκτη σας για αυτή τη σελίδα',
 	'noaccess' => 'Το περιεχόμενο που ζητήσατε έχει αφαιρεθεί ή δεν έχετε δικαίωμα να το δείτε.',
 	'error:missing_data' => 'Το αίτημά σας περιείχε ελλιπείς πληροφορίες',
@@ -128,7 +128,7 @@ return array(
  * User details
  */
 
-	'name' => "Εμφανιζόμενο όνομα",
+	'name' => "Ονοματεπώνυμο",
 	'email' => "Διεύθυνση ηλεκτρονικού ταχυδρομείου",
 	'username' => "Όνομα χρήστη",
 	'loginusername' => "Όνομα χρήστη ή διεύθυνση ηλ. ταχυδρομείου",
@@ -148,36 +148,36 @@ return array(
 	'access' => "Πρόσβαση",
 	'access:overridenotice' => "Σημείωση: Λόγω της πολιτικής αυτής της ομάδας, το περιεχόμενο είναι προσβάσιμο μόνο από τα μέλη της.",
 	'access:limited:label' => "Περιορισμένο",
-	'access:help' => "Επίπεδο πρόσβασης", /* #2 [The access level] */
-	'access:read' => "Δικαίωμα  ανάγνωσης", /* #1 [Read access] */
-	'access:write' => "Δικαίωμα εγγραφής", /* #12 [Write access] */
+	'access:help' => "Επίπεδο πρόσβασης", 
+	'access:read' => "Δικαίωμα  ανάγνωσης",
+	'access:write' => "Δικαίωμα εγγραφής",
 	'access:admin_only' => "Μόνο διαχειριστές",
 
 /**
  * Dashboard and widgets
  */
 
-	'dashboard' => "Πίνακας ελέγχου", /* #2 [Dashboard] */
+	'dashboard' => "Πίνακας ελέγχου", 
 	'dashboard:nowidgets' => "Ο πίνακας ελέγχου σας επιτρέπει να παρακολουθείτε τη δραστηριότητα που σας ενδιαφέρει σε αυτή τη σελίδα.", /* #2 (...τη δραστηριότητα και το περιεχόμενο που...) */
 
 	'widgets:add' => 'Προσθήκη widget', /* #2 [widget]:(Θα μεταφραστεί;) */
-	'widgets:add:description' => "Κάντε κλικ σε οποιοδήποτε widget από τα παρακάτω για να το προσθέσετε στη σελίδα.", /* #12 [widget] */
+	'widgets:add:description' => "Κάντε κλικ σε οποιοδήποτε widget από τα παρακάτω για να το προσθέσετε στη σελίδα.",
 	'widgets:position:fixed' => '(Σταθερή θέση στη σελίδα)',
-	'widget:unavailable' => 'Έχετε ήδη προσθέσει αυτό το widget', /* #12 [widget] */
+	'widget:unavailable' => 'Έχετε ήδη προσθέσει αυτό το widget',
 	'widget:numbertodisplay' => 'Πλήθος στοιχείων για προβολή', 
 
 	'widget:delete' => 'Αφαίρεση του %s',
-	'widget:edit' => 'Προσαρμόστε αυτό το widget', /* #12 [widget] */
+	'widget:edit' => 'Προσαρμόστε αυτό το widget', 
 
-	'widgets' => "Widgets", /* #12 [widget] */
-	'widget' => "Widget", /* #12 [widget] */
-	'item:object:widget' => "Widgets", /* #12 [widget] */
-	'widgets:save:success' => "Το widget αποθηκεύτηκε επιτυχώς.", /* #12 [widget] */
-	'widgets:save:failure' => "Το widget δεν μπόρεσε να αποθηκευτεί.", /* #12 [widget] */
-	'widgets:add:success' => "Το widget προστέθηκε με επιτυχία.", /* #12 [widget] */
-	'widgets:add:failure' => "Το widget δεν μπόρεσε να προστεθεί.", /* #12 [widget] */
-	'widgets:move:failure' => "Η νέα θέση του widget δεν μπόρεσε να αποθηκευτεί.", /* #12 [widget] */
-	'widgets:remove:failure' => "Αδυναμία αφαίρεσης του widget", /* #12 [widget] */
+	'widgets' => "Widgets", 
+	'widget' => "Widget", 
+	'item:object:widget' => "Widgets", 
+	'widgets:save:success' => "Το widget αποθηκεύτηκε επιτυχώς.", 
+	'widgets:save:failure' => "Το widget δεν μπόρεσε να αποθηκευτεί.", 
+	'widgets:add:success' => "Το widget προστέθηκε με επιτυχία.", 
+	'widgets:add:failure' => "Το widget δεν μπόρεσε να προστεθεί.", 
+	'widgets:move:failure' => "Η νέα θέση του widget δεν μπόρεσε να αποθηκευτεί.", 
+	'widgets:remove:failure' => "Αδυναμία αφαίρεσης του widget", /
 
 /**
  * Groups
@@ -220,7 +220,7 @@ return array(
 	'friends:of:owned' => "Άτομα που πρόσθεσαν ως φίλο τον/την %s",
 
 	'friends:of' => "Φίλοι του/της",
-	'friends:collections' => "Ομάδες φίλων", /* #2 [Friend collections]:(ομάδες φίλων)? */
+	'friends:collections' => "Ομάδες φίλων", 
 	'collections:add' => "Νέα ομάδα",
 	'friends:collections:add' => "Νέα ομάδα φίλων",
 	'friends:addfriends' => "Επιλέξτε φίλους",
@@ -239,7 +239,7 @@ return array(
 
 	'friendspicker:chararray' => 'ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ', /* #8888 */
 
-	'avatar' => 'Avatar', /* #1 [avatar]: (να το μεταφράσουμε σε "Εικόνα χρήστη" για παράδειγμα ή να το αφήσουμε έτσι?) */
+	'avatar' => 'Avatar', 
 	'avatar:noaccess' => "Δεν μπορείτε να επεξεργαστείτε το avatar αυτού του χρήστη",
 	'avatar:create' => 'Δημιουργία avatar',
 	'avatar:edit' => 'Επεξεργασία avatar',
@@ -291,7 +291,7 @@ return array(
 	'profile:resetdefault:confirm' => 'Είστε σίγουρος ότι θέλετε να διαγράψετε τα προσαρμοσμένα πεδία προφίλ;',
 	'profile:explainchangefields' => "Μπορείτε να αντικαταστήσετε τα υπάρχοντα πεδία προφίλ με δικά σας, συμπληρώνοντας την παρακάτω φόρμα. \n\n Δώστε έναν τίτλο στο νέο πεδίο (πχ. \'Αγαπημένη ομάδα\'), επιλέξτε τον τύπο του πεδίου (πχ. Κείμενο, Υπερσύνδεσμος, Ετικέτες) και κάντε κλικ στο κουμπί 'Προσθήκη'. Για να αναδιατάξετε τα πεδία, σύρτε τα από την περιοχή δίπλα στον τίτλο. Για να επεξεργαστείτε ένα πεδίο, κάντε κλικ στο κείμενο της ετικέτας. \n\n Μπορείτε να επαναφέρετε τις αρχικές ρυθμίσεις προφίλ οποιαδήποτε στιγμή το θελήσετε, αλλά θα χάσετε οποιαδήποτε πληροφορία έχει εισαχθεί στα προσαρμοσμένα πεδία.", /* #8888 The whole code-block */
 	'profile:editdefault:success' => 'Προστέθηκε επιτυχώς ένα νέο πεδίο προφίλ',
-	'profile:editdefault:fail' => 'Το προκαθορισμένο προφίλ δεν μπόρεσε να αποθηκευτεί.', /* #2 [Default profile could not be saved](προεπιλεγμένο) */
+	'profile:editdefault:fail' => 'Το προεπιλεγμένο προφίλ δεν μπόρεσε να αποθηκευτεί.',
 	'profile:field_too_long' => 'Οι πληροφορίες προφίλ δεν μπορούν να αποθηκευτούν καθώς το τμήμα "%s" είναι υπερβολικά μεγάλο.',
 	'profile:noaccess' => "Δεν έχετε το δικαίωμα να επεξεργαστείτε αυτό το προφίλ.",
 	'profile:invalid_email' => 'Το %s πρέπει να είναι μια έγκυρη διεύθυνση ηλ. ταχυδρομείου',
@@ -322,9 +322,9 @@ return array(
 	'river:ingroup' => 'στην ομάδα %s',
 	'river:none' => 'Καμία δραστηριότητα',
 	'river:update' => 'Ενημέρωση για %s', /* #8888 */
-	'river:delete' => 'Αφαιρέστε αυτή τη δραστηριότητα', /* #2 (...αυτό το αντικείμενο δραστηριότητας) */
-	'river:delete:success' => 'Το αντικείμενο αφαιρέθηκε από τη Ροή ειδήσεων', /* #2 (Η δραστηριότητα...) */
-	'river:delete:fail' => 'Το αντικείμενο δεν μπόρεσε να αφαιρεθεί από τη Ροή ειδήσεων', /* #2 (Η δραστηριότητα...) */
+	'river:delete' => 'Αφαιρέστε αυτή τη δραστηριότητα', 
+	'river:delete:success' => 'Η δραστηριότητα αφαιρέθηκε από τη Ροή ειδήσεων', 
+	'river:delete:fail' => 'Η δραστηριότητα δεν μπόρεσε να αφαιρεθεί από τη Ροή ειδήσεων', 
 	'river:subject:invalid_subject' => 'Μη έγκυρος χρήστης',
 	'activity:owner' => 'Προβολή δραστηριότητας',
 
@@ -405,15 +405,15 @@ return array(
 
 	'user:set:name' => "Ρυθμίσεις ονόματος λογαριασμού",
 	'user:name:label' => "Εμφανιζόμενο όνομα",
-	'user:name:success' => "To εμφανιζόμενο όνομα αλλάχτηκε επιτυχώς στο σύστημα.",/* #2 (Αφαίρεση του string "στο σύστημα") */
-	'user:name:fail' => "Αποτυχία αλλαγής του εμφανιζόμενου ονόματος στο σύστημα.",/* #2 (Αφαίρεση του string "στο σύστημα") */
+	'user:name:success' => "To εμφανιζόμενο όνομα αλλάχτηκε επιτυχώς",
+	'user:name:fail' => "Αποτυχία αλλαγής του εμφανιζόμενου ονόματος",
 
 	'user:set:password' => "Κωδικός πρόσβασης λογαριασμού",
 	'user:current_password:label' => 'Τρέχον κωδικός',
 	'user:password:label' => "Νέος κωδικός",
 	'user:password2:label' => "Νέος κωδικός ξανά",
 	'user:password:success' => "Ο κωδικός αλλάχτηκε",
-	'user:password:fail' => "Αδυναμία αλλαγής κωδικού στο σύστημα.", /* #2 (Αφαίρεση του string "στο σύστημα") */
+	'user:password:fail' => "Αδυναμία αλλαγής κωδικού.", 
 	'user:password:fail:notsame' => "Οι κωδικοί πρόσβασης διαφέρουν!",
 	'user:password:fail:tooshort' => "Ο κωδικός πρόσβασης είναι πολύ μικρός!",
 	'user:password:fail:incorrect_current_password' => 'Εισάγατε λάθος τον τρέχοντα κωδικό πρόσβασης.',
@@ -469,8 +469,8 @@ return array(
 	'admin:statistics:overview' => 'Επισκόπηση',
 	'admin:statistics:server' => 'Πληροφορίες Εξυπηρετητή',
 	'admin:statistics:cron' => 'Cron',
-	'admin:cron:record' => 'Πρόσφατες (δι)εργασίες Cron', /* #2 [Latest Cron Jobs] */
-	'admin:cron:period' => 'Περίοδος Cron', /* #2 [Cron period] */
+	'admin:cron:record' => 'Πρόσφατες (δι)εργασίες Cron', 
+	'admin:cron:period' => 'Περίοδος Cron', 
 	'admin:cron:friendly' => 'Ολοκληρώθηκε τελευταία',
 	'admin:cron:date' => 'Ημερομηνία και ώρα',
 
@@ -499,12 +499,12 @@ return array(
 	'admin:settings:advanced' => 'Ρυθμίσεις για προχωρημένους', /* #2 (Για προχωρημένους) */
 	'admin:site:description' => "Αυτός ο πίνακας ελέγχου διαχειριστή σας επιτρέπει να ελέγχετε τις καθολικές ρυθμίσεις χρήστη για τη σελίδα σας. Για να ξεκινήσετε, επιλέξτε μία από τις παρακάτω επιλογές.",
 	'admin:site:opt:linktext' => "Τροποιποίηση σελίδας...",
-	'admin:settings:in_settings_file' => 'Αυτή η ρύθμιση έχει καθοριστεί στο αρχείο settings.php', /* #2 [This setting is configured in settings.php] */
+	'admin:settings:in_settings_file' => 'Αυτή η ρύθμιση έχει καθοριστεί στο αρχείο settings.php', 
 
 	'admin:legend:security' => 'Ασφάλεια',
 	'admin:site:secret:intro' => 'Το Elgg χρησιμοποιεί ένα \'κλειδί\' για να παράγει κωδικούς ασφαλείας(tokens) για διάφορους σκοπούς.', /* #1 [tokens] */
-	'admin:site:secret_regenerated' => "Το κρυφό \'κλειδί\' της σελίδας σας ξαναπαράχθηκε.",/* #12 + #2 [Your site secret has been regenerated.] (ξαναγεννήθηκε, ξαναδημιουργήθηκε) */
-	'admin:site:secret:regenerate' => "Παραγωγή κρυφού \'κλειδιού\' για τη σελίδας", /* #12 */
+	'admin:site:secret_regenerated' => "Το κρυφό \'κλειδί\' της σελίδας σας ξαναπαράχθηκε.",
+	'admin:site:secret:regenerate' => "Παραγωγή κρυφού \'κλειδιού\' για τη σελίδας", 
 	'admin:site:secret:regenerate:help' => "Σημείωση: Ξαναπαράγωντας το κρυφό \'κλειδί\' της σελίδας, μπορεί να προκαλέσετε δυσαρέσκεια σε κάποιους χρήστες, καθιστώντας μη έγκυρους τους κωδικούς ασφαλείας(tokens) που χρησιμοποιούνται στα cookies τύπου \"Να με θυμάσαι\", στα αιτήματα επαλήθευσης διευθύνσεων ηλ. ταχυδρομείου κλπ.",
 	'site_secret:current_strength' => 'Δύναμη \'κλειδιού\'',
 	'site_secret:strength:weak' => "Ασθενές",
@@ -527,7 +527,7 @@ return array(
 	'widget:content_stats:number' => 'Αριθμός',
 
 	'admin:widget:admin_welcome' => 'Καλωσήρθατε',
-	'admin:widget:admin_welcome:help' => "Μια σύντομη εισαγωγή στην περιοχή διαχείρισης του Elgg", /* #2 (ή τμήμα διαχείρισης */
+	'admin:widget:admin_welcome:help' => "Μια σύντομη εισαγωγή στην περιοχή διαχείρισης του Elgg", 
 	'admin:widget:admin_welcome:intro' =>
 'Καλωσήρθατε στο Elgg! Αυτή τη στιγμή βρίσκεστε στον πίνακα ελέγχου διαχειριστή που είναι χρήσιμος για να παρακολουθείτε τι συμβαίνει στη σελίδα.',
 
@@ -589,7 +589,7 @@ return array(
  * Plugins
  */
 
-	'plugins:disabled' => 'Τα πρόσθετα δεν φορτώνονται επειδή υπάρχει ένα αρχείο με το όνομα "disabled" στο φάκελο mod.', /* #1 [Plugins are not being loaded because a file named "disabled" is in the mod directory.] */
+	'plugins:disabled' => 'Τα πρόσθετα δεν φορτώνονται επειδή υπάρχει ένα αρχείο με το όνομα "disabled" στο φάκελο mod.', 
 	'plugins:settings:save:ok' => "Οι ρυθμίσεις για το πρόσθετο %s αποθηκεύτηκαν επιτυχώς.",
 	'plugins:settings:save:fail' => "Υπήρξε πρόβλημα κατά την αποθήκευση των ρυθμίσεων για το πρόσθετο %s.",
 	'plugins:usersettings:save:ok' => "Οι ρυθμίσεις χρήστη για το πρόσθετο %s αποθηκεύτηκαν επιτυχώς.",
@@ -602,26 +602,26 @@ return array(
 	'admin:plugins:activate' => 'Ενεργοποίηση',
 	'admin:plugins:deactivate' => 'Απενεργοποίηση',
 	'admin:plugins:description' => "Αυτός ο πίνακας ελέγχου διαχειριστή επιτρέπει τον έλεγχο και configure των εγκατεστημένων εργαλείων στη σελίδα σας.", /*333*/
-	'admin:plugins:opt:linktext' => "Διαμόρφωση εργαλείων...", /* #12 */
-	'admin:plugins:opt:description' => "Διαμορφώστε τα εργαλεία που έχουν εγκατασταθεί στη σελίδα. ", /* #12 */
-	'admin:plugins:label:author' => "Συγγραφέας",/* #2 [Author] */
+	'admin:plugins:opt:linktext' => "Διαμόρφωση εργαλείων...", 
+	'admin:plugins:opt:description' => "Διαμορφώστε τα εργαλεία που έχουν εγκατασταθεί στη σελίδα. ", 
+	'admin:plugins:label:author' => "Συγγραφέας", /* ή συντάκτης*/
 	'admin:plugins:label:copyright' => "Πνευματικό δικαίωμα",/* #2 (πνευματικά δικαιώματα) */
 	'admin:plugins:label:categories' => 'Κατηγορίες',
 	'admin:plugins:label:licence' => "Άδεια", /*2 (άδεια χρήσης) */
 	'admin:plugins:label:website' => "Υπερσύνδεσμος", 
 	'admin:plugins:label:repository' => "Κώδικας",
 	'admin:plugins:label:bugtracker' => "Αναφορά προβλήματος",
-	'admin:plugins:label:donate' => "Δωρεά",/* [Donate] */
+	'admin:plugins:label:donate' => "Δωρεά",
 	'admin:plugins:label:moreinfo' => 'περισσότερες πληροφορίες',
 	'admin:plugins:label:version' => 'Έκδοση',
 	'admin:plugins:label:location' => 'Τοποθεσία',
-	'admin:plugins:label:contributors' => 'Συντελεστές',/* #2 [Contributors] */
+	'admin:plugins:label:contributors' => 'Συντελεστές',
 	'admin:plugins:label:contributors:name' => 'Όνομα',
 	'admin:plugins:label:contributors:email' => 'Διεύθυνση ηλ. ταχυδρομείου',
 	'admin:plugins:label:contributors:website' => 'Ιστοσελίδα',
-	'admin:plugins:label:contributors:username' => 'Όνομα χρήστη στην κοινότητα',/* #2 [Community username] */
+	'admin:plugins:label:contributors:username' => 'Όνομα χρήστη στην κοινότητα',
 	'admin:plugins:label:contributors:description' => 'Περιγραφή',
-	'admin:plugins:label:dependencies' => 'Εξαρτήσεις', /* #2 [Dependencies] */
+	'admin:plugins:label:dependencies' => 'Εξαρτήσεις', 
 
 	'admin:plugins:warning:elgg_version_unknown' => 'Αυτό το πρόσθετο χρησιμοποιεί ένα αρχείο δήλωσης(manifest) τύπου legacy και δεν καθορίζει κάποια συμβατή έκδοση του Elgg. Πιθανόν να μη δουλέψει!', /* [legacy](μετάφραση?) */
 	'admin:plugins:warning:unmet_dependencies' => 'Αυτό το πρόσθετο έχει ανικανοποίητες εξαρτήσεις και δεν μπορεί να ενεργοποιηθεί. Ελέγξτε τις εξαρτήσεις στο πλαίσιο των περισσότερων πληροφοριών.', /* #2 [Check dependencies under more info.] */
@@ -665,17 +665,17 @@ return array(
 	'admin:statistics:label:version:version' => "Έκδοση",
 
 	'admin:server:label:php' => 'PHP',
-	'admin:server:label:web_server' => 'Εξυπηρετητής ιστού',/* #2 [Web Server](διακομιστής) */
+	'admin:server:label:web_server' => 'Εξυπηρετητής ιστού',
 	'admin:server:label:server' => 'Εξυπηρετητής',
-	'admin:server:label:log_location' => 'Τοποθεσία αρχείου καταγραφής(log)',/*[Log Location]*/
+	'admin:server:label:log_location' => 'Τοποθεσία αρχείου καταγραφής',
 	'admin:server:label:php_version' => 'Έκδοση PHP',
-	'admin:server:label:php_ini' => 'Τοποθεσία αρχείου αρχικοποίησης της PHP', /* #2 [PHP ini file location] */
+	'admin:server:label:php_ini' => 'Τοποθεσία αρχείου PHP ini',
 	'admin:server:label:php_log' => 'Αρχείο καταγραφής PHP',
 	'admin:server:label:mem_avail' => 'Διαθέσιμη μνήμη',
 	'admin:server:label:mem_used' => 'Δεσμευμένη μνήμη',
-	'admin:server:error_log' => "Αρχείο καταγραφής σφαλμάτων του εξυπηρετητή ιστού", /* #22 [web server] */
+	'admin:server:error_log' => "Αρχείο καταγραφής σφαλμάτων του εξυπηρετητή ιστού", 
 	'admin:server:label:post_max_size' => 'Μέγιστο μέγεθος POST',
-	'admin:server:label:upload_max_filesize' => 'Μέγιστο μέγεθος αρχείου για ανέβασμα', /* #2 ['Upload maximum size'] */
+	'admin:server:label:upload_max_filesize' => 'Μέγιστο μέγεθος αρχείου για ανέβασμα', 
 	'admin:server:warning:post_max_too_small' => '(Σημείωση: Το post_max_size πρέπει να είναι μεγαλύτερο από αυτή την τιμή για να υποστηριχθεί \'ανέβασμα\' αρχείου τέτοιου μεγέθους)', /* #8888 */
 
 	'admin:user:label:search' => "Εύρεση χρηστών:",
@@ -708,8 +708,8 @@ return array(
 	'admin:add_menu_item' => 'Προσθήκη προσαρμοσμένου στοιχείου μενού', /* #2 [custom] (νέου) */
 	'admin:add_menu_item:description' => 'Συμπληρώστε το εμφανιζόμενο όνομα και τον υπερσύνδεσμο για να προσθέσετε προσαρμοσμένα στοιχεία στο μενού πλοήγησης.',/* #22 [custom] */
 
-	'admin:appearance:default_widgets' => 'Προεπιλεγμένα Widgets', /* #12 [widget] */
-	'admin:default_widgets:unknown_type' => 'Άγνωστος τύπος  widget', /* #12 [widget] */
+	'admin:appearance:default_widgets' => 'Προεπιλεγμένα Widgets', 
+	'admin:default_widgets:unknown_type' => 'Άγνωστος τύπος  widget',
 	'admin:default_widgets:instructions' => 'Προσθέστε, αφαιρέστε, τοποθετήστε και διαμορφώστε τα προεπιλεγμένα widgets για την επιλεγμένη σελίδα των widget.
 Αυτές οι αλλαγές θα επηρεάσουν μόνο τους νέους χρήστες στη σελίδα.', /* #2 ['Add, remove, position, and configure default widgets for the selected widget page.] */
 
@@ -796,7 +796,7 @@ return array(
 	'publish' => "Δημοσίευση",
 	'cancel' => "Ακύρωση",
 	'saving' => "Αποθήκευση ...",
-	'update' => "Ανανέωση",/* #2 [update] */
+	'update' => "Ανανέωση",
 	'preview' => "Προεπισκόπηση",
 	'edit' => "Επεξεργασία",
 	'delete' => "Διαγραφή",
@@ -899,7 +899,7 @@ return array(
  * Status
  */
 
-	'status' => 'Κατάσταση', /*[Status] */
+	'status' => 'Κατάσταση', 
 	'status:unsaved_draft' => 'Μη αποθηκευμένο προσχέδιο',
 	'status:draft' => 'Προσχέδιο',
 	'status:unpublished' => 'Αδημοσίευτη',
@@ -1057,7 +1057,7 @@ return array(
 	'installation:sitedescription' => "Μικρή περιγραφή της ιστοσελίδας σας (προαιρετικό):",
 	'installation:wwwroot' => "Ο υπερσύνδεσμος (URL) της ιστοσελίδας:",
 	'installation:path' => "Το πλήρες μονοπάτι της εγκατάστασης του Elgg:",
-	'installation:dataroot' => "Το πλήρες μονοπάτι του φακέλου δεδομένων:", /* #8888 [data directory] */
+	'installation:dataroot' => "Το πλήρες μονοπάτι του φακέλου δεδομένων (data):", 
 	'installation:dataroot:warning' => "Αυτός ο φάκελος πρέπει να δημιουργηθεί χειροκίνητα. Θα πρέπει να είναι σε διαφορετικό φάκελο από αυτόν της εγκατάστασης του Elgg.",
 	'installation:sitepermissions' => "Τα προεπιλεγμένα δικαιώματα πρόσβασης:",
 	'installation:language' => "Η προεπιλεγμένη γλώσσα για τη ιστοσελίδα σας:",
@@ -1155,7 +1155,7 @@ return array(
 	'upgrade:comment:create_failed' => 'Αποτυχία μετατροπής του σχολίου με αναγνωριστικό (id) %s σε οντότητα (entity).',
 
 	// Strings specific for the datadir upgrade
-	'admin:upgrades:datadirs' => 'Αναβάθμιση του φακέλου δεδομένων(Data)',
+	'admin:upgrades:datadirs' => 'Αναβάθμιση του φακέλου δεδομένων (data)',
 
 	// Strings specific for the discussion reply upgrade
 	'admin:upgrades:discussion_replies' => 'Αναβάθμιση της απάντησης σε συζήτηση',
