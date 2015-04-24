@@ -1171,49 +1171,49 @@ return array(
  * Welcome
  */
 
-	'welcome' => "Welcome",
-	'welcome:user' => 'Welcome %s',
+	'welcome' => "Καλωσήρθατε",
+	'welcome:user' => 'Καλωσήρθες %s',
 
 /**
  * Emails
  */
 		
-	'email:from' => 'From',
-	'email:to' => 'To',
-	'email:subject' => 'Subject',
-	'email:body' => 'Body',
+	'email:from' => 'Από',
+	'email:to' => 'Προς',
+	'email:subject' => 'Θέμα',
+	'email:body' => 'Κορμός',
 	
-	'email:settings' => "Email settings",
-	'email:address:label' => "Email address",
+	'email:settings' => "Ρυθμίσεις ηλ. ταχυδρομείου",
+	'email:address:label' => "Διεύθυνση ηλ. ταχυδρομείου",
 
-	'email:save:success' => "New email address saved. Verification is requested.",
-	'email:save:fail' => "New email address could not be saved.",
+	'email:save:success' => "Η νέα διεύθυνση ηλ. ταχυδρομείου αποθηκεύτηκε. Απαιτείται επαλήθευση.",
+	'email:save:fail' => "Η νέα διεύθυνση ηλ. ταχυδρομείου δεν μπόρεσε να αποθηκευτεί.",
 
-	'friend:newfriend:subject' => "%s has made you a friend!",
-	'friend:newfriend:body' => "%s has made you a friend!
+	'friend:newfriend:subject' => "Ο/Η %s σας πρόσθεσε ως φίλο/η!",
+	'friend:newfriend:body' => "Ο/Η %s σας πρόσθεσε ως φίλο/η!
 
-To view their profile, click here:
+Για να δείτε το προφίλ του/της, κάντε κλικ εδώ:
 
 %s
 
-Please do not reply to this email.",
+Παρακαλώ μην απαντάτε σε αυτή τη διεύθυνση ηλ. ταχυδρομείου.",
 
-	'email:changepassword:subject' => "Password changed!",
-	'email:changepassword:body' => "Hi %s,
+	'email:changepassword:subject' => "Ο κωδικός πρόσβασης άλλαξε!",
+	'email:changepassword:body' => "Γεια σου %s,
 
-Your password has been changed.",
+Ο κωδικός πρόσβασής σας άλλαξε.",
 
-	'email:resetpassword:subject' => "Password reset!",
-	'email:resetpassword:body' => "Hi %s,
+	'email:resetpassword:subject' => "Επαναφορά κωδικού πρόσβασης!",
+	'email:resetpassword:body' => "Γεια σου %s,
 
-Your password has been reset to: %s",
+Ο κωδικός πρόσβασής σας επαναφέρθηκε σε: %s",
 
-	'email:changereq:subject' => "Request for change password.",
-	'email:changereq:body' => "Hi %s,
+	'email:changereq:subject' => "Αίτηση αλλαγής κωδικού.",
+	'email:changereq:body' => "Γεια σου %s,
 
-Somebody (from the IP address %s) has requested change password for their account.
+Κάποιος (από τη διεύθυνση IP %s) ζήτησε αλλαγή κωδικού για το λογαριασμό σας.
 
-If you requested this, click on the link below. Otherwise ignore this email.
+Αν ήσασταν εσείς, ακολουθήστε τον παρακάτω σύνδεσμο. Αλλιώς αγνοήστε αυτό το μήνυμα ηλεκτρονικού ταχυδρομείου.
 
 %s
 ",
@@ -1222,75 +1222,75 @@ If you requested this, click on the link below. Otherwise ignore this email.
  * user default access
  */
 
-	'default_access:settings' => "Your default access level",
-	'default_access:label' => "Default access",
-	'user:default_access:success' => "Your new default access level was saved.",
-	'user:default_access:failure' => "Your new default access level could not be saved.",
+	'default_access:settings' => "Το προεπιλεγμένο επίπεδο πρόσβασης",
+	'default_access:label' => "Προεπιλεγμένη πρόσβαση",
+	'user:default_access:success' => "Το νέο προεπιλεγμένο επίπεδο πρόσβασης αποθηκεύτηκε.",
+	'user:default_access:failure' => "Το νέο προεπιλεγμένο επίπεδο πρόσβασης δεν ήταν δυνατό να αποθηκευτεί.",
 
 /**
  * Comments
  */
 
-	'comments:count' => "%s comments",
-	'item:object:comment' => 'Comments',
+	'comments:count' => "%s σχόλια",
+	'item:object:comment' => 'Σχόλια',
 
-	'river:comment:object:default' => '%s commented on %s',
+	'river:comment:object:default' => 'Ο/Η %s σχολίασε στο %s',
 
-	'generic_comments:add' => "Leave a comment",
-	'generic_comments:edit' => "Edit comment",
-	'generic_comments:post' => "Post comment",
-	'generic_comments:text' => "Comment",
-	'generic_comments:latest' => "Latest comments",
-	'generic_comment:posted' => "Your comment was successfully posted.",
-	'generic_comment:updated' => "The comment was successfully updated.",
-	'generic_comment:deleted' => "The comment was successfully deleted.",
-	'generic_comment:blank' => "Sorry, you need to actually put something in your comment before we can save it.",
-	'generic_comment:notfound' => "Sorry, we could not find the specified item.",
-	'generic_comment:notdeleted' => "Sorry, we could not delete this comment.",
-	'generic_comment:failure' => "An unexpected error occurred when saving the comment.",
-	'generic_comment:none' => 'No comments',
-	'generic_comment:title' => 'Comment by %s',
-	'generic_comment:on' => '%s on %s',
-	'generic_comments:latest:posted' => 'posted a',
+	'generic_comments:add' => "Αφήστε σχόλιο",
+	'generic_comments:edit' => "Επεξεργασία σχολίου",
+	'generic_comments:post' => "Δημοσίευση σχολίου",
+	'generic_comments:text' => "Σχόλιο",
+	'generic_comments:latest' => "Πρόσφατα σχόλια",
+	'generic_comment:posted' => "Το σχόλιο δημοσιεύθηκε επιτυχώς.",
+	'generic_comment:updated' => "Το σχόλιο ενημερώθηκε επιτυχώς.",
+	'generic_comment:deleted' => "Το σχόλιο διαγράφτηκε επιτυχώς.",
+	'generic_comment:blank' => "Συγνώμη, το σχόλιο πρέπει να έχει περιεχόμενο για να μπορέσει να αποθηκευτεί.",
+	'generic_comment:notfound' => "Συγνώμη, το προσδιορισμένο στοιχείο δεν μπόρεσε να βρεθεί.",
+	'generic_comment:notdeleted' => "Συγνώμη, αυτό το σχόλιο δεν ήταν δυνατό να διαγραφεί.",
+	'generic_comment:failure' => "Ένα απόσμενο σφάλμα συνέβει κατά την αποθήκευση του σχόλιου.",
+	'generic_comment:none' => 'Κανένα σχόλιο',
+	'generic_comment:title' => 'Σχόλιο από τον/την %s',
+	'generic_comment:on' => '%s στο %s',
+	'generic_comments:latest:posted' => 'Δημοσίευσε ένα',
 
-	'generic_comment:email:subject' => 'You have a new comment!',
-	'generic_comment:email:body' => "You have a new comment on your item \"%s\" from %s. It reads:
+	'generic_comment:email:subject' => 'Έχετε ένα νέο σχόλιο!',
+	'generic_comment:email:body' => "Έχετε ένα νέο σχόλιο στο στοιχείο σας \"%s\" από τον/την %s. It reads:
 
 
 %s
 
 
-To reply or view the original item, click here:
+Για να απαντήσετε ή να δείτε το αρχικό στοιχείο, ακολουθήστε αυτό το σύνδεσμο:
 
 %s
 
-To view %s's profile, click here:
+Για να δείτε το profil του/της %s ακολουθήστε αυτό το σύνδεσμο:
 
 %s
 
-Please do not reply to this email.",
+Παρακαλώ μην απαντάτε σε αυτό το μήνυμα ηλεκτρονικού ταχυδρομείου.",
 
 /**
  * Entities
  */
 	
-	'byline' => 'By %s',
-	'entity:default:strapline' => 'Created %s by %s',
-	'entity:default:missingsupport:popup' => 'This entity cannot be displayed correctly. This may be because it requires support provided by a plugin that is no longer installed.',
+	'byline' => 'Από τον/την %s',
+	'entity:default:strapline' => 'Η %s δημιουργήθηκε από τον/την %s',
+	'entity:default:missingsupport:popup' => 'Αυτή η οντότητα δεν μπορεί να προβληθεί σωστά. Αυτό μπορεί να συμβαίνει γιατί απαιτεί υποστήριξη που παρέχεται από κάποιο πρόσθετο που δεν είναι πια εγκατεστημένο.',
 
-	'entity:delete:success' => 'Entity %s has been deleted',
-	'entity:delete:fail' => 'Entity %s could not be deleted',
+	'entity:delete:success' => 'Η οντότητα %s έχει διαγραφτεί',
+	'entity:delete:fail' => 'Η οντότητα %s ήταν αδύνατο να διαγραφτεί',
 
 /**
  * Action gatekeeper
  */
 
-	'actiongatekeeper:missingfields' => 'Form is missing __token or __ts fields',
-	'actiongatekeeper:tokeninvalid' => "The page you were using had expired. Please try again.",
-	'actiongatekeeper:timeerror' => 'The page you were using has expired. Please refresh and try again.',
-	'actiongatekeeper:pluginprevents' => 'A extension has prevented this form from being submitted.',
-	'actiongatekeeper:uploadexceeded' => 'The size of file(s) uploaded exceeded the limit set by your site administrator',
-	'actiongatekeeper:crosssitelogin' => "Sorry, logging in from a different domain is not permitted. Please try again.",
+	'actiongatekeeper:missingfields' => 'Τα πεδία __token ή __ts λείπουν από τη φόρμα',
+	'actiongatekeeper:tokeninvalid' => "Η σελίδα που χρησιμοποιούσατε έληξε. Παρακαλώ προσπαθήστε ξανά.",
+	'actiongatekeeper:timeerror' => 'Η σελίδα που χρησιμοποιούσατε έληξε. Παρακαλώ ξαναφορτώστε τη και προσπαθήστε ξανά.',
+	'actiongatekeeper:pluginprevents' => 'Ένα extension απέτρεψε την υποβολή αυτής της φόρμας.',
+	'actiongatekeeper:uploadexceeded' => 'Το μέγεθος του/των αρχείου/αρχείων υπερβαίνει το όριο που τέθηκε από τον διαχειριστή της ιστοσελίδας',
+	'actiongatekeeper:crosssitelogin' => "Συγνώμη, η σύνδεση από διαθορετικό domain απαγορεύεται. Παρακαλώ προσπαθήστε ξανά.",
 
 /**
  * Word blacklists
@@ -1302,8 +1302,8 @@ Please do not reply to this email.",
  * Tag labels
  */
 
-	'tag_names:tags' => 'Tags',
-	'tags:site_cloud' => 'Site Tag Cloud',
+	'tag_names:tags' => 'Ετικέτες',
+	'tags:site_cloud' => 'Σύννεφο ετικετών ιστοσελίδας',
 
 /**
  * Javascript
