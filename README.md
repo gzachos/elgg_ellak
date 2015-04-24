@@ -70,16 +70,16 @@ Translation Progress by Sections
  - [x] __Import / export__ (971-977)
  - [x] __Time__ (978-1029)
  - [x] __System settings__ (1030-1141)
- - [ ] __Welcome__ (1142-1148)
- - [ ] __Emails__ (1149-1192)
- - [ ] __user default access__ (1193-1201)
- - [ ] __Comments__ (1202-1244)
- - [ ] __Entities__ (1245-1255)
- - [ ] __Action gatekeeper__ (1256-1266)
+ - [x] __Welcome__ (1142-1148)
+ - [x] __Emails__ (1149-1192)
+ - [x] __user default access__ (1193-1201)
+ - [x] __Comments__ (1202-1244)
+ - [x] __Entities__ (1245-1255)
+ - [x] __Action gatekeeper__ (1256-1266)
  - [ ] __Word blacklists__ (1267-1272)
- - [ ] __Tag labels__ (1273-1279)
+ - [x] __Tag labels__ (1273-1279)
  - [ ] __Javascript__ (1280-1287)
- - [ ] __Miscellaneous__ (1288-1292)
+ - [x] __Miscellaneous__ (1288-1292)
  - [ ] __Languages according to ISO 639-1__ (1293-1440)
 
 Translation Progress by Parts
@@ -90,7 +90,7 @@ Translation Progress by Parts
  - [X] P4: Plugins
  - [x] P5: User settings - Time
  - [x] P6: System settings
- - [ ] P7: Welcome - Miscellaneous
+ - [x] P7: Welcome - Miscellaneous
  - [ ] P8: Languages
 
  
