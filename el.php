@@ -10,7 +10,7 @@ return array(
  * Sessions
  */
 
-	'login' => "Συνδεθείτε",
+	'login' => "Σύνδεση",
 	'loginok' => "Έχετε συνδεθεί.",
 	'loginerror' => "Η σύνδεση απέτυχε. Παρακαλώ ελέγξτε τα στοιχεία σας και ξαναπροσπαθήστε.",
 	'login:empty' => "Το όνομα χρήστη/διεύθυνση ηλ. ταχυδρομείου και ο κωδικός πρόσβασης απαιτούνται.",
@@ -36,39 +36,39 @@ return array(
 	'exception:contact_admin' => 'Ένα ανεπανόρθωτο σφάλμα έχει συμβεί και καταγραφεί. Επικοινωνήστε με τον διαχειριστή της σελίδας. Πληροφορίες:',
 
 	'actionundefined' => "Η ζητούμενη ενέργεια (%s) δεν έχει οριστεί στο σύστημα.",
-	'actionnotfound' => "Το αρχείο ενέργειας για την %s δεν βρέθηκε.", /* #2 [The action file for %s was not found.] */
-	'actionloggedout' => "Συγνώμη, δεν μπορείτε να πραγματοποιήσετε αυτή την ενέργεια όσο είστε συνδεδεμένος.",
+	'actionnotfound' => "Το αρχείο ενέργειας (action file) για την %s δεν βρέθηκε.",
+	'actionloggedout' => "Συγνώμη, δεν μπορείτε να πραγματοποιήσετε αυτή την ενέργεια όσο είστε απόσυνδεδεμένος.",
 	'actionunauthorized' => 'Δεν είστε εξουσιοδοτημένος για να πραγματοποιήσετε αυτή την ενέργεια',
 
 	'PluginException:MisconfiguredPlugin' => "Το %s (guid: %s) είναι ένα πρόσθετο με λάθος ρυθμίσεις και έχει απενεργοποιηθεί. Παρακαλώ ψάξτε στο wiki του Elgg για τις πιθανές αιτίες. (http://docs.elgg.org/wiki/).",
 	'PluginException:CannotStart' => 'Το %s (guid: %s) αδυνατεί να ξεκινήσει και απενεργοποιήθηκε. Αιτία: %s',
-	'PluginException:InvalidID' => "Το %s είναι ένα μη έγκυρο ID προσθέτου.", 
-	'PluginException:InvalidPath' => "Το %s είναι ένα μη έγκυρο μονοπάτι προσθέτου.",
+	'PluginException:InvalidID' => "Το %s είναι ένα μη έγκυρο αναγνωριστικό (ID) πρόσθετου.", 
+	'PluginException:InvalidPath' => "Το %s είναι ένα μη έγκυρο μονοπάτι πρόσθετου.",
 	'PluginException:InvalidManifest' => 'Μη έγκυρο αρχείο δήλωσης (manifest) για το πρόσθετο %s', 
 	'PluginException:InvalidPlugin' => 'Το %s είναι ένα μη έγκυρο πρόσθετο.',
 	'PluginException:InvalidPlugin:Details' => 'Το %s είναι ένα μη έγκυρο πρόσθετο: %s',
-	'PluginException:NullInstantiated' => 'Το ElggPlugin δεν μπορεί να αρχικοποιηθεί με την τιμή null. Πρέπει να δώσετε ένα GUID, ένα ID προσθέτου, ή ένα πλήρες μονοπάτι.', 
-	'ElggPlugin:MissingID' => 'Το ID του προσθέτου (guid %s) απουσιάζει',
+	'PluginException:NullInstantiated' => 'Το ElggPlugin δεν μπορεί να αρχικοποιηθεί με την τιμή null. Πρέπει να δώσετε ένα GUID, ένα αναγνωριστικό (ID) πρόσθετου, ή ένα πλήρες μονοπάτι.', 
+	'ElggPlugin:MissingID' => 'Το ID του πρόσθετου (guid %s) απουσιάζει',
 	'ElggPlugin:NoPluginPackagePackage' => 'Απουσία ElggPluginPackage για το πρόσθετο με ID %s (guid %s)', 
 	'ElggPluginPackage:InvalidPlugin:MissingFile' => 'Το απαιτούμενο αρχείο "%s" απουσιάζει.',
-	'ElggPluginPackage:InvalidPlugin:InvalidId' => 'Ο φάκελος αυτού του πρόσθετου πρέπει να μετονομαστεί σε "%s" για να ταιριάζει με το ID του στο αρχείο δήλωσης(manifest).',
+	'ElggPluginPackage:InvalidPlugin:InvalidId' => 'Ο φάκελος του πρόσθετου πρέπει να μετονομαστεί σε "%s" για να ταιριάζει με το ID του στο αρχείο δήλωσης (manifest).',
 	'ElggPluginPackage:InvalidPlugin:InvalidDependency' => 'Το αρχείο δήλωσης (manifest) περιλαμβάνει ένα μη έγκυρο είδος εξάρτησης "%s".',
-	'ElggPluginPackage:InvalidPlugin:InvalidProvides' => 'Το αρχείο δήλωσης (manifest) περιλαμβάνει ένα μη έγκυρο "%s" τύπο παρόχου. (Its manifest contains an invalid provides type "%s".)', /* #1 [invalid provides]*/
+	'ElggPluginPackage:InvalidPlugin:InvalidProvides' => 'Το αρχείο δήλωσης (manifest) περιλαμβάνει ένα μη έγκυρο τύπο provides "%s".', 
 	'ElggPluginPackage:InvalidPlugin:CircularDep' => 'Υπάρχει μία μη έγκυρη %s εξάρτηση "%s" στο πρόσθετο %s. Τα πρόσθετα δεν μπορούν να απαιτούν ή να έρχονται σε σύγκρουση με πληροφορία που τα ίδια παρέχουν!', 
-	'ElggPlugin:Exception:CannotIncludeFile' => 'Το %s δεν μπορεί να περιληφθεί για το πρόσθετο %s (guid: %s) στο %s.',
+	'ElggPlugin:Exception:CannotIncludeFile' => 'Το %s δεν μπορεί να συμπεριληφθεί για το πρόσθετο %s (guid: %s) στο %s.',
 	'ElggPlugin:Exception:CannotRegisterViews' => 'Ο φάκελος \"views\" δεν μπορεί να ανοιχτεί για το πρόσθετο %s (guid: %s) στο %s',
-	'ElggPlugin:Exception:CannotRegisterLanguages' => 'Η καταχώρηση γλωσσών για το πρόσθετο %s (guid: %s) στο %s είναι αδύνατη.', /* #2 [Cannot register languages for plugin %s (guid: %s) at %s.]*/
-	'ElggPlugin:Exception:NoID' => 'Το ID για το πρόσθετο με guid %s δεν βρέθηκε!', /* #2 [No ID for plugin guid %s!] */
+	'ElggPlugin:Exception:CannotRegisterLanguages' => 'Η καταχώρηση γλωσσών για το πρόσθετο %s (guid: %s) στο %s είναι αδύνατη.', 
+	'ElggPlugin:Exception:NoID' => 'Το αναγνωριστικό (ID) για το πρόσθετο με guid %s δεν βρέθηκε!', 
 	'PluginException:NoPluginName' => "Το όνομα του πρόσθετου δεν μπόρεσε να εντοπιστεί",
-	'PluginException:ParserError' => 'Υπήρξε σφάλμα όταν έγινε προσπάθεια να διατρεχτεί το αρχείο δήλωσης (manifest) με την έκδοση %s του API στο πρόσθετο %s' /* #2 [Error parsing manifest with API version %s in plugin %s.] */,
-	'PluginException:NoAvailableParser' => 'Δεν μπόρεσε να βρεθεί κάποιος parser για το αρχείο δήλωσης (manifest) για την έκδοση API %s στο πρόσθετο %s.', /* #1 [Cannot find a parser for manifest API version %s in plugin %s.](parser:πρόγραμμα ανάλυσης, διατρέχον πρόγραμμα)*/
-	'PluginException:ParserErrorMissingRequiredAttribute' => "Το απαιτούμενο attribute '%s' λείπει από το αρχείο δήλωσης (manifest) για το πρόσθετο %s.", /* #1 [attribute]:(χαρακτηριστικό)? */
+	'PluginException:ParserError' => 'Υπήρξε σφάλμα όταν έγινε προσπάθεια να διατρεχτεί το αρχείο δήλωσης (manifest) με την έκδοση %s του API στο πρόσθετο %s',
+	'PluginException:NoAvailableParser' => 'Δεν μπόρεσε να βρεθεί κάποιος parser για το αρχείο δήλωσης (manifest) με την έκδοση $s του API στο πρόσθετο %s.', 
+	'PluginException:ParserErrorMissingRequiredAttribute' => "Το απαιτούμενο χαρακτηριστικό (tribute) '%s' λείπει από το αρχείο δήλωσης (manifest) για το πρόσθετο %s.", 
 	'ElggPlugin:InvalidAndDeactivated' => 'Το %s είναι μη έγκυρο πρόσθετο και έχει απενεργοποιηθεί.',
 
 	'ElggPlugin:Dependencies:Requires' => 'Απαιτεί',
 	'ElggPlugin:Dependencies:Suggests' => 'Προτείνει',
-	'ElggPlugin:Dependencies:Conflicts' => 'Συγκρούεται',/* #2 conflicts*/
-	'ElggPlugin:Dependencies:Conflicted' => 'Σε σύγκρουση',
+	'ElggPlugin:Dependencies:Conflicts' => 'Συγκρούεται/Αντιπαρατίθεται',
+	'ElggPlugin:Dependencies:Conflicted' => 'Σε σύγκρουση/αντιπαράθεση',
 	'ElggPlugin:Dependencies:Provides' => 'Παρέχει',
 	'ElggPlugin:Dependencies:Priority' => 'Προτεραιότητα',
 
@@ -87,22 +87,22 @@ return array(
 
 	'RegistrationException:EmptyPassword' => 'Τα πεδία εισαγωγής κωδικού δεν μπορούν να είναι κενά',
 	'RegistrationException:PasswordMismatch' => 'Οι κωδικοί πρέπει να είναι ίδιοι',
-	'LoginException:BannedUser' => 'Έχετε αποκλειστεί από αυτή τη σελίδα και δεν μπορείτε να συνδεθείτε',
-	'LoginException:UsernameFailure' => 'Η σύνδεση απέτυχε. Παρακαλώ ελέγξτε το όνομα χρήστη/email και τον κωδικό πρόσβασης.',
-	'LoginException:PasswordFailure' => 'Η σύνδεση απέτυχε. Παρακαλώ ελέγξτε το όνομα χρήστη/email και τον κωδικό πρόσβασης.',
+	'LoginException:BannedUser' => 'Έχετε αποκλειστεί από αυτή την ιστοσελίδα και δεν μπορείτε να συνδεθείτε',
+	'LoginException:UsernameFailure' => 'Η σύνδεση απέτυχε. Παρακαλώ ελέγξτε το όνομα χρήστη/διεύθυνση ηλ. ταχδρομείου και τον κωδικό πρόσβασης.',
+	'LoginException:PasswordFailure' => 'Η σύνδεση απέτυχε. Παρακαλώ ελέγξτε το όνομα χρήστη/διεύθυνση ηλ. ταχυδρομείου και τον κωδικό πρόσβασης.',
 	'LoginException:AccountLocked' => 'Ο λογαριασμός σας κλειδώθηκε λόγω πολλαπλών αποτυχημένων προσπαθειών σύνδεσης.',
 	'LoginException:ChangePasswordFailure' => 'Η επαλήθευση του κωδικού πρόσβασης απέτυχε.',
 	'LoginException:Unknown' => 'Η σύνδεση απέτυχε λόγω άγνωστου σφάλματος.',
 
 	'deprecatedfunction' => 'Προσοχή: Αυτός ο κώδικας χρησιμοποιεί την παρωχημένη συνάρτηση \'%s\' που δεν είναι συμβατή με αυτή την έκδοση του Elgg',
 
-	'pageownerunavailable' => 'Προσοχή: Ο ιδιοκτήτης %d της σελίδας δεν μπορεί να προβληθεί!',
+	'pageownerunavailable' => 'Προσοχή: Ο ιδιοκτήτης %d της σελίδας δεν είναι προσβάσιμος!',
 	'viewfailure' => 'Υπήρξε εσωτερικό σφάλμα κατά την όψη %s',
 	'view:missing_param' => "Η απαιτούμενη παράμετρος '%s' απουσιάζει από την όψη %s",
 	'changebookmark' => 'Παρακαλώ αλλάξτε τον σελιδοδείκτη σας για αυτή τη σελίδα',
 	'noaccess' => 'Το περιεχόμενο που ζητήσατε έχει αφαιρεθεί ή δεν έχετε δικαίωμα να το δείτε.',
 	'error:missing_data' => 'Το αίτημά σας περιείχε ελλιπείς πληροφορίες',
-	'save:fail' => 'Αποτυχία αποθήκευσης των δεδομένων σας',
+	'save:fail' => 'H αποθήκευση των δεδομένων σας απέτυχε',
 	'save:success' => 'Τα δεδομένα σας αποθηκεύτηκαν',
 
 	'error:default:title' => 'Ουπς...',

@@ -38,49 +38,49 @@ When comments include:
 
 Translation Progress by Sections
 -----
- - [x] __Sites__ (line 1-8)
- - [x] __Sessions__ (line 9 - 30)
- - [x] __Errors__ (line 31-126)
- - [x] __User Deteils__ (line 127-138)
- - [x] __Access__ (line 139-155)
- - [x] __Dashboard and widgets__ (line 156-181)
- - [x] __Groups__ (line 182-188)
- - [x] __Users__ (line 189-195)
- - [x] __Friends__ (line 196-299)
- - [x] __Feeds__ (300-303)
- - [x] __Links__ (304-310)
- - [x] __River__ (311-336)
- - [x] __Notifications__ (337-348)
- - [x] __Search__ (349-375)
- - [x] __Account__ (376-439)
- - [x] __Administration__ (440-576)
- - [x] __Plugins__ (577-717)
- - [x] __User Settings__ (718-744)
- - [x] __Activity river__ (745-762)
- - [x] __Icons__ (763-774)
- - [x] __Generic action words__ (775-876)
- - [x] __Generic questions__ (877-882)
- - [x] __Status__ (883-895)
- - [x] __Generic sorts__ (896-904)
- - [x] __Generic data words__ (905-927)
- - [x] __Entity actions__ (928-935)
- - [x] __Input / output strings__ (936-943)
- - [x] __User add__ (944-963)
- - [x] __System messages__ (964-970)
- - [x] __Import / export__ (971-977)
- - [x] __Time__ (978-1029)
- - [x] __System settings__ (1030-1141)
- - [x] __Welcome__ (1142-1148)
- - [x] __Emails__ (1149-1192)
- - [x] __user default access__ (1193-1201)
- - [x] __Comments__ (1202-1244)
- - [x] __Entities__ (1245-1255)
- - [x] __Action gatekeeper__ (1256-1266)
- - [ ] __Word blacklists__ (1267-1272)
- - [x] __Tag labels__ (1273-1279)
- - [ ] __Javascript__ (1280-1287)
- - [x] __Miscellaneous__ (1288-1292)
- - [ ] __Languages according to ISO 639-1__ (1293-1440)
+ - [x] __Sites__ 
+ - [x] __Sessions__ 
+ - [x] __Errors__ 
+ - [x] __User Deteils__ 
+ - [x] __Access__ 
+ - [x] __Dashboard and widgets__ 
+ - [x] __Groups__ 
+ - [x] __Users__ 
+ - [x] __Friends__ 
+ - [x] __Feeds__ 
+ - [x] __Links__ 
+ - [x] __River__ 
+ - [x] __Notifications__ 
+ - [x] __Search__ 
+ - [x] __Account__ 
+ - [x] __Administration__ 
+ - [x] __Plugins__ 
+ - [x] __User Settings__ 
+ - [x] __Activity river__ 
+ - [x] __Icons__ 
+ - [x] __Generic action words__ 
+ - [x] __Generic questions__ 
+ - [x] __Status__ 
+ - [x] __Generic sorts__ 
+ - [x] __Generic data words__ 
+ - [x] __Entity actions__ 
+ - [x] __Input / output strings__ 
+ - [x] __User add__ 
+ - [x] __System messages__ 
+ - [x] __Import / export__ 
+ - [x] __Time__ 
+ - [x] __System settings__ 
+ - [x] __Welcome__ 
+ - [x] __Emails__ 
+ - [x] __user default access__ 
+ - [x] __Comments__ 
+ - [x] __Entities__ 
+ - [x] __Action gatekeeper__ 
+ - [ ] __Word blacklists__ 
+ - [x] __Tag labels__ 
+ - [ ] __Javascript__ 
+ - [x] __Miscellaneous__ 
+ - [ ] __Languages according to ISO 639-1__ 
 
 Translation Progress by Parts
 -----
@@ -97,54 +97,54 @@ Translation Progress by Parts
 Completed Sections
 -----
 (Ready for push to official ELGG repository)
- - [ ] __Sites__ (line 1-8)
- - [ ] __Sessions__ (line 9 - 30)
- - [ ] __Errors__ (line 31-126)
- - [ ] __User Deteils__ (line 127-138)
- - [ ] __Access__ (line 139-155)
- - [ ] __Dashboard and widgets__ (line 156-181)
- - [ ] __Groups__ (line 182-188)
- - [ ] __Users__ (line 189-195)
- - [ ] __Friends__ (line 196-299)
- - [ ] __Feeds__ (300-303)
- - [ ] __Links__ (304-310)
- - [ ] __River__ (311-336)
- - [ ] __Notifications__ (337-348)
- - [ ] __Search__ (349-375)
- - [ ] __Account__ (376-439)
- - [ ] __Administration__ (440-576)
- - [ ] __Plugins__ (577-717)
- - [ ] __User Settings__ (718-744)
- - [ ] __Activity river__ (745-762)
- - [ ] __Icons__ (763-774)
- - [ ] __Generic action words__ (775-876)
- - [ ] __Generic questions__ (877-882)
- - [ ] __Status__ (883-895)
- - [ ] __Generic sorts__ (896-904)
- - [ ] __Generic data words__ (905-927)
- - [ ] __Entity actions__ (928-935)
- - [ ] __Input / output strings__ (936-943)
- - [ ] __User add__ (944-963)
- - [ ] __System messages__ (964-970)
- - [ ] __Import / export__ (971-977)
- - [ ] __Time__ (978-1029)
- - [ ] __System settings__ (1030-1141)
- - [ ] __Welcome__ (1142-1148)
- - [ ] __Emails__ (1149-1192)
- - [ ] __user default access__ (1193-1201)
- - [ ] __Comments__ (1202-1244)
- - [ ] __Entities__ (1245-1255)
- - [ ] __Action gatekeeper__ (1256-1266)
- - [ ] __Word blacklists__ (1267-1272)
- - [ ] __Tag labels__ (1273-1279)
- - [ ] __Javascript__ (1280-1287)
- - [ ] __Miscellaneous__ (1288-1292)
- - [ ] __Languages according to ISO 639-1__ (1293-1440)
+ - [x] __Sites__ 
+ - [x] __Sessions__ 
+ - [x] __Errors__ 
+ - [x] __User Details__ 
+ - [ ] __Access__ 
+ - [ ] __Dashboard and widgets__ 
+ - [ ] __Groups__ 
+ - [ ] __Users__ 
+ - [ ] __Friends__ 
+ - [ ] __Feeds__ 
+ - [ ] __Links__ 
+ - [ ] __River__ 
+ - [ ] __Notifications__ 
+ - [ ] __Search__ 
+ - [ ] __Account__ 
+ - [ ] __Administration__ 
+ - [ ] __Plugins__ 
+ - [ ] __User Settings__ 
+ - [ ] __Activity river__ 
+ - [ ] __Icons__ 
+ - [ ] __Generic action words__ 
+ - [ ] __Generic questions__ 
+ - [ ] __Status__ 
+ - [ ] __Generic sorts__ 
+ - [ ] __Generic data words__ 
+ - [ ] __Entity actions__ 
+ - [ ] __Input / output strings__ 
+ - [ ] __User add__ 
+ - [ ] __System messages__ 
+ - [ ] __Import / export__ 
+ - [ ] __Time__ 
+ - [ ] __System settings__ 
+ - [ ] __Welcome__ 
+ - [ ] __Emails__ 
+ - [ ] __user default access__ 
+ - [ ] __Comments__ 
+ - [ ] __Entities__ 
+ - [ ] __Action gatekeeper__ 
+ - [ ] __Word blacklists__ 
+ - [ ] __Tag labels__ 
+ - [ ] __Javascript__ 
+ - [ ] __Miscellaneous__ 
+ - [ ] __Languages according to ISO 639-1__ 
 
 Completes Parts
 -----
 (Ready for push to official ELGG repository)
- - [ ] P1: Sessions and Errors
+ - [x] P1: Sessions and Errors
  - [ ] P2: User Details - Account
  - [ ] P3: Administration
  - [ ] P4: Plugins
