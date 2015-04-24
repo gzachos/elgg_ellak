@@ -69,7 +69,7 @@ Translation Progress by Sections
  - [x] __System messages__ (964-970)
  - [x] __Import / export__ (971-977)
  - [x] __Time__ (978-1029)
- - [ ] __System settings__ (1030-1141)
+ - [x] __System settings__ (1030-1141)
  - [ ] __Welcome__ (1142-1148)
  - [ ] __Emails__ (1149-1192)
  - [ ] __user default access__ (1193-1201)
@@ -89,14 +89,14 @@ Translation Progress by Parts
  - [X] P3: Administration
  - [X] P4: Plugins
  - [x] P5: User settings - Time
- - [ ] P6: System settings
+ - [x] P6: System settings
  - [ ] P7: Welcome - Miscellaneous
  - [ ] P8: Languages
 
  
 Completed Sections
 -----
-(Ready for push to official GFOSS repository)
+(Ready for push to official ELGG repository)
  - [ ] __Sites__ (line 1-8)
  - [ ] __Sessions__ (line 9 - 30)
  - [ ] __Errors__ (line 31-126)
@@ -143,7 +143,7 @@ Completed Sections
 
 Completes Parts
 -----
-(Ready for push to official GFOSS repository)
+(Ready for push to official ELGG repository)
  - [ ] P1: Sessions and Errors
  - [ ] P2: User Details - Account
  - [ ] P3: Administration
