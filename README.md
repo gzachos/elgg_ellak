@@ -46,14 +46,6 @@ Translation type
 -----
 >From English to Greek
 
-Comment Types
------
-When comments include:
- * __"#1"__ - _Untranslated word/phrase_ (High Priority issue)
- * __"#12"__ - _Untranslated word/phrase which has been already stated_ (zero-importance issue)
- * __"#2"__ -  _Interpretation issue_ (Middle Priority issue)
- * __"#8888"__ - _Error possibility during code execution_ (Both "Logic" and "Run Time" errors may occur)
- * __[ text ]__ - _An English string or part of a string unchanged_
 
 Translation Progress by Sections
 -----
@@ -127,10 +119,10 @@ Completed Sections
  - [x] __Friends__
  - [x] __Feeds__
  - [x] __Links__
- - [ ] __River__
- - [ ] __Notifications__
- - [ ] __Search__
- - [ ] __Account__
+ - [x] __River__
+ - [x] __Notifications__
+ - [x] __Search__
+ - [x] __Account__
  - [ ] __Administration__
  - [ ] __Plugins__
  - [ ] __User Settings__
@@ -164,7 +156,7 @@ Completes Parts
 -----
 (Ready for push to official ELGG repository)
  - [x] P1: Sessions and Errors
- - [ ] P2: User Details - Account
+ - [x] P2: User Details - Account
  - [ ] P3: Administration
  - [ ] P4: Plugins
  - [ ] P5: User settings - Time
