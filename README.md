@@ -22,6 +22,25 @@ About Elgg
 >other features. It was also the first platform to bring ideas from commercial social
 >networking platforms to educational software.
 
+Screenshots
+-----------
+
+<br>_Main Page_<br>
+![Login](./screenshots/login.png)
+
+<br>_Status Report_<br>
+![control_panel](./screenshots/control_panel.png)
+
+<br>_Sample graph (1 Hour Log)_<br>
+![user_addition](./screenshots/user_addition.png)
+
+<br>_Emerson Website Tree_<br>
+![profile_settings](./screenshots/profile_settings.png)
+
+<br>_Measurement Report_<br>
+![advanced_settings](./screenshots/advanced_settings.png)
+
+For more see inside the "screenshots" directory.
 
 Translation type
 -----
@@ -38,49 +57,49 @@ When comments include:
 
 Translation Progress by Sections
 -----
- - [x] __Sites__ 
- - [x] __Sessions__ 
- - [x] __Errors__ 
- - [x] __User Deteils__ 
- - [x] __Access__ 
- - [x] __Dashboard and widgets__ 
- - [x] __Groups__ 
- - [x] __Users__ 
- - [x] __Friends__ 
- - [x] __Feeds__ 
- - [x] __Links__ 
- - [x] __River__ 
- - [x] __Notifications__ 
- - [x] __Search__ 
- - [x] __Account__ 
- - [x] __Administration__ 
- - [x] __Plugins__ 
- - [x] __User Settings__ 
- - [x] __Activity river__ 
- - [x] __Icons__ 
- - [x] __Generic action words__ 
- - [x] __Generic questions__ 
- - [x] __Status__ 
- - [x] __Generic sorts__ 
- - [x] __Generic data words__ 
- - [x] __Entity actions__ 
- - [x] __Input / output strings__ 
- - [x] __User add__ 
- - [x] __System messages__ 
- - [x] __Import / export__ 
- - [x] __Time__ 
- - [x] __System settings__ 
- - [x] __Welcome__ 
- - [x] __Emails__ 
- - [x] __user default access__ 
- - [x] __Comments__ 
- - [x] __Entities__ 
- - [x] __Action gatekeeper__ 
- - [ ] __Word blacklists__ 
- - [x] __Tag labels__ 
- - [ ] __Javascript__ 
- - [x] __Miscellaneous__ 
- - [ ] __Languages according to ISO 639-1__ 
+ - [x] __Sites__
+ - [x] __Sessions__
+ - [x] __Errors__
+ - [x] __User Deteils__
+ - [x] __Access__
+ - [x] __Dashboard and widgets__
+ - [x] __Groups__
+ - [x] __Users__
+ - [x] __Friends__
+ - [x] __Feeds__
+ - [x] __Links__
+ - [x] __River__
+ - [x] __Notifications__
+ - [x] __Search__
+ - [x] __Account__
+ - [x] __Administration__
+ - [x] __Plugins__
+ - [x] __User Settings__
+ - [x] __Activity river__
+ - [x] __Icons__
+ - [x] __Generic action words__
+ - [x] __Generic questions__
+ - [x] __Status__
+ - [x] __Generic sorts__
+ - [x] __Generic data words__
+ - [x] __Entity actions__
+ - [x] __Input / output strings__
+ - [x] __User add__
+ - [x] __System messages__
+ - [x] __Import / export__
+ - [x] __Time__
+ - [x] __System settings__
+ - [x] __Welcome__
+ - [x] __Emails__
+ - [x] __user default access__
+ - [x] __Comments__
+ - [x] __Entities__
+ - [x] __Action gatekeeper__
+ - [ ] __Word blacklists__
+ - [x] __Tag labels__
+ - [ ] __Javascript__
+ - [x] __Miscellaneous__
+ - [x] __Languages according to ISO 639-1__
 
 Translation Progress by Parts
 -----
@@ -91,55 +110,55 @@ Translation Progress by Parts
  - [x] P5: User settings - Time
  - [x] P6: System settings
  - [x] P7: Welcome - Miscellaneous
- - [ ] P8: Languages
+ - [x] P8: Languages
 
- 
+
 Completed Sections
 -----
 (Ready for push to official ELGG repository)
- - [x] __Sites__ 
- - [x] __Sessions__ 
- - [x] __Errors__ 
- - [x] __User Details__ 
- - [ ] __Access__ 
- - [ ] __Dashboard and widgets__ 
- - [ ] __Groups__ 
- - [ ] __Users__ 
- - [ ] __Friends__ 
- - [ ] __Feeds__ 
- - [ ] __Links__ 
- - [ ] __River__ 
- - [ ] __Notifications__ 
- - [ ] __Search__ 
- - [ ] __Account__ 
- - [ ] __Administration__ 
- - [ ] __Plugins__ 
- - [ ] __User Settings__ 
- - [ ] __Activity river__ 
- - [ ] __Icons__ 
- - [ ] __Generic action words__ 
- - [ ] __Generic questions__ 
- - [ ] __Status__ 
- - [ ] __Generic sorts__ 
- - [ ] __Generic data words__ 
- - [ ] __Entity actions__ 
- - [ ] __Input / output strings__ 
- - [ ] __User add__ 
- - [ ] __System messages__ 
- - [ ] __Import / export__ 
- - [ ] __Time__ 
- - [ ] __System settings__ 
- - [ ] __Welcome__ 
- - [ ] __Emails__ 
- - [ ] __user default access__ 
- - [ ] __Comments__ 
- - [ ] __Entities__ 
- - [ ] __Action gatekeeper__ 
- - [ ] __Word blacklists__ 
- - [ ] __Tag labels__ 
- - [ ] __Javascript__ 
- - [ ] __Miscellaneous__ 
- - [ ] __Languages according to ISO 639-1__ 
+ - [x] __Sites__
+ - [x] __Sessions__
+ - [x] __Errors__
+ - [x] __User Details__
+ - [x] __Access__
+ - [x] __Dashboard and widgets__
+ - [x] __Groups__
+ - [x] __Users__
+ - [x] __Friends__
+ - [x] __Feeds__
+ - [x] __Links__
+ - [ ] __River__
+ - [ ] __Notifications__
+ - [ ] __Search__
+ - [ ] __Account__
+ - [ ] __Administration__
+ - [ ] __Plugins__
+ - [ ] __User Settings__
+ - [ ] __Activity river__
+ - [ ] __Icons__
+ - [ ] __Generic action words__
+ - [ ] __Generic questions__
+ - [ ] __Status__
+ - [ ] __Generic sorts__
+ - [ ] __Generic data words__
+ - [ ] __Entity actions__
+ - [ ] __Input / output strings__
+ - [ ] __User add__
+ - [ ] __System messages__
+ - [ ] __Import / export__
+ - [ ] __Time__
+ - [ ] __System settings__
+ - [ ] __Welcome__
+ - [ ] __Emails__
+ - [ ] __user default access__
+ - [ ] __Comments__
+ - [ ] __Entities__
+ - [ ] __Action gatekeeper__
+ - [ ] __Word blacklists__
+ - [ ] __Tag labels__
+ - [ ] __Javascript__
+ - [ ] __Miscellaneous__
+ - [x] __Languages according to ISO 639-1__
 
 Completes Parts
 -----
@@ -151,5 +170,4 @@ Completes Parts
  - [ ] P5: User settings - Time
  - [ ] P6: System settings
  - [ ] P7: Welcome - Miscellaneous
- - [ ] P8: Languages
-
+ - [x] P8: Languages
