@@ -25,19 +25,19 @@ About Elgg
 Screenshots
 -----------
 
-<br>_Main Page_<br>
+<br>_Login_<br>
 ![Login](./screenshots/login.png)
 
-<br>_Status Report_<br>
+<br>_Control Panel_<br>
 ![control_panel](./screenshots/control_panel.png)
 
-<br>_Sample graph (1 Hour Log)_<br>
+<br>_User Addition_<br>
 ![user_addition](./screenshots/user_addition.png)
 
-<br>_Emerson Website Tree_<br>
+<br>_Profile Settings_<br>
 ![profile_settings](./screenshots/profile_settings.png)
 
-<br>_Measurement Report_<br>
+<br>_Advanced Settings_<br>
 ![advanced_settings](./screenshots/advanced_settings.png)
 
 For more see inside the "screenshots" directory.
