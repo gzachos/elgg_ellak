@@ -127,20 +127,20 @@ Completed Sections
  - [x] __Account__
  - [x] __Administration__
  - [x] __Plugins__
- - [ ] __User Settings__
- - [ ] __Activity river__
- - [ ] __Icons__
- - [ ] __Generic action words__
- - [ ] __Generic questions__
- - [ ] __Status__
- - [ ] __Generic sorts__
- - [ ] __Generic data words__
- - [ ] __Entity actions__
- - [ ] __Input / output strings__
- - [ ] __User add__
- - [ ] __System messages__
- - [ ] __Import / export__
- - [ ] __Time__
+ - [x] __User Settings__
+ - [x] __Activity river__
+ - [x] __Icons__
+ - [x] __Generic action words__
+ - [x] __Generic questions__
+ - [x] __Status__
+ - [x] __Generic sorts__
+ - [x] __Generic data words__
+ - [x] __Entity actions__
+ - [x] __Input / output strings__
+ - [x] __User add__
+ - [x] __System messages__
+ - [x] __Import / export__
+ - [x] __Time__
  - [ ] __System settings__
  - [ ] __Welcome__
  - [ ] __Emails__
@@ -161,7 +161,7 @@ Completes Parts
  - [x] P2: User Details - Account
  - [x] P3: Administration
  - [x] P4: Plugins
- - [ ] P5: User settings - Time
+ - [x] P5: User settings - Time
  - [ ] P6: System settings
  - [ ] P7: Welcome - Miscellaneous
  - [x] P8: Languages

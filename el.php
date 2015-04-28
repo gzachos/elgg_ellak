@@ -734,10 +734,10 @@ return array(
  * User settings
  */
 		
-	'usersettings:description' => "Ο πίνακας ρυθμίσεων χρήστη σας επιτρέπει να ελέγχετε όλες τις προσωπικές σας ρυθμίσεις, από τη διαχείριση χρήστη, μέχρι το πως συμπεριφέρονται τα πρόσθετα. Διαλέξτε παρακάτω μια επιλογή για να ξεκινήσετε.",/* [The user settings panel allows you to control all your personal settings, from user management to how plugins behave. Choose an option below to get started.] */
+	'usersettings:description' => "Ο πίνακας ρυθμίσεων χρήστη σας επιτρέπει να ελέγχετε όλες τις προσωπικές σας ρυθμίσεις, από τη διαχείριση χρήστη, μέχρι και το πως συμπεριφέρονται τα πρόσθετα. Διαλέξτε παρακάτω μια επιλογή για να ξεκινήσετε.",
 
 	'usersettings:statistics' => "Τα στατιστικά στοιχεία σας",
-	'usersettings:statistics:opt:description' => "Προβολή στατιστικών πληροφοριών σχετικά με χρήστες και περιεχόμενα στη σελίδα σας.", /* [objects](αντικείμενα) */
+	'usersettings:statistics:opt:description' => "Προβολή στατιστικών πληροφοριών σχετικά με τους χρήστες και τα στοιχεία στην ιστοσελίδα σας.", 
 	'usersettings:statistics:opt:linktext' => "Στατιστικά στοιχεία λογαριασμού",
 
 	'usersettings:user' => "Οι ρυθμίσεις του/της %s",
@@ -745,10 +745,10 @@ return array(
 	'usersettings:user:opt:linktext' => "Αλλάξτε τις ρυθμίσεις σας",
 
 	'usersettings:plugins' => "Εργαλεία",
-	'usersettings:plugins:opt:description' => "Διαμόρφωση ρυθμίσεων (αν υπάρχουν) για τα ενεργά εργαλεία.",/* #2 [Configure] */
+	'usersettings:plugins:opt:description' => "Διαμόρφωση ρυθμίσεων (αν υπάρχουν) για τα ενεργά εργαλεία.",
 	'usersettings:plugins:opt:linktext' => "Διαμορφώστε τα εργαλεία σας",
 
-	'usersettings:plugins:description' => "Αυτός ο πίνακας ελέγχου σας επιτρέπει να ελέγχετε και να διαμορφώνεται τις προσωπικές σας ρυθμίσεις για εργαλεία που εγκαταστάθηκαν από τον διαχειριστή συστήματος.",/* #2 [panel] */
+	'usersettings:plugins:description' => "Αυτός ο πίνακας ελέγχου σας επιτρέπει να ελέγχετε και να διαμορφώνεται τις προσωπικές σας ρυθμίσεις για εργαλεία που εγκαταστάθηκαν από τον διαχειριστή συστήματος.",
 	'usersettings:statistics:label:numentities' => "Το περιεχόμενό σας",
 
 	'usersettings:statistics:yourdetails' => "Οι λεπτομέρειές σας",
@@ -765,22 +765,22 @@ return array(
 	'river:mine' => 'Η δραστηριότητά μου',
 	'river:owner' => 'Η δραστηριότητα του/της %s',
 	'river:friends' => 'Δραστηριότητα φίλων',
-	'river:select' => 'Προβολή %s', /* #8888 */
+	'river:select' => 'Προβολή %s', 
 	'river:comments:more' => '+%u περισσότερα',
 	'river:generic_comment' => 'σχολίασε σε %s %s',
 
 	'friends:widget:description' => "Προβάλλει κάποιους από τους φίλους σας.",
 	'friends:num_display' => "Πλήθος φίλων για προβολή",
-	'friends:icon_size' => "Μέγεθος εικονιδίου", /* #2 [Icon size](Εικόνες)(Προτάθηκε "εικονίδιο" καθώς παρακάτω γίνεται αναφορά σε icons του topbar) */
-	'friends:tiny' => "μικροσκοπικό", /* #2 [για icon] */
-	'friends:small' => "μικρό", /* #2 [για icon] */
+	'friends:icon_size' => "Μέγεθος εικονιδίου", 
+	'friends:tiny' => "μικροσκοπικό", 
+	'friends:small' => "μικρό", 
 
 /**
  * Icons
  */
 
-	'icon:size' => "Μέγεθος εικονιδίου", /* [icon] */
-	'icon:size:topbar' => "Πάνω γραμμή εργαλείων", /* #2 [topbar] */
+	'icon:size' => "Μέγεθος εικονιδίου", 
+	'icon:size:topbar' => "Πάνω γραμμή εργαλείων", 
 	'icon:size:tiny' => "Μικροσκοπικό",
 	'icon:size:small' => "Μικρό",
 	'icon:size:medium' => "Μεσαίο",
@@ -795,7 +795,7 @@ return array(
 	'reset' => 'Επαναφορά',
 	'publish' => "Δημοσίευση",
 	'cancel' => "Ακύρωση",
-	'saving' => "Αποθήκευση ...",
+	'saving' => "Αποθηκεύεται ...",
 	'update' => "Ανανέωση",
 	'preview' => "Προεπισκόπηση",
 	'edit' => "Επεξεργασία",
@@ -806,7 +806,7 @@ return array(
 	'approve' => "Έγκριση",
 	'activate' => "Ενεργοποίηση",
 	'deactivate' => "Απενεργοποίηση",
-	'disapprove' => "Μη αποδοχή", /* [Disapprove] */
+	'disapprove' => "Μη αποδοχή", 
 	'revoke' => "Ανάκληση",
 	'load' => "Φόρτωση",
 	'upload' => "Ανέβασμα",
@@ -816,8 +816,8 @@ return array(
 	'banned' => "Αποκλεισμένος",
 	'enable' => "Ενεργοποίηση",
 	'disable' => "Απενεργοποίηση",
-	'request' => "Αίτηση",/* #2 [Request] */
-	'complete' => "Ολοκλήρωση", /* #2 */
+	'request' => "Αίτηση",
+	'complete' => "Ολοκλήρωση", 
 	'open' => 'Άνοιγμα',
 	'close' => 'Κλείσιμο',
 	'hide' => 'Κρύψιμο',
@@ -837,7 +837,7 @@ return array(
 	'upgrade' => 'Αναβάθμιση',
 	'sort' => 'Ταξινόμηση',
 	'filter' => 'Φιλτράρισμα',
-	'new' => 'Νέο', /* #8888 */
+	'new' => 'Δημιουργία νέου/νέας', 
 	'add' => 'Προσθήκη',
 	'create' => 'Δημιουργία',
 	'remove' => 'Αφαίρεση',
@@ -860,23 +860,23 @@ return array(
 
 	'resetpassword' => "Επαναφορά κωδικού πρόσβασης",
 	'changepassword' => "Αλλαγή κωδικού πρόσβασης",
-	'makeadmin' => "Προσθήκη διαχειριστή", /* [make](δημιουργία) */
+	'makeadmin' => "Προσθήκη διαχειριστή", 
 	'removeadmin' => "Αφαίρεση διαχειριστή",
 
 	'option:yes' => "Ναι",
 	'option:no' => "Όχι",
 
-	'unknown' => 'Άγνωστο', /* #8888 */
+	'unknown' => 'Άγνωστο', 
 	'never' => 'Ποτέ',
 
-	'active' => 'Ενεργό', /* #8888 */ 
+	'active' => 'Ενεργό', 
 	'total' => 'Συνολικά',
 	
 	'ok' => 'OK',
-	'any' => 'Κανένα', /* #8888 [any](οποιοδήποτε) */
+	'any' => 'Κανένα', 
 	'error' => 'Σφάλμα',
 	
-	'other' => 'Άλλο', /* #8888 [other](άλλα) */
+	'other' => 'Άλλο', 
 	'options' => 'Επιλογές',
 	'advanced' => 'Για προχωρημένους',
 
@@ -885,7 +885,7 @@ return array(
 
 	'content' => "περιεχόμενο",
 	'content:latest' => 'Πρόσφατη δραστηριότητα',
-	'content:latest:blurb' => 'Εναλλακτικά κάντε κλικ εδώ για να δείτε την πρόσφατη δραστηριότητα σε όλη τη σελίδα.',
+	'content:latest:blurb' => 'Εναλλακτικά κάντε κλικ εδώ για να δείτε την πιο πρόσφατη δραστηριότητα σε όλη τη σελίδα.',
 
 	'link:text' => 'προβολή συνδέσμου',
 	
@@ -904,15 +904,15 @@ return array(
 	'status:draft' => 'Προσχέδιο',
 	'status:unpublished' => 'Αδημοσίευτη',
 	'status:published' => 'Δημοσιευμένη',
-	'status:featured' => 'Featured', /* #12 [featured] */
+	'status:featured' => 'Προτεινόμενη', 
 	'status:open' => 'Ανοιχτή',
-	'status:closed' => 'Κλειστή', /* (γένος τελευταίου "blocl") */
+	'status:closed' => 'Κλειστή', 
 
 /**
  * Generic sorts
  */
 
-	'sort:newest' => 'Πρόσφατα', /* #8888 whole block */
+	'sort:newest' => 'Πρόσφατα', 
 	'sort:popular' => 'Δημοφιλή',
 	'sort:alpha' => 'Αλφαβητικά',
 	'sort:priority' => 'Προτεραιότητα',
@@ -924,37 +924,37 @@ return array(
 	'title' => "Τίτλος",
 	'description' => "Περιγραφή",
 	'tags' => "Ετικέτες",
-	'spotlight' => "Επίκεντρο",/* #2 [Spotlight](προσκήνιο ή επίκεντρο) */
-	'all' => "Όλα", /* #8888 */
-	'mine' => "Τα δικά μου",/* #8888 */
+	'spotlight' => "Επίκεντρο",
+	'all' => "Όλα", 
+	'mine' => "Τα δικά μου",
 
 	'by' => 'από',
-	'none' => 'κανένα', /* #8888 */
+	'none' => 'κανένα', 
 
-	'annotations' => "Σχολιασμοί",/*[Annotations](Σημειώσεις)*/
+	'annotations' => "Σχολιασμοί",
 	'relationships' => "Σχέσεις",
-	'metadata' => "Μεταδεδομένα", /* [Metadata] */
-	'tagcloud' => "Σύννεφο ετικετών",/* #2 [tag cloud] */
+	'metadata' => "Μεταδεδομένα(metadata)", 
+	'tagcloud' => "Σύννεφο ετικετών",
 	'tagcloud:allsitetags' => "Οι ετικέτες όλης της σελίδας",
 
-	'on' => 'Ανοιχτό', /* #8888 */
-	'off' => 'Κλειστό',/* #8888 */
+	'on' => 'Ανοιχτό', 
+	'off' => 'Κλειστό',
 
 /**
  * Entity actions
  */
 		
-	'edit:this' => 'Επεξεργασία', /* [Edit this] */ /* [Entity] (προηγουμένος αναφέρθηκε σε πρόσωπο)(πρόσωπα στη σελίδα) */
-	'delete:this' => 'Διαγραφή', /*[Delete this] */
-	'comment:this' => 'Σχολιασμός',/*[Comment on this]*/
+	'edit:this' => 'Επεξεργασία', 
+	'delete:this' => 'Διαγραφή', 
+	'comment:this' => 'Σχολιασμός',
 
 /**
  * Input / output strings
  */
 
-	'deleteconfirm' => "Είστε σίγουρος/η ότι θέλετε να διαγράψετε αυτό το αντικείμενο;", /* #2 [item](στοιχείο) */
-	'deleteconfirm:plural' => "Είστε σίγουρος/η ότι θέλετε να διαγράψετε αυτά τα αντικείμενα;",/* #2 same as above] */
-	'fileexists' => "Ένα αρχείο έχει ήδη ανεβεί. Για να το αντικαταστήσετε επιλέξτετο παρακάτω:",
+	'deleteconfirm' => "Είστε σίγουρος/η ότι θέλετε να διαγράψετε αυτό το στοιχείο;", 
+	'deleteconfirm:plural' => "Είστε σίγουρος/η ότι θέλετε να διαγράψετε αυτά τα στοιχεία;",
+	'fileexists' => "Ένα αρχείο έχει ήδη ανεβεί. Για να το αντικαταστήσετε επιλέξτε το παρακάτω:",
 
 /**
  * User add
@@ -988,7 +988,7 @@ return array(
  */
 		
 	'importsuccess' => "Επιτυχής εισαγωγή δεδομένων",
-	'importfail' => "Ανεπιτυχής εισαγωγή δεδομένων τύπου OpenDD.",/* #1 [OpenDD import of data failed.] */
+	'importfail' => "Ανεπιτυχής εισαγωγή δεδομένων τύπου OpenDD.",
 
 /**
  * Time
@@ -1001,7 +1001,7 @@ return array(
 	'friendlytime:hours:singular' => "πριν μία ώρα",
 	'friendlytime:days' => "%s μέρες πριν",
 	'friendlytime:days:singular' => "χθες",
-	'friendlytime:date_format' => 'j F Y @ g:ia', /* #1 #8888 [j F Y @ g:ia] */
+	'friendlytime:date_format' => 'j F Y @ g:ia', /* # */
 	
 	'friendlytime:future:minutes' => "σε %s λεπτά",
 	'friendlytime:future:minutes:singular' => "σε ένα λεπτό",
