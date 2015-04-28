@@ -24,6 +24,8 @@ About Elgg
 
 Screenshots
 -----------
+(Do not depict the most recent website view)
+
 
 <br>_Login_<br>
 ![Login](./screenshots/login.png)
@@ -123,7 +125,7 @@ Completed Sections
  - [x] __Notifications__
  - [x] __Search__
  - [x] __Account__
- - [ ] __Administration__
+ - [x] __Administration__
  - [ ] __Plugins__
  - [ ] __User Settings__
  - [ ] __Activity river__
@@ -157,7 +159,7 @@ Completes Parts
 (Ready for push to official ELGG repository)
  - [x] P1: Sessions and Errors
  - [x] P2: User Details - Account
- - [ ] P3: Administration
+ - [x] P3: Administration
  - [ ] P4: Plugins
  - [ ] P5: User settings - Time
  - [ ] P6: System settings

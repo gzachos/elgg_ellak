@@ -450,17 +450,17 @@ return array(
 	'menu:page:header:administer' => 'Διαχείριση',
 	'menu:page:header:configure' => 'Διαμόρφωση',
 	'menu:page:header:develop' => 'Ανάπτυξη',
-	'menu:page:header:default' => 'Άλλο', /* #2 */
+	'menu:page:header:default' => 'Άλλο', 
 
-	'admin:view_site' => 'Προβολή σελίδας',
+	'admin:view_site' => 'Προβολή ιστοσελίδας',
 	'admin:loggedin' => 'Συνδεδεμένος/η ως %s',
 	'admin:menu' => 'Μενού',
 
 	'admin:configuration:success' => "Οι ρυθμίσεις σας αποθηκεύτηκαν.",
 	'admin:configuration:fail' => "Οι ρυθμίσεις σας δεν μπόρεσαν να αποθηκευτούν.",
-	'admin:configuration:dataroot:relative_path' => 'Το "%s" δεν μπορεί να οριστεί ως dataroot γιατί δεν είναι απόλυτο μονοπάτι.',/* #1 [dataroot] */
+	'admin:configuration:dataroot:relative_path' => 'Το "%s" δεν μπορεί να οριστεί ως dataroot γιατί δεν είναι απόλυτο μονοπάτι.',
 
-	'admin:unknown_section' => 'Μη έγκυρο τμήμα διαχειριστή.',
+	'admin:unknown_section' => 'Μη Έγκυρο Τμήμα Διαχειριστή.',
 
 	'admin' => "Διαχείριση",
 	'admin:description' => "Ο πίνακας ελέγχου διαχειριστή σας επιτρέπει να ελέγχετε όλες τις πτυχές του συστήματος· από τη διαχείριση χρηστών μέχρι τη συμπεριφορά τον πρόσθετων. Για να ξεκινήσετε, επιλέξτε μία από τις παρακάτω επιλογές.",
@@ -475,17 +475,17 @@ return array(
 	'admin:cron:date' => 'Ημερομηνία και ώρα',
 
 	'admin:appearance' => 'Εμφάνιση',
-	'admin:administer_utilities' => 'Βοηθήματα', /* #2 [Utilities]:(Βοηθήματα) */
-	'admin:develop_utilities' => 'Βοηθήματα', /* #2 [Utilities]:(Βοηθήματα) */
-	'admin:configure_utilities' => 'Βοηθήματα', /* #2 [Utilities]:(Βοηθήματα) */
+	'admin:administer_utilities' => 'Βοηθήματα', 
+	'admin:develop_utilities' => 'Βοηθήματα', 
+	'admin:configure_utilities' => 'Βοηθήματα', 
 	'admin:configure_utilities:robots' => 'Robots.txt', 
 
 	'admin:users' => "Χρήστες",
 	'admin:users:online' => 'Συνδεδεμένοι',
-	'admin:users:newest' => 'Πρόσφατοι',
+	'admin:users:newest' => 'Πρόσφατα Εγγεγραμένοι',
 	'admin:users:admins' => 'Διαχειριστές',
 	'admin:users:add' => 'Προσθήκη νέου χρήστη',
-	'admin:users:description' => "Αυτός ο πίνακας ελέγχου διαχειριστή σας επιτρέπει να ελέγχετε τις ρυθμίσεις χρήστη για τη σελίδα σας. Για να ξεκινήσετε, επιλέξτε μία από τις παρακάτω επιλογές.",
+	'admin:users:description' => "Αυτός ο πίνακας ελέγχου διαχειριστή σας επιτρέπει να ελέγχετε τις ρυθμίσεις χρήστη για την ιστο σελίδα σας. Για να ξεκινήσετε, επιλέξτε μία από τις παρακάτω επιλογές.",
 	'admin:users:adduser:label' => "Κάντε κλικ εδώ για προσθήκη νέου χρήστη...",
 	'admin:users:opt:linktext' => "Τροποποίηση χρηστών...",
 	'admin:users:opt:description' => "Τροποποίηση χρηστών και πληροφοριών λογαριασμών. ",
@@ -496,23 +496,23 @@ return array(
 
 	'admin:settings' => 'Ρυθμίσεις',
 	'admin:settings:basic' => 'Βασικές Ρυθμίσεις',
-	'admin:settings:advanced' => 'Ρυθμίσεις για προχωρημένους', /* #2 (Για προχωρημένους) */
-	'admin:site:description' => "Αυτός ο πίνακας ελέγχου διαχειριστή σας επιτρέπει να ελέγχετε τις καθολικές ρυθμίσεις χρήστη για τη σελίδα σας. Για να ξεκινήσετε, επιλέξτε μία από τις παρακάτω επιλογές.",
-	'admin:site:opt:linktext' => "Τροποιποίηση σελίδας...",
+	'admin:settings:advanced' => 'Ρυθμίσεις για προχωρημένους', 
+	'admin:site:description' => "Αυτός ο πίνακας ελέγχου διαχειριστή σας επιτρέπει να ελέγχετε τις καθολικές ρυθμίσεις χρήστη για την ιστοσελίδα σας. Για να ξεκινήσετε, επιλέξτε μία από τις παρακάτω επιλογές.",
+	'admin:site:opt:linktext' => "Διαμόρφωση ιστοσελίδας...",
 	'admin:settings:in_settings_file' => 'Αυτή η ρύθμιση έχει καθοριστεί στο αρχείο settings.php', 
 
 	'admin:legend:security' => 'Ασφάλεια',
-	'admin:site:secret:intro' => 'Το Elgg χρησιμοποιεί ένα \'κλειδί\' για να παράγει κωδικούς ασφαλείας(tokens) για διάφορους σκοπούς.', /* #1 [tokens] */
-	'admin:site:secret_regenerated' => "Το κρυφό \'κλειδί\' της σελίδας σας ξαναπαράχθηκε.",
-	'admin:site:secret:regenerate' => "Παραγωγή κρυφού \'κλειδιού\' για τη σελίδας", 
-	'admin:site:secret:regenerate:help' => "Σημείωση: Ξαναπαράγωντας το κρυφό \'κλειδί\' της σελίδας, μπορεί να προκαλέσετε δυσαρέσκεια σε κάποιους χρήστες, καθιστώντας μη έγκυρους τους κωδικούς ασφαλείας(tokens) που χρησιμοποιούνται στα cookies τύπου \"Να με θυμάσαι\", στα αιτήματα επαλήθευσης διευθύνσεων ηλ. ταχυδρομείου κλπ.",
-	'site_secret:current_strength' => 'Δύναμη \'κλειδιού\'',
+	'admin:site:secret:intro' => 'Το Elgg χρησιμοποιεί ένα κλειδί(key) για να παράγει κωδικούς ασφαλείας(tokens) για διάφορους σκοπούς.',
+	'admin:site:secret_regenerated' => "Το κρυφό κλειδί της ιστοσελίδας σας ξαναπαράχθηκε.",
+	'admin:site:secret:regenerate' => "Παραγωγή κρυφού κλειδιού για τη σελίδας", 
+	'admin:site:secret:regenerate:help' => "Σημείωση: Ξαναπαράγωντας το κρυφό κλειδί της ιστοσελίδας, μπορεί να προκαλέσετε δυσαρέσκεια σε κάποιους χρήστες, καθιστώντας μη έγκυρους τους κωδικούς ασφαλείας(tokens) που χρησιμοποιούνται στα cookies τύπου \"Να με θυμάσαι\", στα αιτήματα επαλήθευσης διευθύνσεων ηλ. ταχυδρομείου κλπ.",
+	'site_secret:current_strength' => 'Δύναμη κλειδιού',
 	'site_secret:strength:weak' => "Ασθενές",
-	'site_secret:strength_msg:weak' => "Σας προτείνουμε ένθερμα να ξαναδημιουργήσετε το κρυφό \'κλειδί\' της σελίδας σας.",
+	'site_secret:strength_msg:weak' => "Σας προτείνουμε ένθερμα να ξαναδημιουργήσετε το κρυφό κλειδί της ιστοσελίδας σας.",
 	'site_secret:strength:moderate' => "Μέτριο",
-	'site_secret:strength_msg:moderate' => "Σας προτείνουμε για μεγαλύτερη ασφάλεια να ξαναδημιουργήσετε το κρυφό \'κλειδί\' της σελίδας σας.",
+	'site_secret:strength_msg:moderate' => "Σας προτείνουμε για μεγαλύτερη ασφάλεια να ξαναδημιουργήσετε το κρυφό κλειδί της ιστοσελίδας σας.",
 	'site_secret:strength:strong' => "Δυνατό",
-	'site_secret:strength_msg:strong' => "Το κρυφό \'κλειδί\' της σελίδας σας είναι επαρκώς δυνατό. Δεν υπάρχει λόγος να το ξαναδημιουργήσετε.",
+	'site_secret:strength_msg:strong' => "Το κρυφό κλειδί της σελίδας σας είναι επαρκώς δυνατό. Δεν υπάρχει λόγος να το ξαναδημιουργήσετε.",
 
 	'admin:dashboard' => 'Πίνακας Ελέγχου',
 	'admin:widget:online_users' => 'Συνδεδεμένοι χρήστες',
@@ -541,28 +541,28 @@ return array(
 	",
 
 	// argh, this is ugly
-	'admin:widget:admin_welcome:outro' => '<br />Σιγουρευτείτε ότι είδατε τους διαθέσιμους πόρους μέσω των συνδέσμων στο κάτω μέρος της σελίδας. Ευχαριστούμε που χρησιμοποιείτε το Elgg!',/* #2 (πόρους πληροφορίας) */
+	'admin:widget:admin_welcome:outro' => '<br />Σιγουρευτείτε ότι είδατε τους διαθέσιμους πόρους μέσω των συνδέσμων στο κάτω μέρος της σελίδας. Ευχαριστούμε που χρησιμοποιείτε το Elgg!',
 
 	'admin:widget:control_panel' => 'Πίνακας Ελέγχου',
 	'admin:widget:control_panel:help' => "Παρέχει εύκολη πρόσβαση σε συνηθισμένες ρυθμίσεις",
 
-	'admin:cache:flush' => 'Εκκαθάριση της προσωρινής μνήμης(cache)',
-	'admin:cache:flushed' => "Η προσωρινή μνήμη(cache) της σελίδας εκκαθαρίστηκε",
+	'admin:cache:flush' => 'Εκκαθάριση της κρυφής μνήμης(cache)',
+	'admin:cache:flushed' => "Η κρυφής μνήμη(cache) της σελίδας εκκαθαρίστηκε",
 
 	'admin:footer:faq' => 'Συχνές ερωτήσεις σχετικά με τη διαχείριση',
 	'admin:footer:manual' => 'Εγχειρίδιο διαχείρισης',
-	'admin:footer:community_forums' => 'Τα φόρουμ της κοινότητας του Elgg',/* #2 (να αφήσουμε στα Αγγλικά τη λέξη Forum?) */
+	'admin:footer:community_forums' => 'Τα φόρουμ της κοινότητας του Elgg',
 	'admin:footer:blog' => 'Ιστολόγιο του Elgg',
 
 	'admin:plugins:category:all' => 'Όλα τα πρόσθετα',
 	'admin:plugins:category:active' => 'Ενεργά πρόσθετα',
 	'admin:plugins:category:inactive' => 'Ανενεργά πρόσθετα',
-	'admin:plugins:category:admin' => 'Διαχείριση', /* #2 [Admin]*/
-	'admin:plugins:category:bundled' => 'Ομαδοποιημένα', /* #1 [Bundled] */
-	'admin:plugins:category:nonbundled' => 'Μη-ομαδοποιημένα',  #1 [Non-bundled] */
+	'admin:plugins:category:admin' => 'Διαχείριση', 
+	'admin:plugins:category:bundled' => 'Ομαδοποιημένα', 
+	'admin:plugins:category:nonbundled' => 'Μη-ομαδοποιημένα',
 	'admin:plugins:category:content' => 'Περιεχόμενο',
 	'admin:plugins:category:development' => 'Ανάπτυξη',
-	'admin:plugins:category:enhancement' => 'Enhancements',
+	'admin:plugins:category:enhancement' => 'Βελτιώσεις',
 	'admin:plugins:category:api' => 'Υπηρεσία/API',
 	'admin:plugins:category:communication' => 'Επικοινωνία',
 	'admin:plugins:category:security' => 'Ασφάλεια και ανεπιθύμητη αλληλογραφία',
