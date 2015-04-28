@@ -126,7 +126,7 @@ Completed Sections
  - [x] __Search__
  - [x] __Account__
  - [x] __Administration__
- - [ ] __Plugins__
+ - [x] __Plugins__
  - [ ] __User Settings__
  - [ ] __Activity river__
  - [ ] __Icons__
@@ -160,7 +160,7 @@ Completes Parts
  - [x] P1: Sessions and Errors
  - [x] P2: User Details - Account
  - [x] P3: Administration
- - [ ] P4: Plugins
+ - [x] P4: Plugins
  - [ ] P5: User settings - Time
  - [ ] P6: System settings
  - [ ] P7: Welcome - Miscellaneous

@@ -601,15 +601,15 @@ return array(
 	'admin:plugins:deactivate_all' => 'Απενεργοποίηση όλων',
 	'admin:plugins:activate' => 'Ενεργοποίηση',
 	'admin:plugins:deactivate' => 'Απενεργοποίηση',
-	'admin:plugins:description' => "Αυτός ο πίνακας ελέγχου διαχειριστή επιτρέπει τον έλεγχο και configure των εγκατεστημένων εργαλείων στη σελίδα σας.", /*333*/
+	'admin:plugins:description' => "Αυτός ο πίνακας ελέγχου διαχειριστή επιτρέπει τον έλεγχο και τη διαμόρφωση των εγκατεστημένων εργαλείων στη σελίδα σας.", 
 	'admin:plugins:opt:linktext' => "Διαμόρφωση εργαλείων...", 
-	'admin:plugins:opt:description' => "Διαμορφώστε τα εργαλεία που έχουν εγκατασταθεί στη σελίδα. ", 
-	'admin:plugins:label:author' => "Συγγραφέας", /* ή συντάκτης*/
-	'admin:plugins:label:copyright' => "Πνευματικό δικαίωμα",/* #2 (πνευματικά δικαιώματα) */
+	'admin:plugins:opt:description' => "Διαμορφώστε τα εργαλεία που έχουν εγκατασταθεί στη σελίδα.", 
+	'admin:plugins:label:author' => "Συγγραφέας", 
+	'admin:plugins:label:copyright' => "Πνευματικά δικαιώματα",
 	'admin:plugins:label:categories' => 'Κατηγορίες',
-	'admin:plugins:label:licence' => "Άδεια", /*2 (άδεια χρήσης) */
+	'admin:plugins:label:licence' => "Άδεια Χρήσης", 
 	'admin:plugins:label:website' => "Υπερσύνδεσμος", 
-	'admin:plugins:label:repository' => "Κώδικας",
+	'admin:plugins:label:repository' => "Αποθετήριο",
 	'admin:plugins:label:bugtracker' => "Αναφορά προβλήματος",
 	'admin:plugins:label:donate' => "Δωρεά",
 	'admin:plugins:label:moreinfo' => 'περισσότερες πληροφορίες',
@@ -623,10 +623,10 @@ return array(
 	'admin:plugins:label:contributors:description' => 'Περιγραφή',
 	'admin:plugins:label:dependencies' => 'Εξαρτήσεις', 
 
-	'admin:plugins:warning:elgg_version_unknown' => 'Αυτό το πρόσθετο χρησιμοποιεί ένα αρχείο δήλωσης(manifest) τύπου legacy και δεν καθορίζει κάποια συμβατή έκδοση του Elgg. Πιθανόν να μη δουλέψει!', /* [legacy](μετάφραση?) */
-	'admin:plugins:warning:unmet_dependencies' => 'Αυτό το πρόσθετο έχει ανικανοποίητες εξαρτήσεις και δεν μπορεί να ενεργοποιηθεί. Ελέγξτε τις εξαρτήσεις στο πλαίσιο των περισσότερων πληροφοριών.', /* #2 [Check dependencies under more info.] */
+	'admin:plugins:warning:elgg_version_unknown' => 'Αυτό το πρόσθετο χρησιμοποιεί ένα αρχείο δήλωσης(manifest) τύπου legacy και δεν καθορίζει κάποια συμβατή έκδοση του Elgg. Πιθανόν να μη δουλέψει!', 
+	'admin:plugins:warning:unmet_dependencies' => 'Αυτό το πρόσθετο έχει ανικανοποίητες εξαρτήσεις και δεν μπορεί να ενεργοποιηθεί. Ελέγξτε τις εξαρτήσεις βάσει περισσότερων πληροφοριών.', 
 	'admin:plugins:warning:invalid' => 'Αυτό το πρόσθετο είναι μη έγκυρο: %s',
-	'admin:plugins:warning:invalid:check_docs' => 'Ελέγξτε <a href="http://docs.elgg.org/Invalid_Plugin"> το εγχειρίδιο του Elgg </a> για συμβουλές επίλυσης.',/* #2 [documentation] */
+	'admin:plugins:warning:invalid:check_docs' => 'Ελέγξτε <a href="http://docs.elgg.org/Invalid_Plugin"> το εγχειρίδιο του Elgg </a> για συμβουλές επίλυσης.',
 	'admin:plugins:cannot_activate' => 'αδυναμία ενεργοποίησης',
 
 	'admin:plugins:set_priority:yes' => "Το %s αναδιατάχθηκε.",
@@ -651,17 +651,17 @@ return array(
 	'admin:plugins:dependencies:local_value' => 'Πραγματική τιμή',
 	'admin:plugins:dependencies:comment' => 'Σχόλιο',
 
-	'admin:statistics:description' => "Αυτή είναι μια επισκόπηση των στατιστικών στοιχείων στη σελίδα σας. Αν χρειάζεστε πιο λεπτομερή στοιχεία, ένα επαγγελματικό feature διαχείρισης είναι διαθέσιμο.", /* #1 [feature]] */
-	'admin:statistics:opt:description' => "Προβολή στατιστικών πληροφοριών για τους χρήστες και τα αντικείμενα στη σελίδα σας.",
+	'admin:statistics:description' => "Αυτή είναι μια επισκόπηση των στατιστικών στοιχείων στην ιστοσελίδα σας. Αν χρειάζεστε πιο λεπτομερή στοιχεία, ένα επαγγελματικό χαρακτηριστικό διαχείρισης είναι διαθέσιμο.", 
+	'admin:statistics:opt:description' => "Προβολή στατιστικών πληροφοριών για τους χρήστες και τα στοιχεία στη σελίδα σας.",
 	'admin:statistics:opt:linktext' => "Προβολή στατιστικών στοιχείων...",
-	'admin:statistics:label:basic' => "Βασικά στατιστικά στοιχεία της σελίδας",
-	'admin:statistics:label:numentities' => "Πρόσωπα στη σελίδα",/* #2 [Entities on site]=(οντότητες,υπάρξεις)(ίσως πρόσωπα) */
+	'admin:statistics:label:basic' => "Βασικά στατιστικά στοιχεία της ιστοσελίδας",
+	'admin:statistics:label:numentities' => "Οντότητες στην ιστοσελίδα",
 	'admin:statistics:label:numusers' => "Πλήθος χρηστών",
 	'admin:statistics:label:numonline' => "Πλήθος συνδεδεμένων χρηστών",
-	'admin:statistics:label:onlineusers' => "Τρέχοντα συνδεδεμένοι χρήστες",/* #2 (Τρέχοντα? Στέκει;)*/
+	'admin:statistics:label:onlineusers' => "Τρέχοντα συνδεδεμένοι χρήστες",
 	'admin:statistics:label:admins'=>"Διαχειριστές",
 	'admin:statistics:label:version' => "Έκδοση Elgg",
-	'admin:statistics:label:version:release' => "Κυκλοφορία",/* #2 [Release] */
+	'admin:statistics:label:version:release' => "Κυκλοφορία",
 	'admin:statistics:label:version:version' => "Έκδοση",
 
 	'admin:server:label:php' => 'PHP',
@@ -676,7 +676,7 @@ return array(
 	'admin:server:error_log' => "Αρχείο καταγραφής σφαλμάτων του εξυπηρετητή ιστού", 
 	'admin:server:label:post_max_size' => 'Μέγιστο μέγεθος POST',
 	'admin:server:label:upload_max_filesize' => 'Μέγιστο μέγεθος αρχείου για ανέβασμα', 
-	'admin:server:warning:post_max_too_small' => '(Σημείωση: Το post_max_size πρέπει να είναι μεγαλύτερο από αυτή την τιμή για να υποστηριχθεί \'ανέβασμα\' αρχείου τέτοιου μεγέθους)', /* #8888 */
+	'admin:server:warning:post_max_too_small' => '(Σημείωση: Το post_max_size πρέπει να είναι μεγαλύτερο από αυτή την τιμή για να υποστηριχθεί το ανέβασμα αρχείου τέτοιου μεγέθους)', 
 
 	'admin:user:label:search' => "Εύρεση χρηστών:",
 	'admin:user:label:searchbutton' => "Αναζήτηση",
@@ -697,34 +697,34 @@ return array(
 	'admin:user:makeadmin:no' => "Αδυναμία ορισμού του χρήστη ως διαχειριστή.",
 
 	'admin:user:removeadmin:yes' => "Ο χρήστης δεν είναι πλέον διαχειριστής.",
-	'admin:user:removeadmin:no' => "Αδυναμία άρχης των δικαιωμάτων διαχειριστή από αυτό τον χρήστη.",
+	'admin:user:removeadmin:no' => "Αδυναμία άρσης των δικαιωμάτων διαχειριστή από αυτό τον χρήστη.",
 	'admin:user:self:removeadmin:no' => "Δεν μπορείτε να αφαιρέσετε τα δικαιώματα διαχειριστή που έχετε.",
 
-	'admin:appearance:menu_items' => 'Στοιχεία μενού', /* #2 [Menu Items] */
-	'admin:menu_items:configure' => 'Διαμόρφωση στοιχείων κυρίως μενού',
-	'admin:menu_items:description' => 'Επιλέξτε ποια στοιχεία μενού θέλετε να φαίνονται ως featured σύνδεσμοι.  Τα μη χρησιμοποιημένα στοιχεία θα προστεθούν ως "Περισσότερα" στο τέλος της λίστας.', /* #1 [featured] */
-	'admin:menu_items:hide_toolbar_entries' => 'Αφαίρεση συνδέσμων από το μενού της γραμμής εργαλείων;',
-	'admin:menu_items:saved' => 'Τα στοιχεία μενού αποθηκεύτηκαν.',
-	'admin:add_menu_item' => 'Προσθήκη προσαρμοσμένου στοιχείου μενού', /* #2 [custom] (νέου) */
-	'admin:add_menu_item:description' => 'Συμπληρώστε το εμφανιζόμενο όνομα και τον υπερσύνδεσμο για να προσθέσετε προσαρμοσμένα στοιχεία στο μενού πλοήγησης.',/* #22 [custom] */
+	'admin:appearance:menu_items' => 'Στοιχεία μενού', 
+	'admin:menu_items:configure' => 'Διαμόρφωση των στοιχείων του κυρίως μενού',
+	'admin:menu_items:description' => 'Επιλέξτε ποια στοιχεία μενού θέλετε να φαίνονται ως προτεινόμενοι σύνδεσμοι. Τα μη χρησιμοποιημένα στοιχεία θα προστεθούν ως "Περισσότερα" στο τέλος της λίστας.', 
+	'admin:menu_items:hide_toolbar_entries' => 'Αφαίρεση των συνδέσμων από το μενού της γραμμής εργαλείων;',
+	'admin:menu_items:saved' => 'Τα στοιχεία του μενού αποθηκεύτηκαν.',
+	'admin:add_menu_item' => 'Προσθήκη προσαρμοσμένου στοιχείου μενού', 
+	'admin:add_menu_item:description' => 'Συμπληρώστε το εμφανιζόμενο όνομα και τον υπερσύνδεσμο για να προσθέσετε προσαρμοσμένα στοιχεία στο μενού πλοήγησης.',
 
 	'admin:appearance:default_widgets' => 'Προεπιλεγμένα Widgets', 
-	'admin:default_widgets:unknown_type' => 'Άγνωστος τύπος  widget',
+	'admin:default_widgets:unknown_type' => 'Άγνωστος τύπος widget',
 	'admin:default_widgets:instructions' => 'Προσθέστε, αφαιρέστε, τοποθετήστε και διαμορφώστε τα προεπιλεγμένα widgets για την επιλεγμένη σελίδα των widget.
-Αυτές οι αλλαγές θα επηρεάσουν μόνο τους νέους χρήστες στη σελίδα.', /* #2 ['Add, remove, position, and configure default widgets for the selected widget page.] */
+Αυτές οι αλλαγές θα επηρεάσουν μόνο τους νέους χρήστες στη σελίδα.', 
 
-	'admin:robots.txt:instructions' => "Επεξεργαστείτε παρακάτω το αρχείο robots.txt της σελίδας",
-	'admin:robots.txt:plugins' => "Τα πρόσθετα προσθέτους τα εξής στο αρχείο robots.txt",
-	'admin:robots.txt:subdir' => "Το εργαλείο του αρχείου robots.txt δεν θα δουλέψει επειδή το Elgg είναι εγκατεστημένο σε ένα υπο-φάκελο",
+	'admin:robots.txt:instructions' => "Επεξεργαστείτε παρακάτω το αρχείο robots.txt της ιστοσελίδας",
+	'admin:robots.txt:plugins' => "Τα πρόσθετα, προσθέτουν τα εξής στο αρχείο robots.txt",
+	'admin:robots.txt:subdir' => "Το εργαλείο robots.txt δεν θα δουλέψει επειδή το Elgg είναι εγκατεστημένο σε ένα υποφάκελο",
 
 	'admin:maintenance_mode:default_message' => 'Η σελίδα βρίσκεται υπό συντήρηση',
 	'admin:maintenance_mode:instructions' => 'Η λειτουργία συντήρησης θα πρέπει να χρησιμοποιείται για τις αναβαθμίσεις και άλλες μεγάλες αλλαγές στη σελίδα.
 		Όταν είναι ενεργοποιημένη, μόνο οι διαχειριστές μπορούν να συνδεθούν και να περιηγηθούν στη σελίδα.',
 	'admin:maintenance_mode:mode_label' => 'Λειτουργία συντήρησης',
 	'admin:maintenance_mode:message_label' => 'Το μήνυμα που προβάλλεται στους χρήτες όταν η λειτουργία συντήρησης είναι ενεργή',
-	'admin:maintenance_mode:saved' => 'Οι ρυθμίσεις της λειτουργίας συντήρησης αποθηκεύτηκαν.',
+	'admin:maintenance_mode:saved' => 'Οι ρυθμίσεις σχετικά με τη λειτουργία συντήρησης αποθηκεύτηκαν.',
 	'admin:maintenance_mode:indicator_menu_item' => 'Η σελίδα βρίσκεται σε λειτουργία συντήρησης.',
-	'admin:login' => 'Σύνδεση διαχειριστή',
+	'admin:login' => 'Σύνδεση Διαχειριστή',
 
 //###################################################################################
 //#                              END OF PART 4                                      #
