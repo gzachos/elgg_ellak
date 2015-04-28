@@ -109,7 +109,7 @@ Translation Progress by Parts
 
 Completed Sections
 -----
-(Ready for push to official ELGG repository)
+(Ready to push to the official ELGG repository)
  - [x] __Sites__
  - [x] __Sessions__
  - [x] __Errors__
@@ -141,27 +141,27 @@ Completed Sections
  - [x] __System messages__
  - [x] __Import / export__
  - [x] __Time__
- - [ ] __System settings__
- - [ ] __Welcome__
- - [ ] __Emails__
- - [ ] __user default access__
- - [ ] __Comments__
- - [ ] __Entities__
- - [ ] __Action gatekeeper__
+ - [x] __System settings__
+ - [x] __Welcome__
+ - [x] __Emails__
+ - [x] __user default access__
+ - [x] __Comments__
+ - [x] __Entities__
+ - [x] __Action gatekeeper__
  - [ ] __Word blacklists__
- - [ ] __Tag labels__
- - [ ] __Javascript__
- - [ ] __Miscellaneous__
+ - [x] __Tag labels__
+ - [x] __Javascript__
+ - [x] __Miscellaneous__
  - [x] __Languages according to ISO 639-1__
 
-Completes Parts
+Completed Parts
 -----
-(Ready for push to official ELGG repository)
+(Ready to push to the official ELGG repository)
  - [x] P1: Sessions and Errors
  - [x] P2: User Details - Account
  - [x] P3: Administration
  - [x] P4: Plugins
  - [x] P5: User settings - Time
- - [ ] P6: System settings
- - [ ] P7: Welcome - Miscellaneous
+ - [x] P6: System settings
+ - [x] P7: Welcome - Miscellaneous
  - [x] P8: Languages
