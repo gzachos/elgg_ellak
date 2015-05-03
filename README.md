@@ -49,62 +49,10 @@ Translation type
 >From English to Greek
 
 
-Translation Progress by Sections
+Translated Elgg Versions
 -----
- - [x] __Sites__
- - [x] __Sessions__
- - [x] __Errors__
- - [x] __User Deteils__
- - [x] __Access__
- - [x] __Dashboard and widgets__
- - [x] __Groups__
- - [x] __Users__
- - [x] __Friends__
- - [x] __Feeds__
- - [x] __Links__
- - [x] __River__
- - [x] __Notifications__
- - [x] __Search__
- - [x] __Account__
- - [x] __Administration__
- - [x] __Plugins__
- - [x] __User Settings__
- - [x] __Activity river__
- - [x] __Icons__
- - [x] __Generic action words__
- - [x] __Generic questions__
- - [x] __Status__
- - [x] __Generic sorts__
- - [x] __Generic data words__
- - [x] __Entity actions__
- - [x] __Input / output strings__
- - [x] __User add__
- - [x] __System messages__
- - [x] __Import / export__
- - [x] __Time__
- - [x] __System settings__
- - [x] __Welcome__
- - [x] __Emails__
- - [x] __user default access__
- - [x] __Comments__
- - [x] __Entities__
- - [x] __Action gatekeeper__
- - [ ] __Word blacklists__
- - [x] __Tag labels__
- - [ ] __Javascript__
- - [x] __Miscellaneous__
- - [x] __Languages according to ISO 639-1__
-
-Translation Progress by Parts
------
- - [x] P1: Sessions and Errors
- - [x] P2: User Details - Account
- - [X] P3: Administration
- - [X] P4: Plugins
- - [x] P5: User settings - Time
- - [x] P6: System settings
- - [x] P7: Welcome - Miscellaneous
- - [x] P8: Languages
+ - [x] Version 1.9.\*
+ - [x] Version 1.10.\*
 
 
 Completed Sections
