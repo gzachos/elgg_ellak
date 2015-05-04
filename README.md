@@ -53,6 +53,8 @@ Translated Elgg Versions
 -----
  - [x] Version 1.9.\*
  - [x] Version 1.10.\*
+ - [x] Version 1.11.0
+ - [x] Version 1.11.1
 
 
 Completed Sections
